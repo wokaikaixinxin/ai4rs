@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="resources/mmrotate-logo.png" width="450"/>
+  <img src="resources/mmrs-logo.png" width="450"/>
   <div>&nbsp;</div>
   <div align="center">
     <b><font size="5">OpenMMLab 官网</font></b>
@@ -18,13 +18,6 @@
   </div>
   <div>&nbsp;</div>
 
-[![PyPI](https://img.shields.io/pypi/v/mmrotate)](https://pypi.org/project/mmrotate)
-[![docs](https://img.shields.io/badge/docs-latest-blue)](https://mmrotate.readthedocs.io/en/latest/)
-[![badge](https://github.com/open-mmlab/mmrotate/workflows/build/badge.svg)](https://github.com/open-mmlab/mmrotate/actions)
-[![codecov](https://codecov.io/gh/open-mmlab/mmrotate/branch/main/graph/badge.svg)](https://codecov.io/gh/open-mmlab/mmrotate)
-[![license](https://img.shields.io/github/license/open-mmlab/mmrotate.svg)](https://github.com/open-mmlab/mmrotate/blob/main/LICENSE)
-[![open issues](https://isitmaintained.com/badge/open/open-mmlab/mmrotate.svg)](https://github.com/open-mmlab/mmrotate/issues)
-[![issue resolution](https://isitmaintained.com/badge/resolution/open-mmlab/mmrotate.svg)](https://github.com/open-mmlab/mmrotate/issues)
 
 [📘使用文档](https://mmrotate.readthedocs.io/zh_CN/1.x/) |
 [🛠️安装教程](https://mmrotate.readthedocs.io/zh_CN/1.x/get_started.html) |
@@ -63,11 +56,12 @@
 
 ## 介绍
 
-MMRotate 是一款基于 PyTorch 的旋转框检测的开源工具箱，是 [OpenMMLab](http://openmmlab.org/) 项目的成员之一。
+MMRS(remote sensing) 是一款基于 PyTorch 的人工智能与遥感结合的开源工具箱。
 
-主分支代码目前支持 **PyTorch 1.6 以上**的版本。
+1）MMLab单位的mmdetection、mmrotate等很多仓库已经停止更新。
+2）人工智能发展很快，相关工作很多。
+3）希望在mmlab基础上，特别是mmdetection、mmrotate的基础上集成遥感相关的工作。
 
-https://user-images.githubusercontent.com/10410257/154433305-416d129b-60c8-44c7-9ebb-5ba106d3e9d5.MP4
 
 <details open>
 <summary><b>主要特性</b></summary>
