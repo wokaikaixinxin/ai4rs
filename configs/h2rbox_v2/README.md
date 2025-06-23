@@ -43,12 +43,12 @@ HRSC
 ## Citation
 
 ```
-@misc{yu2023h2rboxv2,
-title={H2RBox-v2: Boosting HBox-supervised Oriented Object Detection via Symmetric Learning},
-author={Yi Yu and Xue Yang and Qingyun Li and Yue Zhou and Gefan Zhang and Feipeng Da and Junchi Yan},
-year={2023},
-eprint={2304.04403},
-archivePrefix={arXiv},
-primaryClass={cs.CV}
+@article{yu2023h2rbox,
+  title={H2RBox-v2: Incorporating symmetry for boosting horizontal box supervised oriented object detection},
+  author={Yu, Yi and Yang, Xue and Li, Qingyun and Zhou, Yue and Da, Feipeng and Yan, Junchi},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  pages={59137--59150},
+  year={2023}
 }
 ```
