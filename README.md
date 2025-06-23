@@ -68,7 +68,7 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 | [R<sup>3</sup>Det<br>(AAAI'2021)](configs/r3det/README.md) | [S<sup>2</sup>A-Net<br>(TGRS'2021)](configs/s2anet/README.md) | [ReDet<br>(CVPR'2021)](configs/redet/README.md) | [Beyond Bounding-Box<br>(CVPR'2021)](configs/cfa/README.md) |
 | [Oriented R-CNN<br>(ICCV'2021)](configs/oriented_rcnn/README.md) | [GWD<br>(ICML'2021)](configs/gwd/README.md) | [KLD<br>(NeurIPS'2021)](configs/kld/README.md) | [SASM<br>(AAAI'2022)](configs/sasm_reppoints/README.md) |
 | [Oriented RepPoints<br>(CVPR'2022)](configs/oriented_reppoints/README.md) | [KFIoU<br>(ICLR'2023)](configs/kfiou/README.md) | [H2RBox<br>(ICLR'2023)](configs/h2rbox/README.md) | [PSC<br>(CVPR'2023)](configs/psc/README.md) |
-| [RTMDet<br>(arXiv)](configs/rotated_rtmdet/README.md) | [H2RBox-v2<br>(Nips'2023)](configs/h2rbox_v2/README.md) | [LSKNet<br>(ICCV'2023)](projects/LSKNet/README.md)
+| [RTMDet<br>(arXiv)](configs/rotated_rtmdet/README.md) | [H2RBox-v2<br>(Nips'2023)](configs/h2rbox_v2/README.md) | [LSKNet<br>(ICCV'2023)](projects/LSKNet/README.md) | [OrientedFormer<br>(TGRS' 2024)](projects/OrientedFormer/README.md)|
 
 </details>
 
