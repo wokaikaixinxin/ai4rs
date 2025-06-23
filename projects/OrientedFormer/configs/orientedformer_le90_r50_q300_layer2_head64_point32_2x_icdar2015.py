@@ -1,7 +1,7 @@
 
 _base_ = [
-    'icdar2015.py',
-    'schedule_2x.py',
+    'mmrotate::_base_/datasets/icdar2015.py',
+    'mmrotate::_base_/schedules/schedule_2x.py',
     'mmrotate::_base_/default_runtime.py'
 ]
 
