@@ -120,6 +120,7 @@ dmypy.json
 *work_dirs*
 data/
 data
+!tools/data/
 tmp
 
 # custom
