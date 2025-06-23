@@ -89,6 +89,16 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 | [CSL<br>(ECCV'2020)](configs/csl/README.md) | [Oriented R-CNN<br>(ICCV'2021)](configs/oriented_rcnn/README.md) | [PSC<br>(CVPR'2023)](configs/psc/README.md) | |
 </details>
 
+
+<details open>
+<summary><b>Backbone - Oriented Object Detection </b></summary>
+
+|     |     |     |     |
+| :---: | :---: | :---: | :---: |
+| [LSKNet<br>(ICCV'2023)](projects/LSKNet/README.md) |     |     |     |
+</details>
+
+
 <details open>
 <summary><b>Weakly Supervise - Oriented Object Detection </b></summary>
 
@@ -97,13 +107,6 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 | [H2RBox<br>(ICLR'2023)](configs/h2rbox/README.md) | [H2RBox-v2<br>(Nips'2023)](configs/h2rbox_v2/README.md) |     |     |   
 </details>
 
-<details open>
-<summary><b>Weakly Supervise - Oriented Object Detection </b></summary>
-
-|     |     |     |     |
-| :---: | :---: | :---: | :---: |
-| [LSKNet<br>(ICCV'2023)](projects/LSKNet/README.md) |     |     |     |
-</details>
 
 
 ## 安装
