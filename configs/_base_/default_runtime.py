@@ -1,4 +1,4 @@
-default_scope = 'mmrotate'
+default_scope = 'ai4rs'
 
 default_hooks = dict(
     timer=dict(type='IterTimerHook'),
