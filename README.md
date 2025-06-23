@@ -3,29 +3,24 @@
 </div>
 
 
-
+<div align="center">
 [📘使用文档](https://mmrotate.readthedocs.io/zh_CN/1.x/) |
 [🛠️安装教程](https://mmrotate.readthedocs.io/zh_CN/1.x/get_started.html) |
 [👀模型库](https://mmrotate.readthedocs.io/zh_CN/1.x/model_zoo.html) |
 [🆕更新日志](https://mmrotate.readthedocs.io/en/1.x/notes/changelog.html) |
-
-
 </div>
 
 <div align="center">
-
  简体中文 | [English](/README_en.md)
-
 </div>
 
 
 ## 介绍
 
-MMRS(remote sensing) 是一款基于 PyTorch 的人工智能与遥感结合的开源工具箱。
+AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的开源工具箱。
 
-1）MMLab单位的mmdetection、mmrotate等很多仓库已经停止更新。
-2）人工智能发展很快，相关工作很多。
-3）希望在mmlab基础上，特别是mmdetection、mmrotate的基础上集成遥感相关的工作。
+
+人工智能发展很快，相关工作很多。MMLab的很多仓库已经停止更新。希望在MMLab基础上，特别是mmdetection、mmrotate的基础上集成遥感相关的工作。
 
 
 <details open>
@@ -49,26 +44,7 @@ MMRS(remote sensing) 是一款基于 PyTorch 的人工智能与遥感结合的�
 
 ### 亮点
 
-我们很高兴向大家介绍我们在实时目标识别任务方面的最新成果 RTMDet，包含了一系列的全卷积单阶段检测模型。 RTMDet 不仅在从 tiny 到 extra-large 尺寸的目标检测模型上实现了最佳的参数量和精度的平衡，而且在实时实例分割和旋转目标检测任务上取得了最先进的成果。 更多细节请参阅[技术报告](https://arxiv.org/abs/2212.07784)。 预训练模型可以在[这里](configs/rotated_rtmdet)找到。
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/rtmdet-an-empirical-study-of-designing-real/real-time-instance-segmentation-on-mscoco)](https://paperswithcode.com/sota/real-time-instance-segmentation-on-mscoco?p=rtmdet-an-empirical-study-of-designing-real)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/rtmdet-an-empirical-study-of-designing-real/object-detection-in-aerial-images-on-dota-1)](https://paperswithcode.com/sota/object-detection-in-aerial-images-on-dota-1?p=rtmdet-an-empirical-study-of-designing-real)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/rtmdet-an-empirical-study-of-designing-real/object-detection-in-aerial-images-on-hrsc2016)](https://paperswithcode.com/sota/object-detection-in-aerial-images-on-hrsc2016?p=rtmdet-an-empirical-study-of-designing-real)
-
-| Task                     | Dataset | AP                                   | FPS(TRT FP16 BS1 3090) |
-| ------------------------ | ------- | ------------------------------------ | ---------------------- |
-| Object Detection         | COCO    | 52.8                                 | 322                    |
-| Instance Segmentation    | COCO    | 44.6                                 | 188                    |
-| Rotated Object Detection | DOTA    | 78.9(single-scale)/81.3(multi-scale) | 121                    |
-
-<div align=center>
-<img src="https://user-images.githubusercontent.com/12907710/208044554-1e8de6b5-48d8-44e4-a7b5-75076c7ebb71.png"/>
-</div>
-
-最新的 **v1.0.0rc1** 版本已经在 2022.12.30 发布:
-
-- 支持了 [RTMDet](configs/rotated_rtmdet) 的旋转目标检测模型。RTMDet 的技术报告发布在了 [arxiv](https://arxiv.org/abs/2212.07784) 上。
-- 支持了 [H2RBox](configs/h2rbox) 模型。H2RBox 的技术报告发布在了 [arxiv](https://arxiv.org/abs/2210.06742) 上。
 
 ## 安装
 
@@ -155,67 +131,11 @@ MMRS(remote sensing) 是一款基于 PyTorch 的人工智能与遥感结合的�
 
 ## 引用
 
-如果你在研究中使用了本项目的代码或者性能基准，请参考如下 bibtex 引用 MMRotate。
+如果你在研究中使用了本项目的代码或者性能基准，请参考如下 bibtex 引用 ai4rs。
 
 ```bibtex
-@inproceedings{zhou2022mmrotate,
-  title   = {MMRotate: A Rotated Object Detection Benchmark using PyTorch},
-  author  = {Zhou, Yue and Yang, Xue and Zhang, Gefan and Wang, Jiabao and Liu, Yanyi and
-             Hou, Liping and Jiang, Xue and Liu, Xingzhao and Yan, Junchi and Lyu, Chengqi and
-             Zhang, Wenwei and Chen, Kai},
-  booktitle={Proceedings of the 30th ACM International Conference on Multimedia},
-  pages = {7331–7334},
-  numpages = {4},
-  year={2022}
-}
+
 ```
 
-## 许可证
 
-该项目采用 [Apache 2.0 license](LICENSE) 开源协议。
 
-## OpenMMLab的其他项目
-
-- [MMEngine](https://github.com/open-mmlab/mmengine): OpenMMLab 深度学习模型训练基础库
-- [MMCV](https://github.com/open-mmlab/mmcv): OpenMMLab 计算机视觉基础库
-- [MMPreTrain](https://github.com/open-mmlab/mmpretrain): OpenMMLab 深度学习预训练工具箱
-- [MMagic](https://github.com/open-mmlab/mmagic): OpenMMLab 新一代人工智能内容生成（AIGC）工具箱
-- [MMDetection](https://github.com/open-mmlab/mmdetection): OpenMMLab 目标检测工具箱
-- [MMDetection3D](https://github.com/open-mmlab/mmdetection3d): OpenMMLab 新一代通用 3D 目标检测平台
-- [MMRotate](https://github.com/open-mmlab/mmrotate): OpenMMLab 旋转框检测工具箱与测试基准
-- [MMYOLO](https://github.com/open-mmlab/mmyolo): OpenMMLab YOLO 系列工具箱与测试基准
-- [MMSegmentation](https://github.com/open-mmlab/mmsegmentation): OpenMMLab 语义分割工具箱
-- [MMOCR](https://github.com/open-mmlab/mmocr): OpenMMLab 全流程文字检测识别理解工具包
-- [MMPose](https://github.com/open-mmlab/mmpose): OpenMMLab 姿态估计工具箱
-- [MMHuman3D](https://github.com/open-mmlab/mmhuman3d): OpenMMLab 人体参数化模型工具箱与测试基准
-- [MMSelfSup](https://github.com/open-mmlab/mmselfsup): OpenMMLab 自监督学习工具箱与测试基准
-- [MMRazor](https://github.com/open-mmlab/mmrazor): OpenMMLab 模型压缩工具箱与测试基准
-- [MMFewShot](https://github.com/open-mmlab/mmfewshot): OpenMMLab 少样本学习工具箱与测试基准
-- [MMAction2](https://github.com/open-mmlab/mmaction2): OpenMMLab 新一代视频理解工具箱
-- [MMTracking](https://github.com/open-mmlab/mmtracking): OpenMMLab 一体化视频目标感知平台
-- [MMFlow](https://github.com/open-mmlab/mmflow): OpenMMLab 光流估计工具箱与测试基准
-- [MMEditing](https://github.com/open-mmlab/mmediting): OpenMMLab 图像视频编辑工具箱
-- [MMGeneration](https://github.com/open-mmlab/mmgeneration): OpenMMLab 图片视频生成模型工具箱
-- [MMDeploy](https://github.com/open-mmlab/mmdeploy): OpenMMLab 模型部署框架
-- [MIM](https://github.com/open-mmlab/mim): OpenMMlab 项目、算法、模型的统一入口
-- [MMEval](https://github.com/open-mmlab/mmeval): 统一开放的跨框架算法评测库
-- [Playground](https://github.com/open-mmlab/playground): 收集和展示 OpenMMLab 相关的前沿、有趣的社区项目
-
-## 欢迎加入 OpenMMLab 社区
-
-扫描下方的二维码可关注 OpenMMLab 团队的 [知乎官方账号](https://www.zhihu.com/people/openmmlab)，加入 OpenMMLab 团队的 [官方交流 QQ 群](https://jq.qq.com/?_wv=1027&k=aCvMxdr3)或联络 OpenMMLab 官方微信小助手
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/open-mmlab/mmcv/master/docs/en/_static/zhihu_qrcode.jpg" height="400"><img src="https://raw.githubusercontent.com/open-mmlab/mmcv/master/docs/en/_static/wechat_qrcode.jpg" height="400"><img src="https://raw.githubusercontent.com/open-mmlab/mmcv/master/docs/en/_static/qq_group_qrcode.jpg" height="400">
-</div>
-
-我们会在 OpenMMLab 社区为大家
-
-- 📢 分享 AI 框架的前沿核心技术
-- 💻 解读 PyTorch 常用模块源码
-- 📰 发布 OpenMMLab 的相关新闻
-- 🚀 介绍 OpenMMLab 开发的前沿算法
-- 🏃 获取更高效的问题答疑和意见反馈
-- 🔥 提供与各行各业开发者充分交流的平台
-
-干货满满 📘，等你来撩 💗，OpenMMLab 社区期待您的加入 👬
