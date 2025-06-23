@@ -64,11 +64,11 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 |     |     |     |     |
 | :---: | :---: | :---: | :---: |
 | [Rotated RetinaNet-OBB/HBB<br>(ICCV'2017)](configs/rotated_retinanet/README.md) | [Rotated FasterRCNN-OBB<br>(TPAMI'2017)](configs/rotated_faster_rcnn/README.md) | [Rotated RepPoints-OBB<br>(ICCV'2019)](configs/rotated_reppoints/README.md) | [Rotated FCOS<br>(ICCV'2019)](configs/rotated_fcos/README.md) |
-| [RoI Transformer<br>(CVPR'2019)](configs/roi_trans/README.md) | [Gliding Vertex<br>(TPAMI'2020)](configs/gliding_vertex/README.md) | [Rotated ATSS-OBB<br>(CVPR'2020)](configs/rotated_atss/README.md) | [CSL<br>(ECCV'2020)](configs/csl/README.md) |
+| [RoI Transformer<br>(CVPR'2019)](configs/roi_trans/README.md) | [Gliding Vertex<br>(TPAMI'2020)](configs/gliding_vertex/README.md) | [Rotated ATSS-OBB<br>(CVPR'2020)](configs/rotated_atss/README.md) |  |
 | [R<sup>3</sup>Det<br>(AAAI'2021)](configs/r3det/README.md) | [S<sup>2</sup>A-Net<br>(TGRS'2021)](configs/s2anet/README.md) | [ReDet<br>(CVPR'2021)](configs/redet/README.md) | [Beyond Bounding-Box<br>(CVPR'2021)](configs/cfa/README.md) |
 | [Oriented R-CNN<br>(ICCV'2021)](configs/oriented_rcnn/README.md) |  |  | [SASM<br>(AAAI'2022)](configs/sasm_reppoints/README.md) |
-| [Oriented RepPoints<br>(CVPR'2022)](configs/oriented_reppoints/README.md) | [KFIoU<br>(ICLR'2023)](configs/kfiou/README.md) | [H2RBox<br>(ICLR'2023)](configs/h2rbox/README.md) | [PSC<br>(CVPR'2023)](configs/psc/README.md) |
-| [RTMDet<br>(arXiv)](configs/rotated_rtmdet/README.md) | [H2RBox-v2<br>(Nips'2023)](configs/h2rbox_v2/README.md) | [LSKNet<br>(ICCV'2023)](projects/LSKNet/README.md) | [OrientedFormer<br>(TGRS' 2024)](projects/OrientedFormer/README.md)|
+| [Oriented RepPoints<br>(CVPR'2022)](configs/oriented_reppoints/README.md) |  |  |  |
+| [RTMDet<br>(arXiv)](configs/rotated_rtmdet/README.md) |  | [LSKNet<br>(ICCV'2023)](projects/LSKNet/README.md) | [OrientedFormer<br>(TGRS' 2024)](projects/OrientedFormer/README.md)|
 
 </details>
 
@@ -78,17 +78,23 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 
 |     |     |     |     |
 | :---: | :---: | :---: | :---: |
-| [GWD<br>(ICML'2021)](configs/gwd/README.md) | [KLD<br>(NeurIPS'2021)](configs/kld/README.md) | | |
+| [GWD<br>(ICML'2021)](configs/gwd/README.md) | [KLD<br>(NeurIPS'2021)](configs/kld/README.md) | [KFIoU<br>(ICLR'2023)](configs/kfiou/README.md) | |
 </details>
 
 <details open>
 <summary><b>Oriented Object Detection Coder</b></summary>
 
+|     |     |     |     |
+| :---: | :---: | :---: | :---: |
+| [CSL<br>(ECCV'2020)](configs/csl/README.md) | [Oriented R-CNN<br>(ICCV'2021)](configs/oriented_rcnn/README.md) | [PSC<br>(CVPR'2023)](configs/psc/README.md) | |
 </details>
 
 <details open>
 <summary><b>Oriented Object Detection Weakly Supervise</b></summary>
 
+|     |     |     |     |
+| :---: | :---: | :---: | :---: |
+| [H2RBox<br>(ICLR'2023)](configs/h2rbox/README.md) | [H2RBox-v2<br>(Nips'2023)](configs/h2rbox_v2/README.md) |     |     |   
 </details>
 
 
