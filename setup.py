@@ -14,8 +14,8 @@ def readme():
 
 
 def get_version():
-    """Get version of mmrotate."""
-    version_file = 'mmrotate/version.py'
+    """Get version of ai4rs."""
+    version_file = 'ai4rs/version.py'
     with open(version_file, 'r') as f:
         exec(compile(f.read(), version_file, 'exec'))
     return locals()['__version__']
@@ -120,7 +120,7 @@ def add_mim_extension():
 
     filenames = ['tools', 'configs', 'demo', 'model-index.yml']
     repo_path = osp.dirname(__file__)
-    mim_path = osp.join(repo_path, 'mmrotate', '.mim')
+    mim_path = osp.join(repo_path, 'ai4rs', '.mim')
     os.makedirs(mim_path, exist_ok=True)
 
     for filename in filenames:
@@ -162,15 +162,15 @@ def add_mim_extension():
 if __name__ == '__main__':
     add_mim_extension()
     setup(
-        name='mmrotate',
+        name='ai4rs',
         version=get_version(),
-        description='Rotation Detection Toolbox and Benchmark',
+        description='AI for Remote Sensing',
         long_description=readme(),
         long_description_content_type='text/markdown',
-        author='MMRotate Authors',
-        author_email='openmmlab@gmail.com',
-        keywords='computer vision, object detection, rotation detection',
-        url='https://github.com/open-mmlab/mmrotate',
+        author='ai4rs Authors',
+        author_email='dingzeyu@cumt.edu.cn',
+        keywords='computer vision, object detection, rotation detection, AI for Remote Sensing',
+        url='https://github.com/wokaikaixinxin/ai4rs',
         packages=find_packages(exclude=('configs', 'tools', 'demo')),
         include_package_data=True,
         classifiers=[

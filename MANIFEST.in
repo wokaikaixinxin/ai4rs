@@ -1,4 +1,4 @@
 include requirements/*.txt
-include mmrotate/.mim/model-index.yml
-recursive-include mmrotate/.mim/configs *.py *.yml
-recursive-include mmrotate/.mim/tools *.py *.sh
+include ai4rs/.mim/model-index.yml
+recursive-include ai4rs/.mim/configs *.py *.yml
+recursive-include ai4rs/.mim/tools *.py *.sh
