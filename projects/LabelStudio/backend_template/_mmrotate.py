@@ -14,7 +14,7 @@ from label_studio_ml.utils import (DATA_UNDEFINED_NAME, get_image_size,
 from label_studio_tools.core.utils.io import get_data_dir
 from mmdet.apis import inference_detector, init_detector
 
-from mmrotate.structures.bbox import RotatedBoxes
+from ai4rs.structures.bbox import RotatedBoxes
 
 logger = logging.getLogger(__name__)
 

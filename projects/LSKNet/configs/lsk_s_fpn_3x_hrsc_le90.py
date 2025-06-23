@@ -1,7 +1,7 @@
 _base_ = [
-    'ai4rs::_base_/datasets/hrsc.py',
-    'ai4rs::_base_/schedules/schedule_3x.py',
-    'ai4rs::_base_/default_runtime.py'
+    '../../../_base_/datasets/hrsc.py',
+    '../../../_base_/schedules/schedule_3x.py',
+    '../../../_base_/default_runtime.py'
 ]
 
 custom_imports = dict(imports=['projects.LSKNet.lsknet'])

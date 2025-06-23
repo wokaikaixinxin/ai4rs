@@ -10,7 +10,7 @@ from mmengine.model import (BaseModule, constant_init, normal_init,
                             trunc_normal_init)
 from torch.nn.modules.utils import _pair as to_2tuple
 
-from mmrotate.registry import MODELS
+from ai4rs.registry import MODELS
 
 
 class Mlp(BaseModule):
