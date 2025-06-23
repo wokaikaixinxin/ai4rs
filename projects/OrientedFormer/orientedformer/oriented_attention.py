@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 from torch import Tensor
 import torch.nn.functional as F
-from mmrotate.registry import MODELS
+from ai4rs.registry import MODELS
 
 
 @MODELS.register_module()

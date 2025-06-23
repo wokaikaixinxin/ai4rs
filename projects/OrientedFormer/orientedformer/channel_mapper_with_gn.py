@@ -3,7 +3,7 @@ from typing import List, Tuple
 import torch.nn as nn
 from torch import Tensor
 from mmdet.models.necks.channel_mapper import ChannelMapper
-from mmrotate.registry import MODELS
+from ai4rs.registry import MODELS
 
 @MODELS.register_module()
 class ChannelMapperWithGN(ChannelMapper):

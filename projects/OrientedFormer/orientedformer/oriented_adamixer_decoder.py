@@ -5,7 +5,7 @@ from mmengine.structures import InstanceData
 from torch import Tensor
 
 from mmdet.models.task_modules.samplers import PseudoSampler
-from mmrotate.registry import MODELS
+from ai4rs.registry import MODELS
 from mmdet.structures import SampleList
 from mmdet.structures.bbox import get_box_tensor
 from mmdet.utils import ConfigType, InstanceList, OptConfigType

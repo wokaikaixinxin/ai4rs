@@ -12,9 +12,9 @@ from mmdet.models.task_modules import SamplingResult
 from mmdet.models.utils import multi_apply
 from mmdet.utils import ConfigType, OptConfigType, reduce_mean
 from mmdet.models.roi_heads.bbox_heads import BBoxHead
-from mmrotate.registry import MODELS
-from mmrotate.structures.bbox.transforms import norm_angle
-from mmrotate.models.losses.gaussian_dist_loss import xy_wh_r_2_xy_sigma
+from ai4rs.registry import MODELS
+from ai4rs.structures.bbox.transforms import norm_angle
+from ai4rs.models.losses.gaussian_dist_loss import xy_wh_r_2_xy_sigma
 from .match_cost import normalize_angle
 
 

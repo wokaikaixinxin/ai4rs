@@ -10,8 +10,8 @@ from mmengine.config import ConfigDict
 from mmengine.structures import InstanceData
 from mmengine.model import bias_init_with_prob, normal_init
 
-from mmrotate.registry import MODELS, TASK_UTILS
-from mmrotate.structures.bbox import distance2obb, RotatedBoxes
+from ai4rs.registry import MODELS, TASK_UTILS
+from ai4rs.structures.bbox import distance2obb, RotatedBoxes
 from mmdet.models.utils import (multi_apply, filter_scores_and_topk,
                                 select_single_mlvl, sigmoid_geometric_mean)
 from mmdet.utils import reduce_mean

@@ -3,7 +3,7 @@ import torch
 
 from mmdet.models.task_modules import AssignResult, TaskAlignedAssigner
 from mmdet.models.layers.transformer import inverse_sigmoid
-from mmrotate.registry import TASK_UTILS
+from ai4rs.registry import TASK_UTILS
 from mmengine.structures import InstanceData
 from scipy.optimize import linear_sum_assignment
 

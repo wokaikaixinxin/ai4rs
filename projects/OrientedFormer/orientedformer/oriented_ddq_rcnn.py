@@ -1,4 +1,4 @@
-from mmrotate.registry import MODELS
+from ai4rs.registry import MODELS
 from mmdet.models.detectors.two_stage import TwoStageDetector
 from mmdet.models.utils.misc import unpack_gt_instances
 from mmdet.structures import SampleList

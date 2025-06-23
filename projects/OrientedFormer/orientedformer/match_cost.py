@@ -4,7 +4,7 @@ import torch
 from mmengine.structures import InstanceData
 from torch import Tensor
 
-from mmrotate.registry import TASK_UTILS
+from ai4rs.registry import TASK_UTILS
 from mmcv.ops import box_iou_rotated
 from mmdet.models.task_modules.assigners.match_cost import BaseMatchCost
 import math
