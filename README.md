@@ -131,6 +131,9 @@ ai4rs
 │   ├── split_ms_dota
 │   │   ├── trainval
 │   │   ├── test
+│   ├── split_ms_dota
+│   │   ├── trainval
+│   │   ├── test
 ```
 
 ## 教程

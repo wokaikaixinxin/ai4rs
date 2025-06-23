@@ -1,6 +1,6 @@
 # dataset settings
 dataset_type = 'DOTAv15Dataset'
-data_root = 'data/split_ss_dota1_5/'
+data_root = 'data/split_ss_dota1.5/'
 backend_args = None
 
 train_pipeline = [
