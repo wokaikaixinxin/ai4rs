@@ -145,6 +145,11 @@ ai4rs
 │   │   │   │  ├─ test.txt
 │   │   ├── JPEGImages-test
 │   │   ├── JPEGImages-trainval
+│   ├── icdar2015
+│   │   ├── ic15_textdet_train_img
+│   │   ├── ic15_textdet_train_gt
+│   │   ├── ic15_textdet_test_img
+│   │   ├── ic15_textdet_test_gt
 ```
 
 ## 教程
