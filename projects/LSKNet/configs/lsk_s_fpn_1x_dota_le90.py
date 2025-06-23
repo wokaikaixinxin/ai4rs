@@ -28,7 +28,7 @@ model = dict(
 backbones/lsk_s_backbone-e9d2e551.pth'),
         norm_cfg=dict(type='SyncBN', requires_grad=True)),
     neck=dict(
-        type='FPN',
+        type='mmdet.FPN',
         in_channels=[64, 128, 320, 512],
         out_channels=256,
         num_outs=5),
