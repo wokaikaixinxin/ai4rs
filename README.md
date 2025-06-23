@@ -14,9 +14,9 @@
 </div>
 
 
-<div align="center">
- 简体中文 | [English](/README_en.md)
-</div>
+<p align="center">
+ 简体中文 | <a href="/README_en.md">English</a>
+</p>
 
 
 ## 介绍
@@ -24,7 +24,7 @@
 AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的开源工具箱。
 
 
-人工智能发展很快，相关工作很多。MMLab的很多仓库已经停止更新。希望在MMLab基础上，特别是mmdetection、mmrotate的基础上集成遥感相关的工作。
+人工智能发展很快，相关工作很多。希望在MMLab基础上，特别是mmdetection、mmrotate的基础上集成遥感相关的工作。虽然MMLab的很多仓库已经停止更新，但薪尽火传。
 
 
 <details open>
