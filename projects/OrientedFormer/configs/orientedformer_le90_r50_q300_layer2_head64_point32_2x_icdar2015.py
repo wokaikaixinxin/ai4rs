@@ -1,8 +1,8 @@
 
 _base_ = [
-    'mmrotate::_base_/datasets/icdar2015.py',
-    'mmrotate::_base_/schedules/schedule_2x.py',
-    'mmrotate::_base_/default_runtime.py'
+    'ai4rs::_base_/datasets/icdar2015.py',
+    'ai4rs::_base_/schedules/schedule_2x.py',
+    'ai4rs::_base_/default_runtime.py'
 ]
 
 custom_imports = dict(
