@@ -65,7 +65,6 @@ train_dataloader = dict(
             data_root=data_root,
             ann_file='ann_train_obbox/',
             data_prefix=dict(img_path='img_train_obbox/'),
-            img_shape=(1024, 1024),
             filter_cfg=dict(filter_empty_gt=True),
             pipeline=train_pipeline)))
 val_dataloader = dict(
@@ -82,7 +81,6 @@ val_dataloader = dict(
         ann_file='ann_test_obbox/',
         data_prefix=dict(img_path='img_test_obbox/'),
         # data_prefix=dict(img_path='img_test_obbox/'),
-        img_shape=(1024, 1024),
         test_mode=True,
         pipeline=val_pipeline))
 test_dataloader = val_dataloader
