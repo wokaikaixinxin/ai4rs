@@ -78,7 +78,6 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 
 请参考[快速入门文档](https://mmrotate.readthedocs.io/zh_CN/1.x/get_started.html)进行安装。
 
-`torch.pi`是从 PyTorch 1.8.0 版本开始引入的。
 
 **第一步：** 安装anaconda 或 Miniconda。
 
@@ -123,6 +122,16 @@ pip install -v -e .
 
 请参考 [data_preparation.md](tools/data/README.md) 进行数据集准备。
 
+```
+ai4rs
+├── data
+│   ├── split_ss_dota
+│   │   ├── trainval
+│   │   ├── test
+│   ├── split_ms_dota
+│   │   ├── trainval
+│   │   ├── test
+```
 
 ## 教程
 
