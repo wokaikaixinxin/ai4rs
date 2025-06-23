@@ -1,22 +1,7 @@
 <div align="center">
-  <img src="resources/mmrs-logo.png" width="450"/>
-  <div>&nbsp;</div>
-  <div align="center">
-    <b><font size="5">OpenMMLab 官网</font></b>
-    <sup>
-      <a href="https://openmmlab.com">
-        <i><font size="4">HOT</font></i>
-      </a>
-    </sup>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <b><font size="5">OpenMMLab 开放平台</font></b>
-    <sup>
-      <a href="https://platform.openmmlab.com">
-        <i><font size="4">TRY IT OUT</font></i>
-      </a>
-    </sup>
+  <img src="resources/ai4rs-logo.png" width="800"/>
   </div>
-  <div>&nbsp;</div>
+
 
 
 [📘使用文档](https://mmrotate.readthedocs.io/zh_CN/1.x/) |
@@ -180,7 +165,10 @@ MMRS(remote sensing) 是一款基于 PyTorch 的人工智能与遥感结合的�
 
 ## 致谢
 
-MMRotate 是一款由不同学校和公司共同贡献的开源项目。我们感谢所有为项目提供算法复现和新功能支持的贡献者，以及提供宝贵反馈的用户。我们感谢 [SJTU 学生创新中心](https://www.si.sjtu.edu.cn/)在项目之初提供的大量计算资源。我们希望该工具箱和基准测试可以为社区提供灵活的代码工具，供用户复现现有算法并开发自己的新模型，从而不断为开源社区提供贡献。
+[OpenMMLab 官网](https://openmmlab.com)
+[OpenMMLab 开放平台](https://platform.openmmlab.com)
+[MMDetection](https://github.com/open-mmlab/mmdetection)
+[MMRotate](https://github.com/open-mmlab/MMRotate)
 
 ## 引用
 
