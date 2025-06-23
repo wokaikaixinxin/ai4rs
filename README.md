@@ -131,9 +131,20 @@ ai4rs
 │   ├── split_ms_dota
 │   │   ├── trainval
 │   │   ├── test
-│   ├── split_ms_dota
+│   ├── split_ss_dota1.5
 │   │   ├── trainval
 │   │   ├── test
+│   ├── DIOR
+│   │   ├── Annotations
+│   │   │   ├─ Oriented Bounding Boxes
+│   │   │   ├─ Horizontal Bounding Boxes
+│   │   ├── ImageSets
+│   │   │   ├─ Main
+│   │   │   │  ├─ train.txt
+│   │   │   │  ├─ val.txt
+│   │   │   │  ├─ test.txt
+│   │   ├── JPEGImages-test
+│   │   ├── JPEGImages-trainval
 ```
 
 ## 教程
