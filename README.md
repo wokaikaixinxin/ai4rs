@@ -119,7 +119,9 @@ pip install -v -e .
 ```
 
 
+## 数据准备
 
+请参考 [data_preparation.md](tools/data/README.md) 进行数据集准备。
 
 
 ## 教程
@@ -146,9 +148,7 @@ pip install -v -e .
 
 若需要将0.x版本的代码迁移至新版，请参考[迁移文档](https://mmrotate.readthedocs.io/zh_CN/1.x/migration.html)。
 
-## 数据准备
 
-请参考 [data_preparation.md](tools/data/README.md) 进行数据集准备。
 
 ## 常见问题
 

@@ -5,8 +5,8 @@ import numpy as np
 import torch
 from mmengine.config import Config, DictAction
 
-from mmrotate.registry import MODELS
-from mmrotate.utils import register_all_modules
+from ai4rs.registry import MODELS
+from ai4rs.utils import register_all_modules
 
 try:
     from mmcv.cnn import get_model_complexity_info

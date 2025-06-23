@@ -10,7 +10,7 @@ from mmengine.logging import print_log
 from mmengine.registry import RUNNERS
 from mmengine.runner import Runner
 
-from mmrotate.utils import register_all_modules
+from ai4rs.utils import register_all_modules
 
 
 def parse_args():
