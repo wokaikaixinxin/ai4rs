@@ -4,10 +4,14 @@
 
 
 
-[📘使用文档](https://mmrotate.readthedocs.io/zh_CN/1.x/) |
-[🛠️安装教程](https://mmrotate.readthedocs.io/zh_CN/1.x/get_started.html) |
-[👀模型库](https://mmrotate.readthedocs.io/zh_CN/1.x/model_zoo.html) |
-[🆕更新日志](https://mmrotate.readthedocs.io/en/1.x/notes/changelog.html) |
+<div align="center">
+
+[📘使用文档](https://mmrotate.readthedocs.io/zh_CN/1.x/) &#124;
+[🛠️安装教程](https://mmrotate.readthedocs.io/zh_CN/1.x/get_started.html) &#124;
+[👀模型库](https://mmrotate.readthedocs.io/zh_CN/1.x/model_zoo.html) &#124;
+[🆕更新日志](https://mmrotate.readthedocs.io/en/1.x/notes/changelog.html)
+
+</div>
 
 
 <div align="center">
