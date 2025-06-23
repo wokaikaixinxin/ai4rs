@@ -12,3 +12,4 @@ Datasets supported in ai4rs:
 - [HRSID Dataset](hrsid/README.md)
 - [SRSDD Dataset](srsdd/README.md)
 - [RSDD Dataset](rsdd/README.md)
+- [ICDAR2015 Dataset](icdar2015/README.md)
