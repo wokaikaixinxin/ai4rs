@@ -442,6 +442,12 @@ python projects/icdar2015_evaluation/script.py –g=gt.zip –s=submit.zip
 | DOTA-v1.0 | [orientedformer_le90_r101_q300_layer2_head64_point32_1x_dotav1.0.py](https://github.com/wokaikaixinxin/OrientedFormer/blob/main/projects/OrientedFormer/configs/orientedformer_le90_r101_q300_layer2_head64_point32_1x_dotav1.0.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r101_q300_layer2_head64_point32_1x_dotav1.0) | 75.915958978 | 49.76108  | 47.11829758 | R101     | 12epoch | 2img*2 rtx2080ti |
 | DOTA-v1.0 | [orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dotav1.0.py](https://github.com/wokaikaixinxin/OrientedFormer/blob/main/projects/OrientedFormer/configs/orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dotav1.0.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dotav1.0) | 75.8819      | 48.965    | 45.8218     | Swin-T   | 12epoch | 2img*2 rtx2080ti |
 
+hugging face 镜像 
+```
+https://hf-mirror.com/wokaikaixinxin/OrientedFormer
+```
+
+
 **2). DOTA-v1.5**
 
 | Dataset   | **Configs**                                                  | Download                                                     | AP_50 | Backbone | lr schd | bs               |
@@ -453,6 +459,12 @@ python projects/icdar2015_evaluation/script.py –g=gt.zip –s=submit.zip
 | PL      | BD      | BR      | GTF     | SV      | LV      | SH      | TC       | BC       | ST        | SBF       | RA     | HA        | SP        | HC      | CC        | AP50     | AP75    | mAP      |
 | ------- | ------- | ------- | ------- | ------- | ------- | ------- | -------- | -------- | --------- | --------- | ------ | --------- | --------- | ------- | --------- | -------- | ------- | -------- |
 | 72.0444 | 77.4554 | 51.2471 | 64.9538 | 64.0453 | 77.0387 | 85.3310 | 90.83699 | 77.31017 | 78.106886 | 56.103059 | 68.776 | 68.140988 | 72.081567 | 58.6135 | 10.855397 | 67.05879 | 39.2845 | 38.78675 |
+
+hugging face 镜像 
+```
+https://hf-mirror.com/wokaikaixinxin/OrientedFormer
+```
+
 
 **3). DOTA-v2.0**
 
@@ -466,6 +478,12 @@ python projects/icdar2015_evaluation/script.py –g=gt.zip –s=submit.zip
 | ------- | -------- | ---------- | --------- | --------- | -------- | --------- | ------- | ------- | ------- | ------- | --------- | ------- | -------- | -------- | ------ | -------- | ------- | --------- | ---------- | ---------- |
 | 76.7619 | 51.55655 | 42.3872759 | 60.464159 | 56.482355 | 55.43076 | 66.681058 | 78.6341 | 60.0626 | 69.6894 | 35.0316 | 56.015956 | 51.9962 | 56.20235 | 54.95597 | 24.335 | 67.31572 | 12.9641 | 54.266644 | 28.8561385 | 30.0281367 |
 
+hugging face 镜像 
+```
+https://hf-mirror.com/wokaikaixinxin/OrientedFormer
+```
+
+
 **4). DIOR-R**
 
 | Dataset | **Configs**                                                  | Download                                                     | AP_50 | Backbone | lr schd | bs               |
@@ -473,6 +491,12 @@ python projects/icdar2015_evaluation/script.py –g=gt.zip –s=submit.zip
 | DIOR-R  | [orientedformer_le90_r50_q300_layer2_head64_point32_1x_dior.py](https://github.com/wokaikaixinxin/OrientedFormer/blob/main/projects/OrientedFormer/configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dior.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dior) | 67.28 | R50      | 12epoch | 2img*2 rtx2080ti |
 | DIOR-R  | [orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dior.py](https://github.com/wokaikaixinxin/OrientedFormer/blob/main/projects/OrientedFormer/configs/orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dior.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dior) | 68.84 | Swin-T   | 12epoch | 2img*2 rtx2080ti |
 | DIOR-R  | [orientedformer_le90_lsk_t_q300_layer2_head64_point32_1x_dior.py](https://github.com/wokaikaixinxin/OrientedFormer/blob/main/projects/OrientedFormer/configs/orientedformer_le90_lsk_t_q300_layer2_head64_point32_1x_dior.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_lsk_t_q300_layer2_head64_point32_1x_dior) | 65.07 | LSK-Net  | 12epoch | 2img*2 rtx2080ti |
+
+hugging face 镜像 
+```
+https://hf-mirror.com/wokaikaixinxin/OrientedFormer
+```
+
 
 **5). ICDAR-2015**
 
