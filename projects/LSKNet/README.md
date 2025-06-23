@@ -60,10 +60,11 @@ HRSC2016
 If you use this toolbox or benchmark in your research, please cite this project.
 
 ```bibtex
-@article{li2023large,
-  title   = {Large Selective Kernel Network for Remote Sensing Object Detection},
-  author  = {Li, Yuxuan and Hou, Qibin and Zheng, Zhaohui and Cheng, Mingming and Yang, Jian and Li, Xiang},
-  journal={ArXiv},
+@inproceedings{li2023large,
+  title={Large selective kernel network for remote sensing object detection},
+  author={Li, Yuxuan and Hou, Qibin and Zheng, Zhaohui and Cheng, Ming-Ming and Yang, Jian and Li, Xiang},
+  booktitle={Proceedings of the IEEE/CVF international conference on computer vision},
+  pages={16794--16805},
   year={2023}
 }
 ```
