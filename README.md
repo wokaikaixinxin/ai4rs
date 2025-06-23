@@ -77,7 +77,7 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 <summary><b>Oriented Object Detection Loss</b></summary>
 |     |     |     |     |
 | :---: | :---: | :---: | :---: |
-| [GWD<br>(ICML'2021)](configs/gwd/README.md) | [KLD<br>(NeurIPS'2021)](configs/kld/README.md) | |
+| [GWD<br>(ICML'2021)](configs/gwd/README.md) | [KLD<br>(NeurIPS'2021)](configs/kld/README.md) | | |
 </details>
 
 <details open>
