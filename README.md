@@ -59,7 +59,7 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 整体的概况也可也在 [模型库](docs/zh_cn/model_zoo.md) 页面中查看。
 
 <details open>
-<summary><b>Oriented Object Detection Architecture</b></summary>
+<summary><b>Architecture - Oriented Object Detection </b></summary>
 
 |     |     |     |     |
 | :---: | :---: | :---: | :---: |
@@ -68,13 +68,13 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 | [R<sup>3</sup>Det<br>(AAAI'2021)](configs/r3det/README.md) | [S<sup>2</sup>A-Net<br>(TGRS'2021)](configs/s2anet/README.md) | [ReDet<br>(CVPR'2021)](configs/redet/README.md) | [Beyond Bounding-Box<br>(CVPR'2021)](configs/cfa/README.md) |
 | [Oriented R-CNN<br>(ICCV'2021)](configs/oriented_rcnn/README.md) |  |  | [SASM<br>(AAAI'2022)](configs/sasm_reppoints/README.md) |
 | [Oriented RepPoints<br>(CVPR'2022)](configs/oriented_reppoints/README.md) |  |  |  |
-| [RTMDet<br>(arXiv)](configs/rotated_rtmdet/README.md) |  | [LSKNet<br>(ICCV'2023)](projects/LSKNet/README.md) | [OrientedFormer<br>(TGRS' 2024)](projects/OrientedFormer/README.md)|
+| [RTMDet<br>(arXiv)](configs/rotated_rtmdet/README.md) |  |  | [OrientedFormer<br>(TGRS' 2024)](projects/OrientedFormer/README.md)|
 
 </details>
 
 
 <details open>
-<summary><b>Oriented Object Detection Loss</b></summary>
+<summary><b>Loss - Oriented Object Detection </b></summary>
 
 |     |     |     |     |
 | :---: | :---: | :---: | :---: |
@@ -82,7 +82,7 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 </details>
 
 <details open>
-<summary><b>Oriented Object Detection Coder</b></summary>
+<summary><b>Coder - Oriented Object Detection </b></summary>
 
 |     |     |     |     |
 | :---: | :---: | :---: | :---: |
@@ -90,11 +90,19 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 </details>
 
 <details open>
-<summary><b>Oriented Object Detection Weakly Supervise</b></summary>
+<summary><b>Weakly Supervise - Oriented Object Detection </b></summary>
 
 |     |     |     |     |
 | :---: | :---: | :---: | :---: |
 | [H2RBox<br>(ICLR'2023)](configs/h2rbox/README.md) | [H2RBox-v2<br>(Nips'2023)](configs/h2rbox_v2/README.md) |     |     |   
+</details>
+
+<details open>
+<summary><b>Weakly Supervise - Oriented Object Detection </b></summary>
+
+|     |     |     |     |
+| :---: | :---: | :---: | :---: |
+| [LSKNet<br>(ICCV'2023)](projects/LSKNet/README.md) |     |     |     |
 </details>
 
 
