@@ -1,8 +1,8 @@
 
 _base_ = [
-    'ai4rs::_base_/datasets/dotav2.py',
-    'ai4rs::_base_/schedules/schedule_1x.py',
-    'ai4rs::_base_/default_runtime.py'
+    '../../../configs/_base_/datasets/dotav2.py',
+    '../../../configs/_base_/schedules/schedule_1x.py',
+    '../../../configs/_base_/default_runtime.py'
 ]
 
 custom_imports = dict(
