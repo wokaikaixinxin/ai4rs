@@ -84,30 +84,18 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 整体的概况也可也在 [模型库](docs/zh_cn/model_zoo.md) 页面中查看。
 
 <details open>
-<summary><b>支持的算法</b></summary>
+<summary><b>Oriented Object Detection</b></summary>
 
-- [x] [Rotated RetinaNet-OBB/HBB](configs/rotated_retinanet/README.md) (ICCV'2017)
-- [x] [Rotated FasterRCNN-OBB](configs/rotated_faster_rcnn/README.md) (TPAMI'2017)
-- [x] [Rotated RepPoints-OBB](configs/rotated_reppoints/README.md) (ICCV'2019)
-- [x] [Rotated FCOS](configs/rotated_fcos/README.md) (ICCV'2019)
-- [x] [RoI Transformer](configs/roi_trans/README.md) (CVPR'2019)
-- [x] [Gliding Vertex](configs/gliding_vertex/README.md) (TPAMI'2020)
-- [x] [Rotated ATSS-OBB](configs/rotated_atss/README.md) (CVPR'2020)
-- [x] [CSL](configs/csl/README.md) (ECCV'2020)
-- [x] [R<sup>3</sup>Det](configs/r3det/README.md) (AAAI'2021)
-- [x] [S<sup>2</sup>A-Net](configs/s2anet/README.md) (TGRS'2021)
-- [x] [ReDet](configs/redet/README.md) (CVPR'2021)
-- [x] [Beyond Bounding-Box](configs/cfa/README.md) (CVPR'2021)
-- [x] [Oriented R-CNN](configs/oriented_rcnn/README.md) (ICCV'2021)
-- [x] [GWD](configs/gwd/README.md) (ICML'2021)
-- [x] [KLD](configs/kld/README.md) (NeurIPS'2021)
-- [x] [SASM](configs/sasm_reppoints/README.md) (AAAI'2022)
-- [x] [Oriented RepPoints](configs/oriented_reppoints/README.md) (CVPR'2022)
-- [x] [KFIoU](configs/kfiou/README.md) (ICLR'2023)
-- [x] [H2RBox](configs/h2rbox/README.md) (ICLR'2023)
-- [x] [PSC](configs/psc/README.md) (CVPR'2023)
-- [x] [RTMDet](configs/rotated_rtmdet/README.md) (arXiv)
-- [x] [H2RBox-v2](configs/h2rbox_v2/README.md) (arXiv)
+|     |     |     |     |
+| :---: | :---: | :---: | :---: |
+| [Rotated RetinaNet-OBB/HBB](configs/rotated_retinanet/README.md)<br>(ICCV'2017) | [Rotated FasterRCNN-OBB](configs/rotated_faster_rcnn/README.md)<br>(TPAMI'2017) | [Rotated RepPoints-OBB](configs/rotated_reppoints/README.md)<br>(ICCV'2019) | [Rotated FCOS](configs/rotated_fcos/README.md)<br>(ICCV'2019) |
+| [RoI Transformer](configs/roi_trans/README.md)<br>(CVPR'2019) | [Gliding Vertex](configs/gliding_vertex/README.md)<br>(TPAMI'2020) | [Rotated ATSS-OBB](configs/rotated_atss/README.md)<br>(CVPR'2020) | [CSL](configs/csl/README.md)<br>(ECCV'2020) |
+| [R<sup>3</sup>Det](configs/r3det/README.md)<br>(AAAI'2021) | [S<sup>2</sup>A-Net](configs/s2anet/README.md)<br>(TGRS'2021) | [ReDet](configs/redet/README.md)<br>(CVPR'2021) | [Beyond Bounding-Box](configs/cfa/README.md)<br>(CVPR'2021) |
+| [Oriented R-CNN](configs/oriented_rcnn/README.md)<br>(ICCV'2021) | [GWD](configs/gwd/README.md)<br>(ICML'2021) | [KLD](configs/kld/README.md)<br>(NeurIPS'2021) | [SASM](configs/sasm_reppoints/README.md)<br>(AAAI'2022) |
+| [Oriented RepPoints](configs/oriented_reppoints/README.md)<br>(CVPR'2022) | [KFIoU](configs/kfiou/README.md)<br>(ICLR'2023) | [H2RBox](configs/h2rbox/README.md)<br>(ICLR'2023) | [PSC](configs/psc/README.md)<br>(CVPR'2023) |
+| [RTMDet](configs/rotated_rtmdet/README.md)<br>(arXiv) | [H2RBox-v2](configs/h2rbox_v2/README.md)<br>(arXiv)
+
+
 
 </details>
 
