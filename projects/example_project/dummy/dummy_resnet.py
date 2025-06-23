@@ -1,6 +1,6 @@
 from mmdet.models.backbones import ResNet
 
-from mmrotate.registry import MODELS
+from ai4rs.registry import MODELS
 
 
 @MODELS.register_module()

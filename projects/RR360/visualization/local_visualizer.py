@@ -10,10 +10,10 @@ from mmengine.structures import InstanceData
 from projects.RR360.structures.bbox import RotatedBoxes
 from torch import Tensor
 
-from mmrotate.registry import VISUALIZERS
-# from mmrotate.structures.bbox import QuadriBoxes, RotatedBoxes
-from mmrotate.structures.bbox import QuadriBoxes
-from mmrotate.visualization.palette import get_palette
+from ai4rs.registry import VISUALIZERS
+# from ai4rs.structures.bbox import QuadriBoxes, RotatedBoxes
+from ai4rs.structures.bbox import QuadriBoxes
+from ai4rs.visualization.palette import get_palette
 
 
 @VISUALIZERS.register_module()

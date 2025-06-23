@@ -1,4 +1,4 @@
-"""copy from /mmrotate/structures/bbox/rotated_boxes.py and redefine 'r360'."""
+"""copy from /ai4rs/structures/bbox/rotated_boxes.py and redefine 'r360'."""
 import math
 from typing import Optional, Tuple, TypeVar, Union
 
@@ -9,8 +9,8 @@ from mmdet.structures.bbox import register_box, register_box_converter
 from mmdet.structures.mask import BitmapMasks, PolygonMasks
 from torch import Tensor
 
-from mmrotate.structures.bbox import QuadriBoxes
-from mmrotate.structures.bbox import RotatedBoxes as mmrotate_RotatedBoxes
+from ai4rs.structures.bbox import QuadriBoxes
+from ai4rs.structures.bbox import RotatedBoxes as mmrotate_RotatedBoxes
 
 # from skimage.draw import line as skidline
 
