@@ -54,6 +54,8 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 
 请参考[快速入门文档](https://mmrotate.readthedocs.io/zh_CN/1.x/get_started.html)进行安装。
 
+`torch.pi`是从 PyTorch 1.8.0 版本开始引入的。
+
 
 
 ## 模型库

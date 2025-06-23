@@ -12,7 +12,7 @@ mmcv_version = digit_version(mmcv.__version__)
 
 assert (mmcv_version >= digit_version(mmcv_minimum_version)
         and mmcv_version <= digit_version(mmcv_maximum_version)), \
-    f'MMCV {mmcv.__version__} is incompatible with MMRotate {__version__}. ' \
+    f'MMCV {mmcv.__version__} is incompatible with ai4rs {__version__}. ' \
     f'Please use MMCV >= {mmcv_minimum_version}, ' \
     f'<= {mmcv_maximum_version} instead.'
 
@@ -33,7 +33,7 @@ mmdet_version = digit_version(mmdet.__version__)
 assert (mmdet_version >= digit_version(mmdet_minimum_version)
         and mmdet_version <= digit_version(mmdet_maximum_version)), \
     f'MMDetection {mmdet.__version__} is incompatible ' \
-    f'with MMRotate {__version__}. ' \
+    f'with ai4rs {__version__}. ' \
     f'Please use MMDetection >= {mmdet_minimum_version}, ' \
     f'< {mmdet_maximum_version} instead.'
 

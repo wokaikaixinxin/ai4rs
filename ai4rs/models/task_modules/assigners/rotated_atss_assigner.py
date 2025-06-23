@@ -9,7 +9,7 @@ from mmdet.utils import ConfigType
 from mmengine.structures import InstanceData
 from torch import Tensor
 
-from mmrotate.registry import TASK_UTILS
+from ai4rs.registry import TASK_UTILS
 
 
 def bbox_center_distance(bboxes: Tensor, priors: Tensor) -> Tensor:

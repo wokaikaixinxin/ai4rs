@@ -14,7 +14,7 @@ from mmengine.config import ConfigDict
 from mmengine.structures import InstanceData
 from torch import Tensor
 
-from mmrotate.registry import MODELS, TASK_UTILS
+from ai4rs.registry import MODELS, TASK_UTILS
 
 
 @MODELS.register_module()

@@ -6,8 +6,8 @@ from mmdet.models.task_modules.coders.delta_xywh_bbox_coder import bbox2delta
 from mmdet.structures.bbox import HorizontalBoxes, get_box_tensor
 from torch import Tensor
 
-from mmrotate.registry import TASK_UTILS
-from mmrotate.structures.bbox import RotatedBoxes
+from ai4rs.registry import TASK_UTILS
+from ai4rs.structures.bbox import RotatedBoxes
 
 
 @TASK_UTILS.register_module()

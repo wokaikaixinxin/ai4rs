@@ -5,7 +5,7 @@ import torch
 from mmdet.models.task_modules.coders.base_bbox_coder import BaseBBoxCoder
 from torch import Tensor
 
-from mmrotate.registry import TASK_UTILS
+from ai4rs.registry import TASK_UTILS
 
 
 @TASK_UTILS.register_module()

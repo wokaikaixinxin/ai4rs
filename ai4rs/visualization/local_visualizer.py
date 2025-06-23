@@ -9,14 +9,14 @@ from mmdet.visualization.palette import _get_adaptive_scales
 from mmengine.structures import InstanceData
 from torch import Tensor
 
-from mmrotate.registry import VISUALIZERS
-from mmrotate.structures.bbox import QuadriBoxes, RotatedBoxes
+from ai4rs.registry import VISUALIZERS
+from ai4rs.structures.bbox import QuadriBoxes, RotatedBoxes
 from .palette import get_palette
 
 
 @VISUALIZERS.register_module()
 class RotLocalVisualizer(DetLocalVisualizer):
-    """MMRotate Local Visualizer.
+    """ai4rs Local Visualizer.
 
     Args:
         name (str): Name of the instance. Defaults to 'visualizer'.

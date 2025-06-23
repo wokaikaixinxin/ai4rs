@@ -5,7 +5,7 @@ from typing import List
 
 from mmengine.dataset import BaseDataset
 
-from mmrotate.registry import DATASETS
+from ai4rs.registry import DATASETS
 
 
 @DATASETS.register_module()

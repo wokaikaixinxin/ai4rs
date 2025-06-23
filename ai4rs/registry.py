@@ -1,5 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-"""MMRotate provides 18 registry nodes to support using modules across
+"""ai4rs provides 18 registry nodes to support using modules across
 projects.
 
 Each node is a child of the root registry in MMEngine.

@@ -8,7 +8,7 @@ import numpy as np
 from mmengine.dataset import BaseDataset
 from mmengine.fileio import get, get_local_path, list_from_file
 
-from mmrotate.registry import DATASETS
+from ai4rs.registry import DATASETS
 
 
 @DATASETS.register_module()

@@ -4,7 +4,7 @@ from typing import Sequence, Union
 import mmcv
 from mmcv.transforms import BaseTransform
 
-from mmrotate.registry import TRANSFORMS
+from ai4rs.registry import TRANSFORMS
 
 
 @TRANSFORMS.register_module()

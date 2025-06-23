@@ -11,7 +11,7 @@ from mmdet.structures.bbox import BaseBoxes, get_box_type
 from mmdet.structures.mask import PolygonMasks
 from mmengine.utils import is_list_of
 
-from mmrotate.registry import TRANSFORMS
+from ai4rs.registry import TRANSFORMS
 
 
 @TRANSFORMS.register_module()

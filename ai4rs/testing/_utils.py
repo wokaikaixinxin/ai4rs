@@ -9,18 +9,18 @@ from mmdet.structures.bbox import HorizontalBoxes
 from mmengine.dataset import pseudo_collate
 from mmengine.structures import InstanceData, PixelData
 
-from mmrotate.structures.bbox import RotatedBoxes, rbox2qbox
+from ai4rs.structures.bbox import RotatedBoxes, rbox2qbox
 
 
 def _get_config_directory():
     """Find the predefined detector config directory."""
     try:
-        # Assume we are running in the source mmrotate repo
+        # Assume we are running in the source ai4rs repo
         repo_dpath = dirname(dirname(dirname(__file__)))
     except NameError:
         # For IPython development when this __file__ is not defined
-        import mmrotate
-        repo_dpath = dirname(dirname(mmrotate.__file__))
+        import ai4rs
+        repo_dpath = dirname(dirname(ai4rs.__file__))
     config_dpath = join(repo_dpath, 'configs')
     if not exists(config_dpath):
         raise Exception('Cannot find config path')

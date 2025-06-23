@@ -7,7 +7,7 @@ from mmdet.models.task_modules.assigners.base_assigner import BaseAssigner
 from mmengine.structures import InstanceData
 from torch import Tensor
 
-from mmrotate.registry import TASK_UTILS
+from ai4rs.registry import TASK_UTILS
 
 
 @TASK_UTILS.register_module()

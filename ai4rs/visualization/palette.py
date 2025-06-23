@@ -30,13 +30,13 @@ def get_palette(palette: Union[List[tuple], str, tuple],
         np.random.set_state(state)
         dataset_palette = [tuple(c) for c in palette]
     elif palette == 'dota':
-        from mmrotate.datasets import DOTADataset
+        from ai4rs.datasets import DOTADataset
         dataset_palette = DOTADataset.METAINFO['palette']
     elif palette == 'sar':
-        from mmrotate.datasets import SARDataset
+        from ai4rs.datasets import SARDataset
         dataset_palette = SARDataset.METAINFO['palette']
     elif palette == 'hrsc':
-        from mmrotate.datasets import HRSCDataset
+        from ai4rs.datasets import HRSCDataset
         dataset_palette = HRSCDataset.METAINFO['palette']
     elif is_str(palette):
         dataset_palette = [mmcv.color_val(palette)[::-1]] * num_classes

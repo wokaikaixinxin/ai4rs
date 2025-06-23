@@ -12,9 +12,9 @@ from mmengine import ConfigDict
 from mmengine.structures import InstanceData
 from torch import Tensor
 
-from mmrotate.models.dense_heads.rotated_fcos_head import RotatedFCOSHead
-from mmrotate.registry import MODELS
-from mmrotate.structures import RotatedBoxes
+from ai4rs.models.dense_heads.rotated_fcos_head import RotatedFCOSHead
+from ai4rs.registry import MODELS
+from ai4rs.structures import RotatedBoxes
 
 INF = 1e8
 

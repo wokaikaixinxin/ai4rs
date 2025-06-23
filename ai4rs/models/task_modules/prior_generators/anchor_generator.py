@@ -7,8 +7,8 @@ from mmdet.structures.bbox import HorizontalBoxes
 from torch import Tensor
 from torch.nn.modules.utils import _pair
 
-from mmrotate.registry import TASK_UTILS
-from mmrotate.structures.bbox import RotatedBoxes
+from ai4rs.registry import TASK_UTILS
+from ai4rs.structures.bbox import RotatedBoxes
 
 
 @TASK_UTILS.register_module()

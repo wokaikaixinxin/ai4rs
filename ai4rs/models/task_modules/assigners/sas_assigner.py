@@ -7,8 +7,8 @@ from mmdet.models.task_modules.assigners.assign_result import AssignResult
 from mmdet.models.task_modules.assigners.base_assigner import BaseAssigner
 from mmengine.structures import InstanceData
 
-from mmrotate.registry import TASK_UTILS
-from mmrotate.structures.bbox import qbox2hbox
+from ai4rs.registry import TASK_UTILS
+from ai4rs.structures.bbox import qbox2hbox
 
 
 def convex_overlaps(gt_rbboxes, points):

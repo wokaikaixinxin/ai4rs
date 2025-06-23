@@ -9,7 +9,7 @@ from mmengine.model import BaseModule
 from torch import Tensor
 from torch.nn.modules.batchnorm import _BatchNorm
 
-from mmrotate.registry import MODELS
+from ai4rs.registry import MODELS
 
 try:
     import e2cnn.nn as enn

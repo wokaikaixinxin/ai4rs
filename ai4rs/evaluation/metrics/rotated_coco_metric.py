@@ -17,8 +17,8 @@ from mmengine.fileio import dump, load
 from pycocotools.cocoeval import COCOeval
 from terminaltables import AsciiTable
 
-from mmrotate.registry import METRICS
-from mmrotate.structures.bbox import RotatedBoxes
+from ai4rs.registry import METRICS
+from ai4rs.structures.bbox import RotatedBoxes
 
 
 def qbox2rbox_list(boxes: list) -> list:

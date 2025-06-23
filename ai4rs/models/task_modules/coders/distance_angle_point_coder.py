@@ -2,8 +2,8 @@
 import torch
 from mmdet.models.task_modules.coders.base_bbox_coder import BaseBBoxCoder
 
-from mmrotate.registry import TASK_UTILS
-from mmrotate.structures.bbox.transforms import norm_angle
+from ai4rs.registry import TASK_UTILS
+from ai4rs.structures.bbox.transforms import norm_angle
 
 
 @TASK_UTILS.register_module()

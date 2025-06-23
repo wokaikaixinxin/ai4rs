@@ -7,8 +7,8 @@ from mmdet.models.task_modules.coders.base_bbox_coder import BaseBBoxCoder
 from mmdet.structures.bbox import HorizontalBoxes, get_box_tensor
 from torch import Tensor
 
-from mmrotate.registry import TASK_UTILS
-from mmrotate.structures.bbox import (RotatedBoxes, qbox2rbox, rbox2hbox,
+from ai4rs.registry import TASK_UTILS
+from ai4rs.structures.bbox import (RotatedBoxes, qbox2rbox, rbox2hbox,
                                       rbox2qbox)
 
 
