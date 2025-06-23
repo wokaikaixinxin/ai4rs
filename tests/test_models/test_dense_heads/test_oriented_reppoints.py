@@ -6,8 +6,8 @@ from mmdet.structures import DetDataSample
 from mmengine.config import ConfigDict
 from mmengine.structures import InstanceData
 
-from mmrotate.models.dense_heads import OrientedRepPointsHead
-from mmrotate.utils import register_all_modules
+from ai4rs.models.dense_heads import OrientedRepPointsHead
+from ai4rs.utils import register_all_modules
 
 
 class TestOrientedRepPointsHead(unittest.TestCase):

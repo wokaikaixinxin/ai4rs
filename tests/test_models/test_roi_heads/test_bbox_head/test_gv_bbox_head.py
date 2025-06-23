@@ -5,8 +5,8 @@ from unittest import TestCase
 import torch
 from parameterized import parameterized
 
-from mmrotate.models.roi_heads.bbox_heads import GVBBoxHead
-from mmrotate.utils import register_all_modules
+from ai4rs.models.roi_heads.bbox_heads import GVBBoxHead
+from ai4rs.utils import register_all_modules
 
 
 class TestGVBBoxHead(TestCase):

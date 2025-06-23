@@ -6,8 +6,8 @@ import torch
 from mmdet.structures import DetDataSample
 from parameterized import parameterized
 
-from mmrotate.testing import demo_mm_inputs, get_detector_cfg
-from mmrotate.utils import register_all_modules
+from ai4rs.testing import demo_mm_inputs, get_detector_cfg
+from ai4rs.utils import register_all_modules
 
 
 class TestTwoStageBBox(TestCase):

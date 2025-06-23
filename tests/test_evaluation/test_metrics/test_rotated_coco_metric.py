@@ -8,7 +8,7 @@ import pycocotools.mask as mask_util
 import torch
 from mmengine.fileio import dump
 
-from mmrotate.evaluation import RotatedCocoMetric
+from ai4rs.evaluation import RotatedCocoMetric
 
 
 class TestRotatedCocoMetric(TestCase):

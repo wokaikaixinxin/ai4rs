@@ -6,9 +6,9 @@ import pytest
 import torch
 from mmengine.structures import InstanceData
 
-from mmrotate.models.dense_heads import H2RBoxHead
-from mmrotate.structures import RotatedBoxes
-from mmrotate.utils import register_all_modules
+from ai4rs.models.dense_heads import H2RBoxHead
+from ai4rs.structures import RotatedBoxes
+from ai4rs.utils import register_all_modules
 
 
 class TestH2RBoxHead(unittest.TestCase):

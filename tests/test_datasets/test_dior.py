@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import unittest
 
-from mmrotate.datasets import DIORDataset
+from ai4rs.datasets import DIORDataset
 
 
 class TestDIORDataset(unittest.TestCase):

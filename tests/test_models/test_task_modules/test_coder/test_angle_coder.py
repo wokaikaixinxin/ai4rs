@@ -4,7 +4,7 @@ from unittest import TestCase
 import torch
 from mmengine.testing import assert_allclose
 
-from mmrotate.models.task_modules.coders import CSLCoder
+from ai4rs.models.task_modules.coders import CSLCoder
 
 
 class TestCSLCoder(TestCase):

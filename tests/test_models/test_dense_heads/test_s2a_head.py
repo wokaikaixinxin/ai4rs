@@ -5,9 +5,9 @@ import torch
 from mmengine import Config
 from mmengine.structures import InstanceData
 
-from mmrotate.models.dense_heads import S2AHead, S2ARefineHead
-from mmrotate.structures.bbox import RotatedBoxes
-from mmrotate.utils import register_all_modules
+from ai4rs.models.dense_heads import S2AHead, S2ARefineHead
+from ai4rs.structures.bbox import RotatedBoxes
+from ai4rs.utils import register_all_modules
 
 
 class TestS2AHead(TestCase):

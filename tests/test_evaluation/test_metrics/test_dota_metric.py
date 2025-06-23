@@ -6,7 +6,7 @@ import unittest
 import numpy as np
 import torch
 
-from mmrotate.evaluation import DOTAMetric
+from ai4rs.evaluation import DOTAMetric
 
 
 class TestDOTAMetric(unittest.TestCase):

@@ -9,7 +9,7 @@ from mmengine.config import Config, DictAction
 from mmengine.dist import init_dist
 from mmengine.utils import mkdir_or_exist
 
-from mmrotate.utils import register_all_modules
+from ai4rs.utils import register_all_modules
 
 
 def parse_args():

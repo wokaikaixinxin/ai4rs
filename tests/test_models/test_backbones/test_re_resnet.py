@@ -6,9 +6,9 @@ import torch
 from torch.nn.modules import GroupNorm
 from torch.nn.modules.batchnorm import _BatchNorm
 
-from mmrotate.models.backbones.re_resnet import (BasicBlock, Bottleneck,
+from ai4rs.models.backbones.re_resnet import (BasicBlock, Bottleneck,
                                                  ReResNet, ResLayer)
-from mmrotate.models.utils.enn import build_enn_divide_feature
+from ai4rs.models.utils.enn import build_enn_divide_feature
 
 
 def is_block(modules):

@@ -6,9 +6,9 @@ import torch
 from mmengine.config import Config
 from parameterized import parameterized
 
-from mmrotate.registry import MODELS
-from mmrotate.testing import demo_mm_inputs, demo_mm_proposals
-from mmrotate.utils import register_all_modules
+from ai4rs.registry import MODELS
+from ai4rs.testing import demo_mm_inputs, demo_mm_proposals
+from ai4rs.utils import register_all_modules
 
 
 def _fake_roi_head():

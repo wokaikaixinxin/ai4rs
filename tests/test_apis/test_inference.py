@@ -9,8 +9,8 @@ from mmdet.apis import init_detector
 from mmdet.structures import DetDataSample
 from parameterized import parameterized
 
-from mmrotate.apis import inference_detector_by_patches
-from mmrotate.utils import register_all_modules
+from ai4rs.apis import inference_detector_by_patches
+from ai4rs.utils import register_all_modules
 
 
 class TestInferenceDetectorByPatches(TestCase):

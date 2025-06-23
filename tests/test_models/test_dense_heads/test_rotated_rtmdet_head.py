@@ -6,10 +6,10 @@ from mmdet.models import L1Loss
 from mmengine.structures import InstanceData
 from parameterized import parameterized
 
-from mmrotate.models.dense_heads import (RotatedRTMDetHead,
+from ai4rs.models.dense_heads import (RotatedRTMDetHead,
                                          RotatedRTMDetSepBNHead)
-from mmrotate.structures import RotatedBoxes
-from mmrotate.utils import register_all_modules
+from ai4rs.structures import RotatedBoxes
+from ai4rs.utils import register_all_modules
 
 
 class TestRotatedRTMDetHead(unittest.TestCase):

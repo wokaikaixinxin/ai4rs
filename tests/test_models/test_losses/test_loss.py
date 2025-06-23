@@ -4,7 +4,7 @@ import unittest
 import torch
 from parameterized import parameterized
 
-from mmrotate.models.losses import (BCConvexGIoULoss, ConvexGIoULoss, GDLoss,
+from ai4rs.models.losses import (BCConvexGIoULoss, ConvexGIoULoss, GDLoss,
                                     GDLoss_v1, H2RBoxConsistencyLoss, KFLoss,
                                     RotatedIoULoss, SpatialBorderLoss)
 

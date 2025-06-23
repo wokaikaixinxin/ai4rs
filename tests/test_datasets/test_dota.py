@@ -3,7 +3,7 @@ import unittest
 
 from parameterized import parameterized
 
-from mmrotate.datasets import DOTADataset, DOTAv2Dataset, DOTAv15Dataset
+from ai4rs.datasets import DOTADataset, DOTAv2Dataset, DOTAv15Dataset
 
 
 class TestDOTADataset(unittest.TestCase):

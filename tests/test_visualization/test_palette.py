@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmrotate.datasets import DOTADataset
-from mmrotate.visualization import get_palette
+from ai4rs.datasets import DOTADataset
+from ai4rs.visualization import get_palette
 
 
 def test_palette():

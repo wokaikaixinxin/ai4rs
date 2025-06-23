@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import unittest
 
-from mmrotate.datasets import HRSCDataset
+from ai4rs.datasets import HRSCDataset
 
 
 class TestHRSCDataset(unittest.TestCase):

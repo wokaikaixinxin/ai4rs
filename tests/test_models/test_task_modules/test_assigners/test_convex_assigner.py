@@ -5,7 +5,7 @@ import torch
 from mmengine.structures import InstanceData
 from mmengine.testing import assert_allclose
 
-from mmrotate.models.task_modules.assigners import ConvexAssigner
+from ai4rs.models.task_modules.assigners import ConvexAssigner
 
 
 class TestConvexAssigner(unittest.TestCase):
