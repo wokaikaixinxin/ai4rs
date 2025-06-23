@@ -1,6 +1,6 @@
 <div align="center">
   <img src="resources/ai4rs-logo.png" width="800"/>
-  </div>
+</div>
 
 
 
@@ -8,8 +8,7 @@
 [🛠️安装教程](https://mmrotate.readthedocs.io/zh_CN/1.x/get_started.html) |
 [👀模型库](https://mmrotate.readthedocs.io/zh_CN/1.x/model_zoo.html) |
 [🆕更新日志](https://mmrotate.readthedocs.io/en/1.x/notes/changelog.html) |
-[🚀进行中的项目](https://github.com/open-mmlab/mmrotate/projects) |
-[🤔报告问题](https://github.com/open-mmlab/mmrotate/issues/new/choose)
+
 
 </div>
 
@@ -19,25 +18,6 @@
 
 </div>
 
-<div align="center">
-  <a href="https://openmmlab.medium.com/" style="text-decoration:none;">
-    <img src="https://user-images.githubusercontent.com/25839884/219255827-67c1a27f-f8c5-46a9-811d-5e57448c61d1.png" width="3%" alt="" /></a>
-  <img src="https://user-images.githubusercontent.com/25839884/218346358-56cc8e2f-a2b8-487f-9088-32480cceabcf.png" width="3%" alt="" />
-  <a href="https://discord.com/channels/1037617289144569886/1046608014234370059" style="text-decoration:none;">
-    <img src="https://user-images.githubusercontent.com/25839884/218347213-c080267f-cbb6-443e-8532-8e1ed9a58ea9.png" width="3%" alt="" /></a>
-  <img src="https://user-images.githubusercontent.com/25839884/218346358-56cc8e2f-a2b8-487f-9088-32480cceabcf.png" width="3%" alt="" />
-  <a href="https://twitter.com/OpenMMLab" style="text-decoration:none;">
-    <img src="https://user-images.githubusercontent.com/25839884/218346637-d30c8a0f-3eba-4699-8131-512fb06d46db.png" width="3%" alt="" /></a>
-  <img src="https://user-images.githubusercontent.com/25839884/218346358-56cc8e2f-a2b8-487f-9088-32480cceabcf.png" width="3%" alt="" />
-  <a href="https://www.youtube.com/openmmlab" style="text-decoration:none;">
-    <img src="https://user-images.githubusercontent.com/25839884/218346691-ceb2116a-465a-40af-8424-9f30d2348ca9.png" width="3%" alt="" /></a>
-  <img src="https://user-images.githubusercontent.com/25839884/218346358-56cc8e2f-a2b8-487f-9088-32480cceabcf.png" width="3%" alt="" />
-  <a href="https://space.bilibili.com/1293512903" style="text-decoration:none;">
-    <img src="https://user-images.githubusercontent.com/25839884/219026751-d7d14cce-a7c9-4e82-9942-8375fca65b99.png" width="3%" alt="" /></a>
-  <img src="https://user-images.githubusercontent.com/25839884/218346358-56cc8e2f-a2b8-487f-9088-32480cceabcf.png" width="3%" alt="" />
-  <a href="https://www.zhihu.com/people/openmmlab" style="text-decoration:none;">
-    <img src="https://user-images.githubusercontent.com/25839884/219026120-ba71e48b-6e94-4bd4-b4e9-b7d175b5e362.png" width="3%" alt="" /></a>
-</div>
 
 ## 介绍
 
@@ -166,8 +146,11 @@ MMRS(remote sensing) 是一款基于 PyTorch 的人工智能与遥感结合的�
 ## 致谢
 
 [OpenMMLab 官网](https://openmmlab.com)
+
 [OpenMMLab 开放平台](https://platform.openmmlab.com)
+
 [MMDetection](https://github.com/open-mmlab/mmdetection)
+
 [MMRotate](https://github.com/open-mmlab/MMRotate)
 
 ## 引用
