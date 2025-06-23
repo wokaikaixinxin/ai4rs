@@ -481,6 +481,10 @@ python projects/icdar2015_evaluation/script.py –g=gt.zip –s=submit.zip
 | ICDAR2015 | [orientedformer_le90_r50_q300_layer2_head64_point32_2x_icdar2015.py](https://github.com/wokaikaixinxin/OrientedFormer/blob/main/projects/OrientedFormer/configs/orientedformer_le90_r50_q300_layer2_head64_point32_2x_icdar2015.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_2x_icdar2015) | 85.3 | 74.2  | 79.4 | R50 |24epoch|2img*2 rtx2080ti|
 
 
+hugging face 镜像 
+```
+https://hf-mirror.com/wokaikaixinxin/OrientedFormer
+```
 
 ## 引用 OrientedFormer
 
