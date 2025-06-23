@@ -9,7 +9,7 @@ from mmdet.structures.bbox import bbox2roi
 from mmdet.utils import ConfigType, InstanceList
 from torch import Tensor
 
-from mmrotate.registry import MODELS
+from ai4rs.registry import MODELS
 
 
 @MODELS.register_module()

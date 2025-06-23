@@ -16,7 +16,7 @@ MaskType = Union[BitmapMasks, PolygonMasks]
 
 @register_box('rbox')
 class RotatedBoxes(BaseBoxes):
-    """The rotated box class used in MMRotate by default.
+    """The rotated box class used in ai4rs by default.
 
     The ``box_dim`` of ``RotatedBoxes`` is 5, which means the length of the
     last dimension of the input should be 5. Each row of data means
@@ -413,7 +413,7 @@ class RotatedBoxes(BaseBoxes):
         Returns:
             Tensor: shape (m, n) if ``is_aligned`` is False else shape (m,)
         """
-        from mmrotate.structures.bbox import rbbox_overlaps
+        from ai4rs.structures.bbox import rbbox_overlaps
         boxes1 = boxes1.convert_to('rbox')
         boxes2 = boxes2.convert_to('rbox')
         return rbbox_overlaps(

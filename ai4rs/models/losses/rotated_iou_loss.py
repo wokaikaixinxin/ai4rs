@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 from mmdet.models.losses.utils import weighted_loss
 
-from mmrotate.registry import MODELS
+from ai4rs.registry import MODELS
 
 try:
     from mmcv.ops import diff_iou_rotated_2d

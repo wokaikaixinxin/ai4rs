@@ -6,7 +6,7 @@ from mmcv.ops import DeformConv2d, DeformConv2dPack, rotated_feature_align
 from mmengine.model import BaseModule, normal_init
 from torch import Tensor, nn
 
-from mmrotate.registry import MODELS
+from ai4rs.registry import MODELS
 
 
 @MODELS.register_module()

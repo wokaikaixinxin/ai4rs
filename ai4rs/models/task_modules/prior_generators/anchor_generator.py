@@ -16,7 +16,7 @@ class FakeRotatedAnchorGenerator(AnchorGenerator):
     """Fake rotate anchor generator for 2D anchor-based detectors. Horizontal
     bounding box represented by (x,y,w,h,theta).
 
-    Note: In mmrotate-0.x, the angle of anchor is always 0. If you want to
+    Note: In ai4rs-0.x, the angle of anchor is always 0. If you want to
     load models in 0.x directly, please set the `angle_version` to 'None'.
 
     Args:

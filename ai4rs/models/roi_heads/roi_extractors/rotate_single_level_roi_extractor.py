@@ -6,7 +6,7 @@ from mmdet.models.roi_heads.roi_extractors.base_roi_extractor import \
     BaseRoIExtractor
 from mmengine.utils import to_2tuple
 
-from mmrotate.registry import MODELS
+from ai4rs.registry import MODELS
 
 
 @MODELS.register_module()
@@ -98,7 +98,7 @@ class RotatedSingleRoIExtractor(BaseRoIExtractor):
             torch.Tensor: Scaled RoI features.
         """
         rois = rois.type_as(feats[0])
-        from mmrotate import digit_version, mmcv_version
+        from ai4rs import digit_version, mmcv_version
         if isinstance(self.roi_layers[0], ops.RiRoIAlignRotated
                       ) or mmcv_version == digit_version('1.4.5'):
             out_size = nn.modules.utils._pair(self.roi_layers[0].out_size)

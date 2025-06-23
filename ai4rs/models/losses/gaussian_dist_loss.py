@@ -5,7 +5,7 @@ import torch
 from mmdet.models.losses.utils import weighted_loss
 from torch import nn
 
-from mmrotate.registry import MODELS
+from ai4rs.registry import MODELS
 
 
 def xy_wh_r_2_xy_sigma(xywhr):

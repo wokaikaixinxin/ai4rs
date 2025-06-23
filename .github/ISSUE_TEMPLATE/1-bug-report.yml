@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        If you have already identified the reason, we strongly appreciate you creating a new PR to fix it [here](https://github.com/open-mmlab/mmrotate/pulls)!
+        If you have already identified the reason, we strongly appreciate you creating a new PR to fix it [here](https://github.com/wokaikaixinxin/ai4rs/pulls)!
         If this issue is about installing MMCV, please file an issue at [MMCV](https://github.com/open-mmlab/mmcv/issues/new/choose).
         If you need our help, please fill in as much of the following form as you're able to.
 
@@ -18,11 +18,11 @@ body:
       label: Prerequisite
       description: Please check the following items before creating a new issue.
       options:
-      - label: I have searched [Issues](https://github.com/open-mmlab/mmrotate/issues) and [Discussions](https://github.com/open-mmlab/mmrotate/discussions) but cannot get the expected help.
+      - label: I have searched [Issues](https://github.com/wokaikaixinxin/ai4rs/issues) and [Discussions](https://github.com/wokaikaixinxin/ai4rs/discussions) but cannot get the expected help.
         required: true
       - label: I have read the [FAQ documentation](https://mmrotate.readthedocs.io/en/1.x/notes/4_faq.html) but cannot get the expected help.
         required: true
-      - label: The bug has not been fixed in the [latest version (master)](https://github.com/open-mmlab/mmrotate) or [latest version (1.x)](https://github.com/open-mmlab/mmrotate/tree/dev-1.x).
+      - label: The bug has not been fixed in the [latest version (master)](https://github.com/wokaikaixinxin/ai4rs) or [latest version (1.x)](https://github.com/wokaikaixinxin/ai4rs/tree/dev-1.x).
         required: true
 
   - type: dropdown
@@ -42,8 +42,8 @@ body:
       label: Branch
       description: The problem arises when I'm working on
       options:
-        - master branch https://github.com/open-mmlab/mmrotate
-        - 1.x branch https://github.com/open-mmlab/mmrotate/tree/1.x
+        - master branch https://github.com/wokaikaixinxin/ai4rs
+        - 1.x branch https://github.com/wokaikaixinxin/ai4rs/tree/1.x
     validations:
       required: true
 

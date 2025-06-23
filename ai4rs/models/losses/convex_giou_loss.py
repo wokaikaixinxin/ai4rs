@@ -5,7 +5,7 @@ from mmcv.ops import convex_giou
 from torch.autograd import Function
 from torch.autograd.function import once_differentiable
 
-from mmrotate.registry import MODELS
+from ai4rs.registry import MODELS
 
 
 class ConvexGIoULossFuction(Function):

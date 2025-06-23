@@ -15,8 +15,8 @@ from mmengine import ConfigDict
 from mmengine.structures import InstanceData
 from torch import Tensor
 
-from mmrotate.registry import MODELS, TASK_UTILS
-from mmrotate.structures import RotatedBoxes
+from ai4rs.registry import MODELS, TASK_UTILS
+from ai4rs.structures import RotatedBoxes
 
 INF = 1e8
 

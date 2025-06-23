@@ -7,7 +7,7 @@ from mmdet.models.roi_heads.bbox_heads import Shared2FCBBoxHead
 from mmdet.structures.bbox import get_box_tensor
 from torch import Tensor
 
-from mmrotate.registry import MODELS
+from ai4rs.registry import MODELS
 
 
 @MODELS.register_module()

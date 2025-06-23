@@ -10,8 +10,8 @@ from mmengine.config import ConfigDict
 from mmengine.structures import InstanceData
 from torch import Tensor
 
-from mmrotate.registry import MODELS
-from mmrotate.structures.bbox import RotatedBoxes, qbox2rbox
+from ai4rs.registry import MODELS
+from ai4rs.structures.bbox import RotatedBoxes, qbox2rbox
 
 
 @MODELS.register_module()
@@ -449,7 +449,7 @@ class RotatedRepPointsHead(RepPointsHead):
                 # the input is small value. Transferring the predction of point
                 # offsets to the real positions in the whole image can avoid
                 # this issue sometimes. For more details, please refer to
-                # https://github.com/open-mmlab/mmrotate/issues/405
+                # https://github.com/open-mmlab/ai4rs/issues/405
                 pts_pred = bbox_pred.reshape(-1, self.num_points, 2)
                 pts_pred_offsety = pts_pred[:, :, 0::2]
                 pts_pred_offsetx = pts_pred[:, :, 1::2]

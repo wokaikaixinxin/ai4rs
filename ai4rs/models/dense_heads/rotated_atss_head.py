@@ -12,8 +12,8 @@ from mmdet.utils import InstanceList, OptInstanceList
 from mmengine.structures import InstanceData
 from torch import Tensor
 
-from mmrotate.registry import MODELS
-from mmrotate.structures.bbox import RotatedBoxes
+from ai4rs.registry import MODELS
+from ai4rs.structures.bbox import RotatedBoxes
 
 
 @MODELS.register_module()

@@ -18,8 +18,8 @@ from mmengine.model import bias_init_with_prob, constant_init, normal_init
 from mmengine.structures import InstanceData
 from torch import Tensor, nn
 
-from mmrotate.registry import MODELS, TASK_UTILS
-from mmrotate.structures import RotatedBoxes, distance2obb
+from ai4rs.registry import MODELS, TASK_UTILS
+from ai4rs.structures import RotatedBoxes, distance2obb
 
 
 @MODELS.register_module()

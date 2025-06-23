@@ -11,8 +11,8 @@ from mmdet.utils import ConfigType, InstanceList, OptConfigType, OptMultiConfig
 from torch import Tensor
 from torch.nn.functional import grid_sample
 
-from mmrotate.registry import MODELS
-from mmrotate.structures.bbox import RotatedBoxes
+from ai4rs.registry import MODELS
+from ai4rs.structures.bbox import RotatedBoxes
 
 
 @MODELS.register_module()

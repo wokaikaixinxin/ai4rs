@@ -9,8 +9,8 @@ from mmdet.utils import InstanceList, OptInstanceList
 from mmengine.config import ConfigDict
 from torch import Tensor
 
-from mmrotate.registry import MODELS
-from mmrotate.structures.bbox import RotatedBoxes
+from ai4rs.registry import MODELS
+from ai4rs.structures.bbox import RotatedBoxes
 from ..utils import ORConv2d, RotationInvariantPooling
 from .rotated_retina_head import RotatedRetinaHead
 

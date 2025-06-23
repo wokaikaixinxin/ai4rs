@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from mmdet.models import weight_reduce_loss
 
-from mmrotate.registry import MODELS
+from ai4rs.registry import MODELS
 
 
 def smooth_focal_loss(pred,
