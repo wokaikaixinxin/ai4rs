@@ -175,7 +175,7 @@ python tools/test.py projects/OrientedFormer/configs/orientedformer_le90_r50_q30
 
 ```
 pip install Polygon3
-python projects/icdar2015_evaluation/script.py –g=gt.zip –s=submit.zip
+python projects/icdar2015_evaluation/script.py -g=projects/icdar2015_evaluation/gt.zip -s=work_dirs/icdar2015/textdet_1/submit.zip
 ```
 
 
@@ -426,7 +426,7 @@ python tools/test.py projects/OrientedFormer/configs/orientedformer_le90_r50_q30
 
 ```
 pip install Polygon3
-python projects/icdar2015_evaluation/script.py –g=gt.zip –s=submit.zip
+python projects/icdar2015_evaluation/script.py -g=projects/icdar2015_evaluation/gt.zip -s=work_dirs/icdar2015/textdet_1/submit.zip
 ```
 
 
