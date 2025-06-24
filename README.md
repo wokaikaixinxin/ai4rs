@@ -53,7 +53,7 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 
 
 
-## 模型库
+## 模型库 Model
 
 各个模型的结果和设置都可以在对应的 config（配置）目录下的 *README.md* 中查看。
 整体的概况也可也在 [模型库](docs/zh_cn/model_zoo.md) 页面中查看。
@@ -109,9 +109,8 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 
 
 
-## 安装
+## 安装 Installation
 
-## Installation
 
 请参考[快速入门文档](https://mmrotate.readthedocs.io/zh_CN/1.x/get_started.html)进行安装。
 
@@ -170,9 +169,8 @@ pip install -v -e .
 ```
 
 
-## 数据准备
+## 数据准备  Data Preparation
 
-## Data Preparation
 
 请参考 [data_preparation.md](tools/data/README.md) 进行数据集准备。
 
