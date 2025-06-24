@@ -29,7 +29,7 @@ backbones/lsk_t_backbone-2ef8a593.pth'),
         norm_cfg=dict(type='SyncBN', requires_grad=True)),
     neck=dict(
         type='mmdet.FPN',
-        in_channels=[64, 128, 320, 512],
+        in_channels=[32, 64, 160, 256],
         out_channels=256,
         num_outs=5),
     rpn_head=dict(
