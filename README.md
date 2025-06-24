@@ -74,7 +74,7 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 
 
 <details open>
-<summary><b>Loss - Oriented Object Detection </b></summary>
+<summary><b>Oriented Object Detection - Loss</b></summary>
 
 |     |     |     |     |
 | :---: | :---: | :---: | :---: |
@@ -82,7 +82,7 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 </details>
 
 <details open>
-<summary><b>Coder - Oriented Object Detection </b></summary>
+<summary><b>Oriented Object Detection - Coder</b></summary>
 
 |     |     |     |     |
 | :---: | :---: | :---: | :---: |
@@ -91,7 +91,7 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 
 
 <details open>
-<summary><b>Backbone - Oriented Object Detection </b></summary>
+<summary><b>Oriented Object Detection - Backbone</b></summary>
 
 |     |     |     |     |
 | :---: | :---: | :---: | :---: |
@@ -100,7 +100,7 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 
 
 <details open>
-<summary><b>Weakly Supervise - Oriented Object Detection </b></summary>
+<summary><b>Oriented Object Detection - Weakly Supervise</b></summary>
 
 |     |     |     |     |
 | :---: | :---: | :---: | :---: |
