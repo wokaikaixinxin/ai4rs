@@ -101,9 +101,9 @@ Artificial intelligence is developing very fast, and there are many related work
 请参考[快速入门文档](https://mmrotate.readthedocs.io/zh_CN/1.x/get_started.html)进行安装。
 
 
-**第一步：** 安装anaconda 或 Miniconda
+**第一步：** 安装Anaconda 或 Miniconda
 
-1： Install anaconda or Miniconda
+1： Install Anaconda or Miniconda
 
 **第二步：** 创建一个虚拟环境并且切换至该虚拟环境中
 
@@ -226,6 +226,7 @@ For detailed user guides and advanced guides, please refer to our [documentation
 ## 常见问题 FAQ
 
 请参考 [FAQ](docs/en/notes/faq.md) 了解其他用户的常见问题。
+
 Please refer to [FAQ](docs/en/notes/faq.md) for frequently asked questions.
 
 
@@ -239,9 +240,11 @@ Please refer to [FAQ](docs/en/notes/faq.md) for frequently asked questions.
 
 [MMRotate](https://github.com/open-mmlab/MMRotate)
 
-## 引用
+## 引用 Citation
 
-如果你在研究中使用了本项目的代码或者性能基准，请参考如下 bibtex 引用 ai4rs。
+如果你在研究中使用了本项目的代码或者性能基准，请参考如下 bibtex 引用 ai4rs
+
+If you use this toolbox or benchmark in your research, please cite this project ai4rs
 
 ```bibtex
 
