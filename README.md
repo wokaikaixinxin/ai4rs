@@ -111,12 +111,18 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 
 ## 安装
 
+## Installation
+
 请参考[快速入门文档](https://mmrotate.readthedocs.io/zh_CN/1.x/get_started.html)进行安装。
 
 
-**第一步：** 安装anaconda 或 Miniconda。
+**第一步：** 安装anaconda 或 Miniconda
 
-**第二步：** 创建一个虚拟环境并且切换至该虚拟环境中。
+**1：** Install anaconda or Miniconda
+
+**第二步：** 创建一个虚拟环境并且切换至该虚拟环境中
+
+**2:** Create a virtual environment
 
 ```
 conda create --name ai4rs python=3.8 -y
@@ -125,11 +131,16 @@ conda activate ai4rs
 
 **第三步：** 根据 [Pytorch的官方说明](https://pytorch.org/get-started/previous-versions/) 安装Pytorch, 例如：
 
+**3:** Install Pytorch according to [official instructions](https://pytorch.org/get-started/previous-versions/). For example:
+
 ```
 conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=10.2 -c pytorch
 ```
 
-**第四步：** 安装 MMEngine 和 MMCV ,并且我们建议使用 MIM 来完成安装。
+**第四步：** 安装 MMEngine 和 MMCV, 并且我们建议使用 MIM 来完成安装
+
+**4:** Install MMEngine and MMCV, and we recommend using MIM to complete the installation
+
 
 ```
 pip install -U openmim -i https://pypi.tuna.tsinghua.edu.cn/simple
@@ -137,12 +148,18 @@ mim install mmengine -i https://pypi.tuna.tsinghua.edu.cn/simple
 mim install "mmcv>2.0.0rc4, <2.1.0" -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-**第五步：** 安装 MMDetection 。
+**第五步：** 安装 MMDetection
+
+**5:** Install MMDetection
+
 ```
 mim install 'mmdet>3.0.0rc6, <3.2.0' -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-**第六步：** 安装 ai4rs。
+**第六步：** 安装 ai4rs
+
+**6:** Install ai4rs
+
 ```
 git clone https://github.com/wokaikaixinxin/ai4rs.git
 cd ai4rs
@@ -154,6 +171,8 @@ pip install -v -e .
 
 
 ## 数据准备
+
+## Data Preparation
 
 请参考 [data_preparation.md](tools/data/README.md) 进行数据集准备。
 
