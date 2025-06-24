@@ -195,32 +195,13 @@ ai4rs
 
 ## 教程 Getting Started
 
-请阅读[概述](https://mmrotate.readthedocs.io/zh_CN/1.x/get_started.html)对 MMDetection 进行初步的了解。
+请阅读[概述](https://mmrotate.readthedocs.io/zh_CN/1.x/get_started.html)对 Openmmlab 进行初步的了解。
 
-Please see [Overview](https://mmrotate.readthedocs.io/en/1.x/overview.html) for the general introduction of MMRotate.
+Please see [Overview](https://mmrotate.readthedocs.io/en/1.x/overview.html) for the general introduction of Openmmlab.
 
-为了帮助用户更进一步了解 MMDetection，我们准备了用户指南和进阶指南，请阅读我们的[文档](https://mmrotate.readthedocs.io/zh_CN/1.x/)：
+为了帮助用户更进一步了解 Openmmlab，我们准备了用户指南和进阶指南，请阅读我们的[文档](https://mmrotate.readthedocs.io/zh_CN/1.x/)：
 
 For detailed user guides and advanced guides, please refer to our [documentation](https://mmrotate.readthedocs.io/en/1.x/):
-
-- 用户指南
-  - [训练 & 测试](https://mmrotate.readthedocs.io/zh_CN/1.x/user_guides/index.html#train-test)
-    - [学习配置文件](https://mmrotate.readthedocs.io/zh_CN/1.x/user_guides/config.html)
-    - [使用已有模型在标准数据集上进行推理](https://mmrotate.readthedocs.io/en/1.x/user_guides/inference.html)
-    - [数据集准备](https://mmrotate.readthedocs.io/zh_CN/1.x/user_guides/dataset_prepare.html)
-    - [测试现有模型](https://mmrotate.readthedocs.io/zh_CN/1.x/user_guides/train_test.html#test)
-    - [在标准数据集上训练预定义的模型](https://mmrotate.readthedocs.io/zh_CN/1.x/user_guides/train_test.html#train)
-    - [提交测试结果](https://mmrotate.readthedocs.io/zh_CN/1.x/user_guides/test_results_submission.html)
-  - [实用工具](https://mmrotate.readthedocs.io/zh_CN/1.x/user_guides/index.html#useful-tools)
-- 进阶指南
-  - [基础概念](https://mmrotate.readthedocs.io/zh_CN/1.x/advanced_guides/index.html#basic-concepts)
-  - [组件定制](https://mmrotate.readthedocs.io/zh_CN/1.x/advanced_guides/index.html#component-customization)
-  - [How to](https://mmrotate.readthedocs.io/zh_CN/1.x/advanced_guides/index.html#how-to)
-
-我们提供了旋转检测的 colab 教程 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](demo/MMRotate_Tutorial.ipynb)。
-
-若需要将0.x版本的代码迁移至新版，请参考[迁移文档](https://mmrotate.readthedocs.io/zh_CN/1.x/migration.html)。
-
 
 
 ## 常见问题 FAQ
