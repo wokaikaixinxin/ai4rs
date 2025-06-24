@@ -9,42 +9,31 @@
 [📘使用文档](https://mmrotate.readthedocs.io/zh_CN/1.x/) &#124;
 [🛠️安装教程](https://mmrotate.readthedocs.io/zh_CN/1.x/get_started.html) &#124;
 [👀模型库](https://mmrotate.readthedocs.io/zh_CN/1.x/model_zoo.html) &#124;
-[🆕更新日志](https://mmrotate.readthedocs.io/en/1.x/notes/changelog.html)
+
+
+[📘Documentation](https://mmrotate.readthedocs.io/en/1.x/) &#124;
+[🛠️Installation](https://mmrotate.readthedocs.io/en/1.x/install.html) &#124;
+[👀Model Zoo](https://mmrotate.readthedocs.io/en/1.x/model_zoo.html) 
 
 </div>
 
 
-<p align="center">
- 简体中文 | <a href="/README_en.md">English</a>
-</p>
 
 
-## 介绍
+## 介绍 Introduction
 
 AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的开源工具箱。
 
 
-人工智能发展很快，相关工作很多。希望在MMLab基础上，特别是mmdetection、mmrotate的基础上集成遥感相关的工作。
+人工智能发展很快，相关工作很多。希望在MMLab基础上，特别是MMDetection、MMRotate的基础上集成遥感相关的工作。
+
+AI for Remote Sensing is an open source toolbox based on PyTorch that combines artificial intelligence and remote sensing.
+
+Artificial intelligence is developing very fast, and there are many related works. We hope to integrate remote sensing related work based on MMLab, especially MMDetection and MMRotate.
 
 
-<details open>
-<summary><b>主要特性</b></summary>
 
-- **支持多种角度表示法**
-
-  MMRotate 提供了三种主流的角度表示法以满足不同论文的配置。
-
-- **模块化设计**
-
-  MMRotate 将旋转框检测任务解耦成不同的模块组件，通过组合不同的模块组件，用户可以便捷地构建自定义的旋转框检测算法模型。
-
-- **强大的基准模型与SOTA**
-
-  MMRotate 提供了旋转框检测任务中最先进的算法和强大的基准模型.
-
-</details>
-
-## 最新进展
+## 最新进展 What's New
 
 ### 亮点
 
@@ -53,13 +42,10 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 
 
 
-## 模型库 Model
-
-各个模型的结果和设置都可以在对应的 config（配置）目录下的 *README.md* 中查看。
-整体的概况也可也在 [模型库](docs/zh_cn/model_zoo.md) 页面中查看。
+## 模型库 Model Zoo
 
 <details open>
-<summary><b>Architecture - Oriented Object Detection </b></summary>
+<summary><b>Oriented Object Detection - Architecture </b></summary>
 
 |     |     |     |     |
 | :---: | :---: | :---: | :---: |
@@ -117,11 +103,11 @@ AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的�
 
 **第一步：** 安装anaconda 或 Miniconda
 
-**1：** Install anaconda or Miniconda
+1： Install anaconda or Miniconda
 
 **第二步：** 创建一个虚拟环境并且切换至该虚拟环境中
 
-**2:** Create a virtual environment
+2: Create a virtual environment
 
 ```
 conda create --name ai4rs python=3.8 -y
@@ -130,7 +116,7 @@ conda activate ai4rs
 
 **第三步：** 根据 [Pytorch的官方说明](https://pytorch.org/get-started/previous-versions/) 安装Pytorch, 例如：
 
-**3:** Install Pytorch according to [official instructions](https://pytorch.org/get-started/previous-versions/). For example:
+3: Install Pytorch according to [official instructions](https://pytorch.org/get-started/previous-versions/). For example:
 
 ```
 conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=10.2 -c pytorch
@@ -138,7 +124,7 @@ conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit
 
 **第四步：** 安装 MMEngine 和 MMCV, 并且我们建议使用 MIM 来完成安装
 
-**4:** Install MMEngine and MMCV, and we recommend using MIM to complete the installation
+4: Install MMEngine and MMCV, and we recommend using MIM to complete the installation
 
 
 ```
@@ -149,7 +135,7 @@ mim install "mmcv>2.0.0rc4, <2.1.0" -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 **第五步：** 安装 MMDetection
 
-**5:** Install MMDetection
+5: Install MMDetection
 
 ```
 mim install 'mmdet>3.0.0rc6, <3.2.0' -i https://pypi.tuna.tsinghua.edu.cn/simple
@@ -157,7 +143,7 @@ mim install 'mmdet>3.0.0rc6, <3.2.0' -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 **第六步：** 安装 ai4rs
 
-**6:** Install ai4rs
+6: Install ai4rs
 
 ```
 git clone https://github.com/wokaikaixinxin/ai4rs.git
@@ -172,7 +158,10 @@ pip install -v -e .
 ## 数据准备  Data Preparation
 
 
-请参考 [data_preparation.md](tools/data/README.md) 进行数据集准备。
+请参考 [data_preparation.md](tools/data/README.md) 进行数据集准备
+
+Please refer to [data_preparation.md](tools/data/README.md) to prepare the data
+
 
 ```
 ai4rs
@@ -204,11 +193,15 @@ ai4rs
 │   │   ├── ic15_textdet_test_gt
 ```
 
-## 教程
+## 教程 Getting Started
 
 请阅读[概述](https://mmrotate.readthedocs.io/zh_CN/1.x/get_started.html)对 MMDetection 进行初步的了解。
 
+Please see [Overview](https://mmrotate.readthedocs.io/en/1.x/overview.html) for the general introduction of MMRotate.
+
 为了帮助用户更进一步了解 MMDetection，我们准备了用户指南和进阶指南，请阅读我们的[文档](https://mmrotate.readthedocs.io/zh_CN/1.x/)：
+
+For detailed user guides and advanced guides, please refer to our [documentation](https://mmrotate.readthedocs.io/en/1.x/):
 
 - 用户指南
   - [训练 & 测试](https://mmrotate.readthedocs.io/zh_CN/1.x/user_guides/index.html#train-test)
@@ -230,15 +223,13 @@ ai4rs
 
 
 
-## 常见问题
+## 常见问题 FAQ
 
 请参考 [FAQ](docs/en/notes/faq.md) 了解其他用户的常见问题。
+Please refer to [FAQ](docs/en/notes/faq.md) for frequently asked questions.
 
-## 参与贡献
 
-我们非常欢迎用户对于 MMRotate 做出的任何贡献，可以参考 [CONTRIBUTION.md](.github/CONTRIBUTING.md) 文件了解更多细节。
-
-## 致谢
+## 致谢 Acknowledgement
 
 [OpenMMLab 官网](https://openmmlab.com)
 
