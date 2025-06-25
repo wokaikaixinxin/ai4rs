@@ -72,7 +72,7 @@ Artificial intelligence is developing very fast, and there are many related work
 
 |     |     |     |     |
 | :---: | :---: | :---: | :---: |
-| [CSL<br>(ECCV'2020)](configs/csl/README.md) | [Oriented R-CNN<br>(ICCV'2021)](configs/oriented_rcnn/README.md) | [PSC<br>(CVPR'2023)](configs/psc/README.md) | |
+| [CSL<br>(ECCV'2020)](configs/csl/README.md) | [Oriented R-CNN<br>(ICCV'2021)](configs/oriented_rcnn/README.md) | [PSC<br>(CVPR'2023)](configs/psc/README.md) | [GauCho<br>(CVPR'2025)](projects/GauCho/README.md) |
 </details>
 
 
