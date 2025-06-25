@@ -25,11 +25,17 @@ NOTE: This is an unofficial implementation and result. [Official code link](http
 This is your evaluation result for task 1 (VOC metrics):
 
 mAP: 0.7245925043296044
-ap of each class: plane:0.8855710467600557, baseball-diamond:0.7668860091671282, bridge:0.4986973831702632, ground-track-field:0.6159312127648029, small-vehicle:0.80005083972435, large-vehicle:0.7958693676902324, ship:0.8745895973212595, tennis-court:0.9088193360038022, basketball-court:0.83238085820412, storage-tank:0.8419372488797484, soccer-ball-field:0.5497710472382763, roundabout:0.6485814810423159, harbor:0.6411760137182135, swimming-pool:0.6952875542429233, helicopter:0.513338569016573
+
+ap of each class: 
+
+plane:0.8855710467600557, baseball-diamond:0.7668860091671282, bridge:0.4986973831702632, ground-track-field:0.6159312127648029, small-vehicle:0.80005083972435, large-vehicle:0.7958693676902324, ship:0.8745895973212595, tennis-court:0.9088193360038022, basketball-court:0.83238085820412, storage-tank:0.8419372488797484, soccer-ball-field:0.5497710472382763, roundabout:0.6485814810423159, harbor:0.6411760137182135, swimming-pool:0.6952875542429233, helicopter:0.513338569016573
+
 COCO style result:
 
 AP50: 0.7245925043296044
+
 AP75: 0.3703162110556219
+
 mAP: 0.4045928928108746
 
 
