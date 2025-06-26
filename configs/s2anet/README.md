@@ -24,7 +24,7 @@ DOTA1.0
 
 HRSC
 
-|      Backbone      |  mAP  | Angle | lr schd | Mem (GB) | Inf Time (fps) | Aug | Batch Size |                              Configs                              | Download |
+|      Backbone      |  AP50  | Angle | lr schd | Mem (GB) | Inf Time (fps) | Aug | Batch Size |                              Configs                              | Download |
 | :----------------: | :---: | :---: | :-----: | :------: | :------------: | :-: | :--------: | :---------------------------------------------------------------: | :------: |
 | ResNet50 (800,800) | 89.75 | le90  |   3x    |          |                |  -  |     2      | [s2anet_r50_fpn_3x_hrsc_le135](./s2anet_r50_fpn_3x_hrsc_le135.py) |          |
 
