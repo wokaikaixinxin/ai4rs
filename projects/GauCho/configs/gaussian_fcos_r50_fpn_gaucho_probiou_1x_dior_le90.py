@@ -77,5 +77,3 @@ model = dict(
         score_thr=0.05,
         nms=dict(type='nms_rotated', iou_threshold=0.1),
         max_per_img=2000))
-
-find_unused_parameters=True
