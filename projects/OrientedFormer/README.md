@@ -2,7 +2,9 @@
 
 The Chinese Version is below (中文版在下面).
 
-
+<div align=center>
+<img src="https://github.com/wokaikaixinxin/OrientedFormer/blob/main/resources/overall_framework.png" width="800"/>
+</div>
 
 ## Introduction
 
