@@ -81,7 +81,7 @@ Artificial intelligence is developing very fast, and there are many related work
 
 |     |     |     |     |
 | :---: | :---: | :---: | :---: |
-| [ConvNeXt<br>(CVPR'2022)](./configs/convnext/README.md)| [LSKNet<br>(ICCV'2023)](projects/LSKNet/README.md)     |     |     |
+| [ConvNeXt<br>(CVPR'2022)](./configs/convnext/README.md)| [LSKNet<br>(ICCV'2023)](projects/LSKNet/README.md)     |   [PKINet<br>(CVPR'2024)](./projects/PKINet/README.md)  |     |
 </details>
 
 
