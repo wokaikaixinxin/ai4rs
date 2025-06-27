@@ -148,7 +148,7 @@ mim install 'mmdet>3.0.0rc6, <3.2.0' -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 git clone https://github.com/wokaikaixinxin/ai4rs.git
 cd ai4rs
-pip install -v -e .
+pip install -v -e . -i https://pypi.tuna.tsinghua.edu.cn/simple
 # "-v" means verbose, or more output
 # "-e" means installing a project in editable mode,
 # thus any local modifications made to the code will take effect without reinstallation.
