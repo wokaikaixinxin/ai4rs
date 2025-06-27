@@ -54,7 +54,7 @@ Artificial intelligence is developing very fast, and there are many related work
 | [R<sup>3</sup>Det<br>(AAAI'2021)](configs/r3det/README.md) | [S<sup>2</sup>A-Net<br>(TGRS'2021)](configs/s2anet/README.md) | [ReDet<br>(CVPR'2021)](configs/redet/README.md) | [Beyond Bounding-Box<br>(CVPR'2021)](configs/cfa/README.md) |
 | [Oriented R-CNN<br>(ICCV'2021)](configs/oriented_rcnn/README.md) |  |  | [SASM<br>(AAAI'2022)](configs/sasm_reppoints/README.md) |
 | [Oriented RepPoints<br>(CVPR'2022)](configs/oriented_reppoints/README.md) |  |  |  |
-| [RTMDet<br>(arXiv)](configs/rotated_rtmdet/README.md) |  |  | [OrientedFormer<br>(TGRS' 2024)](projects/OrientedFormer/README.md)|
+| [RTMDet<br>(arXiv)](configs/rotated_rtmdet/README.md) | [Rotated DiffusionDet<br>(ICCV'2023)](./projects/rotated_DiffusionDet/README.md) |  | [OrientedFormer<br>(TGRS' 2024)](projects/OrientedFormer/README.md)|
 
 </details>
 
