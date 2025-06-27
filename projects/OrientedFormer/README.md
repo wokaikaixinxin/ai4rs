@@ -188,16 +188,16 @@ python projects/icdar2015_evaluation/script.py -g=projects/icdar2015_evaluation/
 
 | Dataset   | **Configs**                                                  | Download                                                     | AP_50        | AP75      | mAP         | Backbone | lr schd | bs               |
 | --------- | -------------------- | ------------------------------------------------------------ | ------------ | --------- | ----------- | -------- | ------- | ---------------- |
-| DOTA-v1.0 | [orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.0.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.0.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.0) | 75.3729      | 46.390216 | 45.0071     | R50      | 12epoch | 2img*2 rtx2080ti |
-| DOTA-v1.0 | [orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.0-ms.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.0-ms.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.0-ms) | 79.064371    | 57.463    | 51.891899   | R50      | 12epoch | 2img*2 rtx2080ti |
-| DOTA-v1.0 | [orientedformer_le90_r101_q300_layer2_head64_point32_1x_dotav1.0.py](./configs/orientedformer_le90_r101_q300_layer2_head64_point32_1x_dotav1.0.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r101_q300_layer2_head64_point32_1x_dotav1.0) | 75.915958978 | 49.76108  | 47.11829758 | R101     | 12epoch | 2img*2 rtx2080ti |
-| DOTA-v1.0 | [orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dotav1.0.py](./configs/orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dotav1.0.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dotav1.0) | 75.8819      | 48.965    | 45.8218     | Swin-T   | 12epoch | 2img*2 rtx2080ti |
+| DOTA-v1.0 | [orientedformer_le90_r50_q300_layer2<br>_head64_point32_1x_dotav1.0.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.0.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.0) | 75.3729      | 46.390216 | 45.0071     | R50      | 12epoch | 2img*2 rtx2080ti |
+| DOTA-v1.0 | [orientedformer_le90_r50_q300_layer2<br>_head64_point32_1x_dotav1.0-ms.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.0-ms.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.0-ms) | 79.064371    | 57.463    | 51.891899   | R50      | 12epoch | 2img*2 rtx2080ti |
+| DOTA-v1.0 | [orientedformer_le90_r101_q300_layer2<br>_head64_point32_1x_dotav1.0.py](./configs/orientedformer_le90_r101_q300_layer2_head64_point32_1x_dotav1.0.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r101_q300_layer2_head64_point32_1x_dotav1.0) | 75.915958978 | 49.76108  | 47.11829758 | R101     | 12epoch | 2img*2 rtx2080ti |
+| DOTA-v1.0 | [orientedformer_le90_swin-tiny_q300_layer2<br>_head64_point32_1x_dotav1.0.py](./configs/orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dotav1.0.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dotav1.0) | 75.8819      | 48.965    | 45.8218     | Swin-T   | 12epoch | 2img*2 rtx2080ti |
 
 **2). DOTA-v1.5**
 
 | Dataset   | **Configs**                                                  | Download                                                     | AP_50 | Backbone | lr schd | bs               |
 | --------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----- | -------- | ------- | ---------------- |
-| DOTA-v1.5 | [orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.5.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.5.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.5) | 67.06 | R50      | 12epoch | 2img*2 rtx2080ti |
+| DOTA-v1.5 | [orientedformer_le90_r50_q300_layer2<br>_head64_point32_1x_dotav1.5.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.5.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.5) | 67.06 | R50      | 12epoch | 2img*2 rtx2080ti |
 
 Due to the limitation of the length of the paper, all categories of AP for DOTA-1.5 are not available in the paper. Here is a list:
 
@@ -209,7 +209,7 @@ Due to the limitation of the length of the paper, all categories of AP for DOTA-
 
 | Dataset   | **Configs**                                                  | Download                                                     | AP_50 | Backbone | lr schd | bs               |
 | --------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----- | -------- | ------- | ---------------- |
-| DOTA-v2.0 | [orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav2.0.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav2.0.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav2.0) | 54.27 | R50      | 12epoch | 2img*2 rtx2080ti |
+| DOTA-v2.0 | [orientedformer_le90_r50_q300_layer2<br>_head64_point32_1x_dotav2.0.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav2.0.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav2.0) | 54.27 | R50      | 12epoch | 2img*2 rtx2080ti |
 
 Due to the limitation of the length of the paper, all categories of AP for DOTA-2.0 are not available in the paper. Here is a list:
 
@@ -221,15 +221,15 @@ Due to the limitation of the length of the paper, all categories of AP for DOTA-
 
 | Dataset | **Configs**                                                  | Download                                                     | AP_50 | Backbone | lr schd | bs               |
 | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----- | -------- | ------- | ---------------- |
-| DIOR-R  | [orientedformer_le90_r50_q300_layer2_head64_point32_1x_dior.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dior.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dior) | 67.28 | R50      | 12epoch | 2img*2 rtx2080ti |
-| DIOR-R  | [orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dior.py](./configs/orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dior.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dior) | 68.84 | Swin-T   | 12epoch | 2img*2 rtx2080ti |
-| DIOR-R  | [orientedformer_le90_lsk_t_q300_layer2_head64_point32_1x_dior.py](./configs/orientedformer_le90_lsk_t_q300_layer2_head64_point32_1x_dior.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_lsk_t_q300_layer2_head64_point32_1x_dior) | 65.07 | LSK-Net  | 12epoch | 2img*2 rtx2080ti |
+| DIOR-R  | [orientedformer_le90_r50_q300_layer2<br>_head64_point32_1x_dior.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dior.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dior) | 67.28 | R50      | 12epoch | 2img*2 rtx2080ti |
+| DIOR-R  | [orientedformer_le90_swin-tiny_q300_layer2<br>_head64_point32_1x_dior.py](./configs/orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dior.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dior) | 68.84 | Swin-T   | 12epoch | 2img*2 rtx2080ti |
+| DIOR-R  | [orientedformer_le90_lsk_t_q300_layer2<br>_head64_point32_1x_dior.py](./configs/orientedformer_le90_lsk_t_q300_layer2_head64_point32_1x_dior.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_lsk_t_q300_layer2_head64_point32_1x_dior) | 65.07 | LSK-Net  | 12epoch | 2img*2 rtx2080ti |
 
 **5). ICDAR-2015**
 
 | Dataset   | **Configs**                                                  | Download                                                     | P    | R    | F-measure | Backbone | lr schd | bs               |
 | --------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ---- | --------- | -------- | ------- | ---------------- |
-| ICDAR2015 | [orientedformer_le90_r50_q300_layer2_head64_point32_2x_icdar2015.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_2x_icdar2015.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_2x_icdar2015) | 85.3 | 74.2 | 79.4      | R50      | 24epoch | 2img*2 rtx2080ti |
+| ICDAR2015 | [orientedformer_le90_r50_q300_layer2<br>_head64_point32_2x_icdar2015.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_2x_icdar2015.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_2x_icdar2015) | 85.3 | 74.2 | 79.4      | R50      | 24epoch | 2img*2 rtx2080ti |
 
 
 
@@ -439,10 +439,10 @@ python projects/icdar2015_evaluation/script.py -g=projects/icdar2015_evaluation/
 
 | Dataset   | **Configs**                                                  | Download                                                     | AP_50        | AP75      | mAP         | Backbone | lr schd | bs               |
 | --------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ | --------- | ----------- | -------- | ------- | ---------------- |
-| DOTA-v1.0 | [orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.0.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.0.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.0) | 75.3729      | 46.390216 | 45.0071     | R50      | 12epoch | 2img*2 rtx2080ti |
-| DOTA-v1.0 | [orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.0-ms.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.0-ms.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.0-ms) | 79.064371    | 57.463    | 51.891899   | R50      | 12epoch | 2img*2 rtx2080ti |
-| DOTA-v1.0 | [orientedformer_le90_r101_q300_layer2_head64_point32_1x_dotav1.0.py](./configs/orientedformer_le90_r101_q300_layer2_head64_point32_1x_dotav1.0.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r101_q300_layer2_head64_point32_1x_dotav1.0) | 75.915958978 | 49.76108  | 47.11829758 | R101     | 12epoch | 2img*2 rtx2080ti |
-| DOTA-v1.0 | [orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dotav1.0.py](./configs/orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dotav1.0.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dotav1.0) | 75.8819      | 48.965    | 45.8218     | Swin-T   | 12epoch | 2img*2 rtx2080ti |
+| DOTA-v1.0 | [orientedformer_le90_r50_q300_layer2<br>_head64_point32_1x_dotav1.0.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.0.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.0) | 75.3729      | 46.390216 | 45.0071     | R50      | 12epoch | 2img*2 rtx2080ti |
+| DOTA-v1.0 | [orientedformer_le90_r50_q300_layer2<br>_head64_point32_1x_dotav1.0-ms.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.0-ms.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.0-ms) | 79.064371    | 57.463    | 51.891899   | R50      | 12epoch | 2img*2 rtx2080ti |
+| DOTA-v1.0 | [orientedformer_le90_r101_q300_layer2<br>_head64_point32_1x_dotav1.0.py](./configs/orientedformer_le90_r101_q300_layer2_head64_point32_1x_dotav1.0.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r101_q300_layer2_head64_point32_1x_dotav1.0) | 75.915958978 | 49.76108  | 47.11829758 | R101     | 12epoch | 2img*2 rtx2080ti |
+| DOTA-v1.0 | [orientedformer_le90_swin-tiny_q300_layer2<br>_head64_point32_1x_dotav1.0.py](./configs/orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dotav1.0.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dotav1.0) | 75.8819      | 48.965    | 45.8218     | Swin-T   | 12epoch | 2img*2 rtx2080ti |
 
 hugging face 镜像 
 ```
@@ -454,7 +454,7 @@ https://hf-mirror.com/wokaikaixinxin/OrientedFormer
 
 | Dataset   | **Configs**                                                  | Download                                                     | AP_50 | Backbone | lr schd | bs               |
 | --------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----- | -------- | ------- | ---------------- |
-| DOTA-v1.5 | [orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.5.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.5.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.5) | 67.06 | R50      | 12epoch | 2img*2 rtx2080ti |
+| DOTA-v1.5 | [orientedformer_le90_r50_q300_layer2<br>_head64_point32_1x_dotav1.5.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.5.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav1.5) | 67.06 | R50      | 12epoch | 2img*2 rtx2080ti |
 
 由于论文长度的限制，论文中没有DOTA-1.5的所有类别的AP，这里列出：
 
@@ -472,7 +472,7 @@ https://hf-mirror.com/wokaikaixinxin/OrientedFormer
 
 | Dataset   | **Configs**                                                  | Download                                                     | AP_50 | Backbone | lr schd | bs               |
 | --------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----- | -------- | ------- | ---------------- |
-| DOTA-v2.0 | [orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav2.0.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav2.0.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav2.0) | 54.27 | R50      | 12epoch | 2img*2 rtx2080ti |
+| DOTA-v2.0 | [orientedformer_le90_r50_q300_layer2<br>_head64_point32_1x_dotav2.0.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav2.0.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dotav2.0) | 54.27 | R50      | 12epoch | 2img*2 rtx2080ti |
 
 由于论文长度的限制，论文中没有DOTA-2.0的所有类别的AP，这里列出：
 
@@ -490,9 +490,9 @@ https://hf-mirror.com/wokaikaixinxin/OrientedFormer
 
 | Dataset | **Configs**                                                  | Download                                                     | AP_50 | Backbone | lr schd | bs               |
 | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----- | -------- | ------- | ---------------- |
-| DIOR-R  | [orientedformer_le90_r50_q300_layer2_head64_point32_1x_dior.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dior.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dior) | 67.28 | R50      | 12epoch | 2img*2 rtx2080ti |
-| DIOR-R  | [orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dior.py](./configs/orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dior.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dior) | 68.84 | Swin-T   | 12epoch | 2img*2 rtx2080ti |
-| DIOR-R  | [orientedformer_le90_lsk_t_q300_layer2_head64_point32_1x_dior.py](./configs/orientedformer_le90_lsk_t_q300_layer2_head64_point32_1x_dior.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_lsk_t_q300_layer2_head64_point32_1x_dior) | 65.07 | LSK-Net  | 12epoch | 2img*2 rtx2080ti |
+| DIOR-R  | [orientedformer_le90_r50_q300_layer2<br>_head64_point32_1x_dior.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dior.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_1x_dior) | 67.28 | R50      | 12epoch | 2img*2 rtx2080ti |
+| DIOR-R  | [orientedformer_le90_swin-tiny_q300_layer2<br>_head64_point32_1x_dior.py](./configs/orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dior.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_swin-tiny_q300_layer2_head64_point32_1x_dior) | 68.84 | Swin-T   | 12epoch | 2img*2 rtx2080ti |
+| DIOR-R  | [orientedformer_le90_lsk_t_q300_layer2<br>_head64_point32_1x_dior.py](./configs/orientedformer_le90_lsk_t_q300_layer2_head64_point32_1x_dior.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_lsk_t_q300_layer2_head64_point32_1x_dior) | 65.07 | LSK-Net  | 12epoch | 2img*2 rtx2080ti |
 
 hugging face 镜像 
 ```
@@ -504,7 +504,7 @@ https://hf-mirror.com/wokaikaixinxin/OrientedFormer
 
 | Dataset   | **Configs**                                                  | Download                                                     | P  | R | F-measure  | Backbone | lr schd | bs               |
 | --------- | --------------------------------|-----------|----------------- | ------------------------------------------------------------ | ---- | -------- | ------- | ---------------- |
-| ICDAR2015 | [orientedformer_le90_r50_q300_layer2_head64_point32_2x_icdar2015.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_2x_icdar2015.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_2x_icdar2015) | 85.3 | 74.2  | 79.4 | R50 |24epoch|2img*2 rtx2080ti|
+| ICDAR2015 | [orientedformer_le90_r50_q300_layer2<br>_head64_point32_2x_icdar2015.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_2x_icdar2015.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_2x_icdar2015) | 85.3 | 74.2  | 79.4 | R50 |24epoch|2img*2 rtx2080ti|
 
 
 hugging face 镜像 
