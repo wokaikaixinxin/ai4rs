@@ -17,7 +17,7 @@
 
 ## Download DIOR dataset
 
-The DIOR dataset can be downloaded from [here](https://gcheng-nwpu.github.io/#Datasets).
+The DIOR dataset can be downloaded from [here](https://gcheng-nwpu.github.io/#Datasets) or [modelscope(魔塔)](https://www.modelscope.cn/datasets/wokaikaixinxin/DIOR/).
 
 The data structure is as follows:
 
