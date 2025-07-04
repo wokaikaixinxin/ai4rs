@@ -220,7 +220,7 @@ model = dict(
         rpn=None,
         rcnn=dict(
             use_nms=True,
-            nms=dict(type='nms_rotated', iou_threshold=0.4),
+            nms=dict(type='nms_rotated', iou_threshold=0.6),
             max_per_img=num_proposals)))
 
 # optimizer
