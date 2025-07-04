@@ -22,22 +22,10 @@
 
 ## 介绍 Introduction
 
-AI for Remote Sensing 是一款基于 PyTorch 的人工智能与遥感结合的开源工具箱。
 
+希望在MMLab基础上，特别是MMDetection、MMRotate的基础上集成遥感相关的工作。
 
-人工智能发展很快，相关工作很多。希望在MMLab基础上，特别是MMDetection、MMRotate的基础上集成遥感相关的工作。
-
-AI for Remote Sensing is an open source toolbox based on PyTorch that combines artificial intelligence and remote sensing.
-
-Artificial intelligence is developing very fast, and there are many related works. We hope to integrate remote sensing related work based on MMLab, especially MMDetection and MMRotate.
-
-
-
-## 最新进展 What's New
-
-### 亮点
-
-
+We hope to integrate remote sensing related work based on MMLab, especially MMDetection and MMRotate.
 
 
 
