@@ -43,6 +43,7 @@ We hope to integrate remote sensing related work based on MMLab, especially MMDe
 | [Oriented R-CNN<br>(ICCV'2021)](configs/oriented_rcnn/README.md) |  |  | [SASM<br>(AAAI'2022)](configs/sasm_reppoints/README.md) |
 | [Oriented RepPoints<br>(CVPR'2022)](configs/oriented_reppoints/README.md) |  |  |  |
 | [RTMDet<br>(arXiv)](configs/rotated_rtmdet/README.md) | [Rotated DiffusionDet<br>(ICCV'2023)](./projects/rotated_DiffusionDet/README.md) |  | [OrientedFormer<br>(TGRS' 2024)](projects/OrientedFormer/README.md)|
+|[ReDiffDet base<br>(CVPR'2025)](./projects/GSDet_baseline/README_ReDiffDet_baseline.md)|[GSDet base<br>(IJCAI'2025)](./projects/GSDet_baseline/README_GSDet_baseline.md)|||
 
 </details>
 
