@@ -20,7 +20,7 @@
 
 ## New
 
-&#x2705; 旋转卡壳算法-求点集的最小外接矩形
+&#x2705; 旋转卡壳算法-求点集的最小外接矩形  
 &#x2705; Rotating Calipers Algorithm - Finding the Minimum Bounding Rectangle of a Point Set
 
 ## Abstract
