@@ -118,24 +118,7 @@ Verify whether pytorch supports cuda
 python -c "import torch; print(torch.cuda.is_available())"
 ```
 
-<!--
-If the NumPy version is incompatible, downgrade the NumPy version to 1.x.
 
-```
-A module that was compiled using NumPy 1.x cannot be run in
-NumPy 2.0.1 as it may crash. To support both 1.x and 2.x
-versions of NumPy, modules must be compiled with NumPy 2.0.
-Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
-
-If you are a user of the module, the easiest solution will be to
-downgrade to 'numpy<2' or try to upgrade the affected module.
-We expect that some modules will need time to support NumPy 2.
-```
-
-```
-pip install "numpy<2", "numpy<2" -i https://pypi.tuna.tsinghua.edu.cn/simple
-```
--->
 
 <!--**第四步：** 安装 MMEngine 和 MMCV, 并且我们建议使用 MIM 来完成安装-->
 
@@ -207,6 +190,46 @@ ai4rs
 │   │   ├── ic15_textdet_test_gt
 ```
 
+## Train
+
+**Single-node single-GPU**  
+```
+python tools/train.py config_path
+```  
+For example:  
+```
+python tools/train.py projects/GSDet_baseline/configs/GSDet_r50_b900_h2h4_h2r1_r2r1_2x_dior.py
+```
+
+**Single-node multi-GPU**  
+```
+bash tools/dist_train.sh config_path num_gpus
+```  
+For example:  
+```
+bash tools/dist_train.sh projects/GSDet_baseline/configs/GSDet_r50_b900_h2h4_h2r1_r2r1_2x_dior.py 2
+```
+
+## Test
+
+**Single-node single-GPU**  
+```
+python tools/test.py config_path checkpoint_path
+```  
+For example:  
+```
+python tools/test.py configs/h2rbox_v2/h2rbox_v2-le90_r50_fpn-1x_dota.py work_dirs/h2rbox_v2-le90_r50_fpn-1x_dota-fa5ad1d2.pth
+```
+
+**Single-node multi-GPU**  
+```
+bash tools/dist_test.sh config_path checkpoint_path num_gpus
+```  
+For example:  
+```
+bash tools/dist_test.sh configs/h2rbox_v2/h2rbox_v2-le90_r50_fpn-1x_dota.py work_dirs/h2rbox_v2-le90_r50_fpn-1x_dota-fa5ad1d2.pth 2
+```
+
 ## Getting Started
 
 <!--请阅读[概述](https://mmrotate.readthedocs.io/zh_CN/1.x/get_started.html)对 Openmmlab 进行初步的了解。-->
@@ -223,6 +246,25 @@ For detailed user guides and advanced guides, please refer to our [documentation
 <!--请参考 [FAQ](docs/en/notes/faq.md) 了解其他用户的常见问题。-->
 
 Please refer to [FAQ](https://github.com/open-mmlab/mmrotate/blob/1.x/docs/en/notes/faq.md) for frequently asked questions.
+
+<!--
+If the NumPy version is incompatible, downgrade the NumPy version to 1.x.
+
+```
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.0.1 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+```
+
+```
+pip install "numpy<2", "numpy<2" -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+-->
 
 
 ## Acknowledgement
