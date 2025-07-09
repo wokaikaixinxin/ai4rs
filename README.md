@@ -132,7 +132,7 @@ We expect that some modules will need time to support NumPy 2.
 ```
 
 ```
-pip install "numpy<2"
+pip install "numpy<2" -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 <!--**第四步：** 安装 MMEngine 和 MMCV, 并且我们建议使用 MIM 来完成安装-->
