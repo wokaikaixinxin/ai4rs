@@ -112,6 +112,29 @@ conda activate ai4rs
 conda install pytorch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 pytorch-cuda=12.1 -c pytorch -c nvidia
 ```
 
+Verify whether pytorch supports cuda
+
+```
+python -c "import torch; print(torch.cuda.is_available())"
+```
+
+If the NumPy version is incompatible, downgrade the NumPy version to 1.x.
+
+```
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.0.1 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+```
+
+```
+pip install "numpy<2"
+```
+
 <!--**第四步：** 安装 MMEngine 和 MMCV, 并且我们建议使用 MIM 来完成安装-->
 
 **Step 4:** Install MMEngine and MMCV, and we recommend using MIM to complete the installation
