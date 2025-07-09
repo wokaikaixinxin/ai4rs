@@ -222,7 +222,7 @@ For detailed user guides and advanced guides, please refer to our [documentation
 
 <!--请参考 [FAQ](docs/en/notes/faq.md) 了解其他用户的常见问题。-->
 
-Please refer to [FAQ](docs/en/notes/faq.md) for frequently asked questions.
+Please refer to [FAQ](https://github.com/open-mmlab/mmrotate/blob/1.x/docs/en/notes/faq.md) for frequently asked questions.
 
 
 ## Acknowledgement
