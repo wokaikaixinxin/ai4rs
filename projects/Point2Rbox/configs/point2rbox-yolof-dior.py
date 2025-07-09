@@ -119,8 +119,8 @@ train_pipeline = [
 ]
 
 train_dataloader = dict(
-    batch_size=2,
-    num_workers=2,
+    batch_size=4,
+    num_workers=4,
     persistent_workers=True,
     sampler=dict(type='DefaultSampler', shuffle=True),
     batch_sampler=None,
@@ -145,10 +145,10 @@ train_dataloader = dict(
                 backend_args={{_base_.backend_args}})
         ]))
 
-train_cfg = dict(val_interval=1)
 val_dataloader = dict(batch_size=4, num_workers=4)
+train_cfg = dict(val_interval=1)
 
 # NOTE: `auto_scale_lr` is for automatically scaling LR,
 # USER SHOULD NOT CHANGE ITS VALUES.
-# base_batch_size = (8 GPUs) x (8 samples per GPU)
-auto_scale_lr = dict(base_batch_size=64)
+# base_batch_size = (1 GPUs) x (4 samples per GPU)
+auto_scale_lr = dict(base_batch_size=4)
