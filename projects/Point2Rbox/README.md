@@ -18,19 +18,40 @@ Extract [basic_patterns.zip](https://github.com/open-mmlab/mmrotate/files/138164
 
 ## Results and models
 
-DOTA1.0
+**DOTA1.0**
 
 |         Backbone         | AP50  | lr schd | Mem (GB) | Inf Time (fps) | Aug | Batch Size |                       Configs                       |                                                                                                                    Download                                                                                                                    |
 | :----------------------: | :---: | :-----: | :------: | :------------: | :-: | :--------: | :-------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | ResNet50 (1024,1024,200) | 41.87 |   1x    |  16.12   |     111.7      |  -  |     4     | [point2rbox-yolof-dota](./configs/point2rbox-yolof-dota.py) | [model](https://download.openmmlab.com/mmrotate/v1.0/point2rbox/point2rbox-yolof-dota/point2rbox-yolof-dota-c94da82d.pth)   \| [log](https://download.openmmlab.com/mmrotate/v1.0/point2rbox/point2rbox-yolof-dota/point2rbox-yolof-dota.json) |
 
-DIOR
+
+Train
+```
+python tools/train.py projects/Point2Rbox/configs/point2rbox-yolof-dota.py
+```  
+
+Test
+```
+python tools/test.py projects/Point2Rbox/configs/point2rbox-yolof-dota.py work_dirs/point2rbox-yolof-dota-c94da82d.pth
+```
+
+**DIOR**
 
 |      Backbone      | AP50  | lr schd | Mem (GB) | Inf Time (fps) | Aug | Batch Size |                       Configs                       |                                                                                                                    Download                                                                                                                    |
 | :----------------: | :---: | :-----: | :------: | :------------: | :-: | :--------: | :-------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | ResNet50 (800,800) | 27.34 |   1x    |  10.38   |     127.3      |  -  |     4     | [point2rbox-yolof-dior](./configs/point2rbox-yolof-dior.py) | [model](https://download.openmmlab.com/mmrotate/v1.0/point2rbox/point2rbox-yolof-dior/point2rbox-yolof-dior-f4f724df.pth)   \| [log](https://download.openmmlab.com/mmrotate/v1.0/point2rbox/point2rbox-yolof-dior/point2rbox-yolof-dior.json) |
 
-HRSC
+Train
+```
+python tools/train.py projects/Point2Rbox/configs/point2rbox-yolof-dior.py
+```
+
+Test
+```
+python tools/test.py projects/Point2Rbox/configs/point2rbox-yolof-dior.py work_dirs/point2rbox-yolof-dior-f4f724df.pth
+```
+
+**HRSC**
 
 |      Backbone      | AP50  | lr schd | Mem (GB) | Inf Time (fps) | Aug | Batch Size |                       Configs                       |                                                                                                                   Download                                                                                                                    |
 | :----------------: | :---: | :-----: | :------: | :------------: | :-: | :--------: | :-------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
