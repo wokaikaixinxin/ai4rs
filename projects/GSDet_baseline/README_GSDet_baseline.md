@@ -10,13 +10,13 @@
 - 旋转框可以表征为概率分布，如高斯分布。万物都可以表征为不同的概率分布。
 - 扩散模型、高斯泼溅等都涉及概率分布，都涉及随机性。
 - 架构是decoder-only型，由多层decoder layer堆叠。代码借用了openmmlab 中two-stage类作为父类，事实上，将one-stage或transformer作为父类都可以。
-- 这是ReDiffDet的baseline。
+- 这是GSDet的baseline。
 
 - The model can learn targets from random inputs. If random inputs work, other types of inputs are likely feasible as well.  
 - Oriented boxes can be represented as probability distributions, such as Gaussian distributions. Everything can be characterized by different probability distributions.  
 - Diffusion models, Gaussian splatting, etc., all involve probability distributions and randomness.  
 - The architecture is decoder-only, stacked with multiple decoder layers. The code borrows the two-stage class from OpenMMLab as the parent class, though using one-stage or Transformer as the parent is also possible.
-- This is the baseline of ReDiffDet.
+- This is the baseline of GSDet.
 
 ## New
 
