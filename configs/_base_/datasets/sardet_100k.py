@@ -49,7 +49,7 @@ train_dataloader = dict(
         pipeline=train_pipeline,
         backend_args=backend_args))
 val_dataloader = dict(
-    batch_size=1,
+    batch_size=2,
     num_workers=2,
     persistent_workers=True,
     drop_last=False,
@@ -69,27 +69,27 @@ val_evaluator = dict(
     format_only=False,
     backend_args=backend_args)
 
-test_dataloader = val_dataloader
-test_evaluator = val_evaluator
+# test_dataloader = val_dataloader
+# test_evaluator = val_evaluator
 
-# test_dataloader = dict(
-#     batch_size=1,
-#     num_workers=2,
-#     persistent_workers=True,
-#     drop_last=False,
-#     sampler=dict(type='DefaultSampler', shuffle=False),
-#     dataset=dict(
-#         type=dataset_type,
-#         data_root=data_root,
-#         ann_file='Annotations/test.json',
-#         data_prefix=dict(img='JPEGImages/test/'),
-#         test_mode=True,
-#         pipeline=test_pipeline,
-#         backend_args=backend_args))
-# test_evaluator = dict(
-#     type='CocoMetricSARDet100k',
-#     ann_file=data_root + 'Annotations/test.json',
-#     metric='bbox',
-#     classwise = True,
-#     format_only=False,
-#     backend_args=backend_args)
+test_dataloader = dict(
+    batch_size=2,
+    num_workers=2,
+    persistent_workers=True,
+    drop_last=False,
+    sampler=dict(type='DefaultSampler', shuffle=False),
+    dataset=dict(
+        type=dataset_type,
+        data_root=data_root,
+        ann_file='Annotations/test.json',
+        data_prefix=dict(img='JPEGImages/test/'),
+        test_mode=True,
+        pipeline=test_pipeline,
+        backend_args=backend_args))
+test_evaluator = dict(
+    type='CocoMetricSARDet100k',
+    ann_file=data_root + 'Annotations/test.json',
+    metric='bbox',
+    classwise = True,
+    format_only=False,
+    backend_args=backend_args)
