@@ -3,13 +3,11 @@
 <!-- [DATASET] -->
 
 ```bibtex
-@inproceedings{karatzas2015icdar,
 @inproceedings{li2024sardet100k,
 	title={SARDet-100K: Towards Open-Source Benchmark and ToolKit for Large-Scale SAR Object Detection}, 
 	author={Yuxuan Li and Xiang Li and Weijie Li and Qibin Hou and Li Liu and Ming-Ming Cheng and Jian Yang},
 	year={2024},
 	booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS)},
-}
 }
 ```
 
