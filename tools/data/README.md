@@ -13,3 +13,50 @@ Datasets supported in ai4rs:
 - [SRSDD Dataset](srsdd/README.md)
 - [RSDD Dataset](rsdd/README.md)
 - [ICDAR2015 Dataset](icdar2015/README.md)
+- [SARDet 100K Dataset](./sardet_100k/README.md)
+
+
+```
+ai4rs
+├── data
+│   ├── split_ss_dota
+│   │   ├── trainval
+│   │   ├── test
+│   ├── split_ms_dota
+│   │   ├── trainval
+│   │   ├── test
+│   ├── split_ss_dota1.5
+│   │   ├── trainval
+│   │   ├── test
+│   ├── DIOR
+│   │   ├── Annotations
+│   │   │   ├─ Oriented Bounding Boxes
+│   │   │   ├─ Horizontal Bounding Boxes
+│   │   ├── ImageSets
+│   │   │   ├─ Main
+│   │   │   │  ├─ train.txt
+│   │   │   │  ├─ val.txt
+│   │   │   │  ├─ test.txt
+│   │   ├── JPEGImages-test
+│   │   ├── JPEGImages-trainval
+│   ├── icdar2015
+│   │   ├── ic15_textdet_train_img
+│   │   ├── ic15_textdet_train_gt
+│   │   ├── ic15_textdet_test_img
+│   │   ├── ic15_textdet_test_gt
+│   ├── SARDet_100K
+│   │   ├── Annotations
+│   │   │   ├── test.json
+│   │   │   ├── train.json
+│   │   │   ├── val.json
+│   │   ├── JPEGImages
+│   │   │   ├── test
+│   │   │   │   ├── 0000018.png
+│   │   │   │   ├── xxxxxxx.png
+│   │   │   ├── train
+│   │   │   │   ├── xxxxxxx.png
+│   │   │   │   ├── xxxxxxx.png
+│   │   │   ├── val
+│   │   │   │   ├── xxxxxxx.png
+│   │   │   │   ├── xxxxxxx.png
+```
