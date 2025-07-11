@@ -180,39 +180,17 @@ pip install "numpy<2" -i https://pypi.tuna.tsinghua.edu.cn/simple
 ## Data Preparation
 
 
-<!--请参考 [data_preparation.md](tools/data/README.md) 进行数据集准备-->
+
 Please refer to [data_preparation.md](tools/data/README.md) to prepare the data
 
 
-```
-ai4rs
-├── data
-│   ├── split_ss_dota
-│   │   ├── trainval
-│   │   ├── test
-│   ├── split_ms_dota
-│   │   ├── trainval
-│   │   ├── test
-│   ├── split_ss_dota1.5
-│   │   ├── trainval
-│   │   ├── test
-│   ├── DIOR
-│   │   ├── Annotations
-│   │   │   ├─ Oriented Bounding Boxes
-│   │   │   ├─ Horizontal Bounding Boxes
-│   │   ├── ImageSets
-│   │   │   ├─ Main
-│   │   │   │  ├─ train.txt
-│   │   │   │  ├─ val.txt
-│   │   │   │  ├─ test.txt
-│   │   ├── JPEGImages-test
-│   │   ├── JPEGImages-trainval
-│   ├── icdar2015
-│   │   ├── ic15_textdet_train_img
-│   │   ├── ic15_textdet_train_gt
-│   │   ├── ic15_textdet_test_img
-│   │   ├── ic15_textdet_test_gt
-```
+|     |     |     |     |
+| :---: | :---: | :---: | :---: |
+| [DOTA](./tools/data/dota/README.md) | [DIOR](./tools/data/dior/README.md) |  [SSDD](./tools/data/ssdd/README.md) |  [HRSC](./tools/data/hrsc/README.md)   |   
+| [HRSID](./tools/data/hrsid/README.md) | [SRSDD](./tools/data/srsdd/README.md) | [RSDD](./tools/data/rsdd/README.md)  |  [ICDAR2015](./tools/data/icdar2015/README.md)   |  
+| [SARDet 100K](./tools/data/sardet_100k/README.md) |  |   |     |    
+
+
 
 ## Train
 
