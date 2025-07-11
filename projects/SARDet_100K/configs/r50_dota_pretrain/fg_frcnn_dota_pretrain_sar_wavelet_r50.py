@@ -3,6 +3,7 @@ _base_ = [
     '../../../../configs/_base_/schedules/schedule_1x.py',
     '../../../../configs/_base_/default_runtime.py',
 ]
+
 custom_imports = dict(
     imports=['projects.SARDet_100K.sardet_100k'], allow_failed_imports=False)
 
