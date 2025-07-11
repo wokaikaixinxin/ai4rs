@@ -32,3 +32,23 @@ ai4rs
 ## Change base config
 
 Please change `data_root` in `configs/_base_/datasets/icdar2015.py` to `data/idcar2015/`.
+
+
+
+# How to evaluate ICDAR2015
+
+
+step 1: Get result submit.zip
+
+For example:
+```
+python tools/test.py projects/OrientedFormer/configs/orientedformer_le90_r50_q300_layer2_head64_point32_2x_icdar2015.py work_dirs/orientedformer_le90_r50_q300_layer2_head64_point32_2x_icdar2015/epoch_21.pth
+```
+The `submit.zip` will be save at `work_dirs/icdar2015/textdet_xxx/submit.zip`
+
+step 2: Calculate precision, recall and F-measure. The script.py adapted from [official website](https://rrc.cvc.uab.es/?ch=4&com=mymethods&task=1).
+
+```
+pip install Polygon3
+python projects/icdar2015_evaluation/script.py -g=projects/icdar2015_evaluation/gt.zip -s=work_dirs/icdar2015/textdet_1/submit.zip
+```
