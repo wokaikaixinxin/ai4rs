@@ -1,4 +1,4 @@
-# Point2RBox
+# SARDet-100K
 
 > [SARDet-100K: Towards Open-Source Benchmark and ToolKit for Large-Scale SAR Object Detection](https://arxiv.org/abs/2403.06534)
 
@@ -18,7 +18,7 @@ Synthetic Aperture Radar (SAR) object detection has gained significant attention
 
 |Framework |   Backbone  |Pretrain|  lr schd | mAP | AP50 | AP75 |  Batch Size |                       Configs                       |                                                                                                                    Download                                                                                                                    |
 | :--------------: | :--------------: | :--------------: | :---: | :-----:  | :------------: | :-: | :--------: | :-------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|Faster RCNN| ResNet50 | MSFA | 1x |   51.1    |  83.9   | 54.7  | 16=8gpu*2img/gpu  | [fg_frcnn_dota_pretrain_sar_wavelet_r50.py](./configs/r50_dota_pretrain/fg_frcnn_dota_pretrain_sar_wavelet_r50.py) | [model](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/MSFA/fg_frcnn_dota_pretrain_sar_wavelet_r50/best_coco_bbox_mAP_epoch_12.pth)   \| [log](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/MSFA/fg_frcnn_dota_pretrain_sar_wavelet_r50/20240116_033917/20240116_033917.log)\| [result](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/MSFA/fg_frcnn_dota_pretrain_sar_wavelet_r50/20240116_075728/20240116_075728.log) |
+|Faster RCNN| ResNet50 | MSFA | 1x |   51.1    |  83.9   | 54.7  | 16=8gpu*<br>2img/gpu  | [fg_frcnn_dota_pretrain<br>_sar_wavelet_r50.py](./configs/r50_dota_pretrain/fg_frcnn_dota_pretrain_sar_wavelet_r50.py) | [model](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/MSFA/fg_frcnn_dota_pretrain_sar_wavelet_r50/best_coco_bbox_mAP_epoch_12.pth)   \| [log](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/MSFA/fg_frcnn_dota_pretrain_sar_wavelet_r50/20240116_033917/20240116_033917.log)\| [result](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/MSFA/fg_frcnn_dota_pretrain_sar_wavelet_r50/20240116_075728/20240116_075728.log) |
 
 
 Train
@@ -35,7 +35,7 @@ bash tools/dist_test.sh projects/SARDet_100K/configs/r50_dota_pretrain/fg_frcnn_
 
 |Framework |   Backbone  |Pretrain|  lr schd | mAP | AP50 | AP75 |  Batch Size |                       Configs                       |                                                                                                                    Download                                                                                                                    |
 | :--------------: | :--------------: | :--------------: | :---: | :-----:  | :------------: | :-: | :--------: | :-------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|Sparse RCNN| ResNet50 | MSFA | 1x |   41.4    |  74.1   | 41.8  | 16=8gpu*2img/gpu  | [sparse-rcnn_r50_dota_pretrain_sar_wavelet.py](./configs/other_detectors/sparse-rcnn_r50_dota_pretrain_sar_wavelet.py) | [model](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/MSFA/sparse-rcnn_r50_dota_pretrain_sar_wavelet/best_coco_bbox_mAP_epoch_11.pth)   \| [log](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/MSFA/sparse-rcnn_r50_dota_pretrain_sar_wavelet/20240205_024841/20240205_024841.log)\| [result](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/MSFA/sparse-rcnn_r50_dota_pretrain_sar_wavelet/20240205_093217/20240205_093217.log) |
+|Sparse RCNN| ResNet50 | MSFA | 1x |   41.4    |  74.1   | 41.8  | 16=8gpu*<br>2img/gpu  | [sparse-rcnn_r50_dota_<br>pretrain_sar_wavelet.py](./configs/other_detectors/sparse-rcnn_r50_dota_pretrain_sar_wavelet.py) | [model](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/MSFA/sparse-rcnn_r50_dota_pretrain_sar_wavelet/best_coco_bbox_mAP_epoch_11.pth)   \| [log](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/MSFA/sparse-rcnn_r50_dota_pretrain_sar_wavelet/20240205_024841/20240205_024841.log)\| [result](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/MSFA/sparse-rcnn_r50_dota_pretrain_sar_wavelet/20240205_093217/20240205_093217.log) |
 
 
 Train
