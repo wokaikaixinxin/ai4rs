@@ -1,4 +1,4 @@
-# Copyright (c) OpenMMLab. All rights reserved.
+# Copyright (c) ai4rs. All rights reserved.
 import argparse
 import json
 from collections import defaultdict
