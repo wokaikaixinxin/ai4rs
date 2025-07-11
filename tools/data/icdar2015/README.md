@@ -35,7 +35,7 @@ Please change `data_root` in `configs/_base_/datasets/icdar2015.py` to `data/idc
 
 
 
-# How to evaluate ICDAR2015
+## How to evaluate ICDAR2015
 
 
 step 1: Get result submit.zip
