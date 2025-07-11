@@ -69,9 +69,6 @@ val_evaluator = dict(
     format_only=False,
     backend_args=backend_args)
 
-# test_dataloader = val_dataloader
-# test_evaluator = val_evaluator
-
 test_dataloader = dict(
     batch_size=2,
     num_workers=2,
