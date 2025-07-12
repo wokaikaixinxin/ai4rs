@@ -86,6 +86,13 @@ We hope to integrate remote sensing related work based on MMLab, especially MMDe
 | :---: | :---: | :---: | :---: |
 | [SARDet 100K<br>(Nips'2024)](./projects/SARDet_100K/README.md) |  |   |     |   
 
+<details open>
+<summary><b>SAM</b></summary>
+
+|     |     |     |     |
+| :---: | :---: | :---: | :---: |
+| [MMRotate SAM](./projects/mmrotate-sam/README.md) |  |   |     |   
+
 ## Installation
 
 
