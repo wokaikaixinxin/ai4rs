@@ -1,4 +1,4 @@
-# Copyright (c) OpenMMLab. All rights reserved.
+# Copyright (c) ai4rs. All rights reserved.
 from .collect_env import collect_env
 from .misc import get_test_pipeline_cfg
 from .patch import get_multiscale_patch, merge_results_by_nms, slide_window
