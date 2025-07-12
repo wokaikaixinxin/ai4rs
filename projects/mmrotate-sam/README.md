@@ -22,6 +22,8 @@ pip install git+https://gitee.com/mirrors/segment-anything.git
 
 ## Usage
 
+**NOTE: the current path is `ai4rs`**
+
 1. Inference MMRotate-SAM with a single image and obtain visualization result.
 
 ```shell
@@ -40,7 +42,7 @@ python ./projects/mmrotate-sam/demo_zero-shot-oriented-detection.py \
     --sam-type "vit_b" --sam-weight ./work_dirs/mmrotate_sam/sam_vit_b_01ec64.pth --out-path output.png
 ```
 
-If you want to save masks of SAM,
+If you want to save output masks from SAM,
 ```
 python ./projects/mmrotate-sam/demo_zero-shot-oriented-detection.py \
     ./data/split_ss_dota/test/images/P0006__1024__0___0.png \
