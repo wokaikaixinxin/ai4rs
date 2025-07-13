@@ -34,12 +34,28 @@
 **NOTE: the mAP, AP50, and AP75 are reported on test set, not val set !!!**
 
 **Train**  
+*Single-node single-GPU*
+```
+python tools/train.py config_path
+```
+*Single-node multi-GPU*
+```shell
+bash tools/dist_train.sh config_path num_gpus
+```
 For example:  
 ```shell
 bash tools/dist_train.sh projects/OrientedFormer/configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar.py 2
 ```
 
 **Test**  
+*Single-node single-GPU*
+```
+python tools/test.py config_path checkpoint_path
+```
+*Single-node multi-GPU*
+```
+bash tools/dist_test.sh config_path checkpoint_path num_gpus
+```
 For example:  
 ```shell
 bash tools/dist_test.sh projects/OrientedFormer/configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar.py work_dirs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar/epoch_11.pth  2
