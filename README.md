@@ -84,7 +84,7 @@ We hope to integrate remote sensing related work based on MMLab, especially MMDe
 
 |     |     |     |     |
 | :---: | :---: | :---: | :---: |
-| [SARDet 100K<br>(Nips'2024)](./projects/SARDet_100K/README.md) | [RSAR <br> CVPR'2025](./tools/data/rsar/README.md) |   |     |   
+| [SARDet 100K<br>(Nips'2024)](./projects/SARDet_100K/README.md) | [RSAR <br> (CVPR'2025)](./tools/data/rsar/README.md) |   |     |   
 
 <details open>
 <summary><b>SAM</b></summary>
