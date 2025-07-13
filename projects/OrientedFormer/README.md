@@ -111,7 +111,11 @@ bash tools/dist_train.sh projects/OrientedFormer/configs/orientedformer_le90_r50
 bash tools/dist_train.sh projects/OrientedFormer/configs/orientedformer_le90_r50_q300_layer2_head64_point32_2x_icdar2015.py 2
 ```
 
+**6). RSAR**
 
+```shell
+bash tools/dist_train.sh projects/OrientedFormer/configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar.py 2
+```
 
 ## Test
 
@@ -180,7 +184,10 @@ pip install Polygon3
 python projects/icdar2015_evaluation/script.py -g=projects/icdar2015_evaluation/gt.zip -s=work_dirs/icdar2015/textdet_1/submit.zip
 ```
 
-
+**6). RSAR**
+```shell
+bash tools/dist_test.sh projects/OrientedFormer/configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar.py work_dirs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar/epoch_11.pth  2
+```
 
 ## Main Result
 
@@ -231,7 +238,13 @@ Due to the limitation of the length of the paper, all categories of AP for DOTA-
 | --------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ---- | --------- | -------- | ------- | ---------------- |
 | ICDAR2015 | [orientedformer_le90_r50_q300_layer2<br>_head64_point32_2x_icdar2015.py](./configs/orientedformer_le90_r50_q300_layer2_head64_point32_2x_icdar2015.py) | [Hugging Face](https://huggingface.co/wokaikaixinxin/OrientedFormer/tree/main/orientedformer_le90_r50_q300_layer2_head64_point32_2x_icdar2015) | 85.3 | 74.2 | 79.4      | R50      | 24epoch | 2img*2 rtx2080ti |
 
+**6). RSAR**
 
+**NOTE: the mAP, AP50, and AP75 are reported on test set, not val set !!!**
+
+|      Backbone      |        Model        |  mAP  |  AP50 | AP75 | Angle  |  lr schd  |  BS  | Config | Download |
+| :----------: | :------------: | :---: | :----: | :----: | :----: |:-------: | :--: | :-----: | :---------------: |
+| ResNet50<br> (800,800) |  [OrientedFormer](../../../projects/OrientedFormer/README.md)     | 37.48 | 69.80 | 35.70 | `le90` | `1x` |  4=2gpu*<br>2img/gpu   | [config](../../../projects/OrientedFormer/configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar.py) | [best ckpt](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/RSAR/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar/epoch_11.pth) \| <br> [all ckpt](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/files) \| <br> [log](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/RSAR/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar/20250711_212143/20250711_212143.log) \| [result](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/RSAR/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar/20250713_162553/20250713_162553.log) |
 
 ## Cite OrientedFormer
 
@@ -362,6 +375,11 @@ bash tools/dist_train.sh projects/OrientedFormer/configs/orientedformer_le90_r50
 bash tools/dist_train.sh projects/OrientedFormer/configs/orientedformer_le90_r50_q300_layer2_head64_point32_2x_icdar2015.py 2
 ```
 
+**6). RSAR**
+
+```shell
+bash tools/dist_train.sh projects/OrientedFormer/configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar.py 2
+```
 
 
 ## 测试
@@ -431,6 +449,11 @@ pip install Polygon3
 python projects/icdar2015_evaluation/script.py -g=projects/icdar2015_evaluation/gt.zip -s=work_dirs/icdar2015/textdet_1/submit.zip
 ```
 
+**6). RSAR**
+
+```shell
+bash tools/dist_test.sh projects/OrientedFormer/configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar.py work_dirs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar/epoch_11.pth  2
+```
 
 
 ## 主要结果
@@ -511,6 +534,15 @@ hugging face 镜像
 ```
 https://hf-mirror.com/wokaikaixinxin/OrientedFormer
 ```
+
+**6). RSAR**
+
+**NOTE: the mAP, AP50, and AP75 are reported on test set, not val set !!!**
+
+|      Backbone      |        Model        |  mAP  |  AP50 | AP75 | Angle  |  lr schd  |  BS  | Config | Download |
+| :----------: | :------------: | :---: | :----: | :----: | :----: |:-------: | :--: | :-----: | :---------------: |
+| ResNet50<br> (800,800) |  [OrientedFormer](../../../projects/OrientedFormer/README.md)     | 37.48 | 69.80 | 35.70 | `le90` | `1x` |  4=2gpu*<br>2img/gpu   | [config](../../../projects/OrientedFormer/configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar.py) | [best ckpt](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/RSAR/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar/epoch_11.pth) \| <br> [all ckpt](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/files) \| <br> [log](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/RSAR/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar/20250711_212143/20250711_212143.log) \| [result](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/RSAR/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar/20250713_162553/20250713_162553.log) |
+
 
 ## 引用 OrientedFormer
 
