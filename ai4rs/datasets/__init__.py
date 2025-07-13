@@ -1,4 +1,4 @@
-# Copyright (c) OpenMMLab. All rights reserved.
+# Copyright (c) ai4rs. All rights reserved.
 from .dior import DIORDataset  # noqa: F401, F403
 from .dota import DOTAv2Dataset  # noqa: F401, F403
 from .dota import DOTADataset, DOTAv15Dataset
