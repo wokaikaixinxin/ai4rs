@@ -9,7 +9,9 @@
 [Offical RSAR Link](https://github.com/zhasion/RSAR)
 
 ## Results
-**Table 4 in Paper**
+**Table 4 in Paper.**
+
+**NOTE: the mAP, AP50, and AP75 are reported on test set, not val set !!!**
 
 |      Backbone      |        Model        |  mAP  |  AP50 | AP75 | Angle  |  lr schd  |  BS  | Config | Download |
 | :----------: | :------------: | :---: | :----: | :----: | :----: |:-------: | :--: | :-----: | :---------------: |
@@ -27,6 +29,22 @@
 | ResNet50<br> (800,800) |   Deformable DETR   | 19.63 | 46.62 | 13.06 | `le90` | `3x` |  8=4gpu*<br>2img/gpu   | - | - |
 | ResNet50<br> (800,800) |      ARS-DETR       | 31.56 | 61.14 | 28.97 | `le90` | `3x` |  8=4gpu*<br>2img/gpu   | - | - |
 | ResNet50<br> (800,800) |  [OrientedFormer](../../../projects/OrientedFormer/README.md)     | 37.48 | 69.80 | 35.70 | `le90` | `1x` |  4=2gpu*<br>2img/gpu   | [config](../../../projects/OrientedFormer/configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar.py) | [best ckpt](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/RSAR/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar/epoch_11.pth) \| <br> [all ckpt](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/files) \| <br> [log](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/RSAR/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar/20250711_212143/20250711_212143.log) \| [result](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/RSAR/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar/20250713_162553/20250713_162553.log) |
+
+
+**NOTE: the mAP, AP50, and AP75 are reported on test set, not val set !!!**
+
+**Train**  
+For example:  
+```shell
+bash tools/dist_train.sh projects/OrientedFormer/configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar.py 2
+```
+
+**Test**  
+For example:  
+```shell
+bash tools/dist_test.sh projects/OrientedFormer/configs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar.py work_dirs/orientedformer_le90_r50_q300_layer2_head64_point32_1x_rsar/epoch_11.pth  2
+```
+
 
 ## Download RSAR dataset
 
