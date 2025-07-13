@@ -14,6 +14,7 @@ Datasets supported in ai4rs:
 - [RSDD Dataset](rsdd/README.md)
 - [ICDAR2015 Dataset](icdar2015/README.md)
 - [SARDet 100K Dataset](./sardet_100k/README.md)
+- [RSAR Dataset](./rsar/README.md)
 
 
 ```
@@ -59,4 +60,14 @@ ai4rs
 │   │   │   ├── val
 │   │   │   │   ├── xxxxxxx.png
 │   │   │   │   ├── xxxxxxx.png
+│   ├── RSAR
+│   │   ├── train
+│   │   │   ├── annfiles
+│   │   │   ├── images
+│   │   ├── val
+│   │   │   ├── annfiles
+│   │   │   ├── images
+│   │   ├── test
+│   │   │   ├── annfiles
+│   │   │   ├── images
 ```
