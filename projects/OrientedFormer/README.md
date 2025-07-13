@@ -537,7 +537,7 @@ https://hf-mirror.com/wokaikaixinxin/OrientedFormer
 
 **6). RSAR**
 
-**NOTE: the mAP, AP50, and AP75 are reported on test set, not val set !!!**
+**注意: mAP, AP50, and AP75 是在test集上得到的, 不是val集!!!**
 
 |      Backbone      |        Model        |  mAP  |  AP50 | AP75 | Angle  |  lr schd  |  BS  | Config | Download |
 | :----------: | :------------: | :---: | :----: | :----: | :----: |:-------: | :--: | :-----: | :---------------: |
