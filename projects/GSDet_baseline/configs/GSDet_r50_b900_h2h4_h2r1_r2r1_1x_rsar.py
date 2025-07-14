@@ -1,6 +1,6 @@
 _base_ = [
     '../../../configs/_base_/datasets/rsar.py',
-    '../../../configs/_base_/schedules/schedule_2x.py',
+    '../../../configs/_base_/schedules/schedule_1x.py',
     '../../../configs/_base_/default_runtime.py'
 ]
 
@@ -230,7 +230,7 @@ optim_wrapper = dict(
         _delete_=True, type='AdamW', lr=2.5e-5 / 4, weight_decay=1e-4),
     clip_grad=dict(max_norm=1.0, norm_type=2))
 
-train_cfg=dict(val_interval=2)
+#train_cfg=dict(val_interval=1)
 default_hooks = dict(checkpoint=dict(interval=1))
 
 # base_batch_size = (2 GPUs) x (2 samples per GPU)
