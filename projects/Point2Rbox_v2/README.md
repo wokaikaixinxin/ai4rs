@@ -41,6 +41,7 @@ python tools/test.py projects/Point2Rbox_v2/configs/point2rbox_v2-1x-dior.py wor
 python tools/test.py projects/Point2Rbox_v2/configs/point2rbox_v2-1x-dota.py work_dirs/point2rbox_v2-1x-dota/epoch_12.pth
 ```
 
+<!--
 ### Two-stage training
 
 Use the above trained model (1st stage, train Point2RBox-v2) as the pseudo generator:
@@ -52,7 +53,7 @@ python tools/test.py projects/Point2Rbox_v2/configs/point2rbox_v2-pseudo-generat
 python tools/test.py projects/Point2Rbox_v2/configs/point2rbox_v2-pseudo-generator-dota.py work_dirs/point2rbox_v2-1x-dota/epoch_12.pth
 ```
 
-Now the pseudo labels for trainval set have been saved at data/split_ss_dota/point2rbox_v2_pseudo_labels.bbox.json, with which we can train/test/visualize the FCOS detector (2nd stage, train FCOS):
+Now the pseudo labels for trainval set have been saved at `data/DIOR/point2rbox_v2_pseudo_labels.bbox.json` or `data/split_ss_dota/point2rbox_v2_pseudo_labels.bbox.json`, with which we can train/test/visualize the FCOS detector (2nd stage, train FCOS):
 
 **Train**
 ```
@@ -69,7 +70,7 @@ python tools/test.py projects/Point2Rbox_v2/configs/rotated-fcos-1x-dior-using-p
 # DOTA-v1.0
 python tools/test.py projects/Point2Rbox_v2/configs/rotated-fcos-1x-dota-using-pseudo.py work_dirs/rotated-fcos-1x-dota-using-pseudo/epoch_12.pth
 ```
-
+-->
 
 ## Citation
 
