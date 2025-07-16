@@ -39,7 +39,7 @@ Oriented object detection has advanced with the development of convolutional neu
 | *Random* |  |  |  | | |  | |  |
 | ResNet50<br> (800,800) |  GSDet_base     | 35.58 | 68.00 | 33.50 | `le90` | `1x` |  4=2gpu*<br>2img/gpu   | [config](./configs/GSDet_r50_b900_h2h4_h2r1_r2r1_1x_rsar.py) | [last ckpt](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/GSDet_baseline/GSDet_r50_b900_h2h4_h2r1_r2r1_1x_rsar/epoch_12.pth) \| <br> [all ckpt](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/files) \| <br> [log](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/GSDet_baseline/GSDet_r50_b900_h2h4_h2r1_r2r1_1x_rsar/20250712_230231.log) \| [result](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/GSDet_baseline/GSDet_r50_b900_h2h4_h2r1_r2r1_1x_rsar/20250714_164452.log) |
 
-**NOTE: For the RSAR dataset, the reported mAP, AP50, and AP75 are evaluated on the test set, not the validation set. !!!**
+**NOTE: For the RSAR dataset, the reported mAP, AP50, and AP75 are evaluated on the test set, not the validation set !!!**
 
 
 **DOTA1.0**
