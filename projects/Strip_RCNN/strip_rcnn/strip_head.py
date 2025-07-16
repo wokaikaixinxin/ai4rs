@@ -91,7 +91,8 @@ class StripHead_(BBoxHead):
             self.fc_cls = MODELS.build(cls_predictor_cfg_)
         if self.with_reg:
             box_dim = self.bbox_coder.encode_size
-            #todo: 判断bbox_coder是否是DeltaXYWHTRBBoxCoder
+            #todo: Determine whether bbox_coder is DeltaXYWHTRBBoxCoder
+            assert box_dim == 5
             out_dim_reg_xy_wh = 4 if self.reg_class_agnostic else \
                 4 * self.num_classes
             out_dim_reg_theta = 1 if self.reg_class_agnostic else \
