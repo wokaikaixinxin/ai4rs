@@ -20,9 +20,9 @@ With the rapidly increasing demand for oriented object detection (OOD), recent r
 
 |         Backbone         |  mAP  | AP50 | AP75 | Angle | lr schd |  Aug | Batch Size |                                                    Configs                                                     |                                                                                                                                                                              Download                                                                                                                                                                              |
 | :----------------------: | :---: | :---: | :-----: | :------: | :------------: | :-: | :--------: | :------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| ResNet50 (800,800,200) | 18.53 | 34.30  |   17.30    |   le90   |      1x      |  -  | 2=1gpu*<br>2img/gpu      | [point2rbox_v2-1x-dior.py](./configs/point2rbox_v2-1x-dior.py) | [last epoch](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/Point2Rbox_v2/point2rbox_v2-1x-dior/epoch_12.pth) \| [log](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/Point2Rbox_v2/point2rbox_v2-1x-dior/20250715_090534.log) \| [all epoch](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/files) |
+| ResNet50 (800,800,200) | 18.53 | 34.30  |   17.30    |   le90   |      1x      |  -  | 2=1gpu*<br>2img/gpu      | [point2rbox_v2-1x-dior.py](./configs/point2rbox_v2-1x-dior.py) | [last epoch](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/Point2Rbox_v2/point2rbox_v2-1x-dior/epoch_12.pth) \| [log](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/Point2Rbox_v2/point2rbox_v2-1x-dior/20250715_090534.log) <br> \| [all epoch](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/files) |
 
-Note: This is unofficial checkpoint. The official code is [here](https://github.com/VisionXLab/point2rbox-v2). We reimplement it. The end-to-end training and testing results on DIOR-R is 34.70 AP50 from Table 2 in [paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Yu_Point2RBox-v2_Rethinking_Point-supervised_Oriented_Object_Detection_with_Spatial_Layout_Among_CVPR_2025_paper.pdf).
+Note: This is the unofficial checkpoint. The official code is [here](https://github.com/VisionXLab/point2rbox-v2). We reimplement it. The end-to-end training and testing results on DIOR-R is **34.70 AP50** from Table 2 in [paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Yu_Point2RBox-v2_Rethinking_Point-supervised_Oriented_Object_Detection_with_Spatial_Layout_Among_CVPR_2025_paper.pdf).
 
 **Train**
 
@@ -53,6 +53,7 @@ python tools/test.py projects/Point2Rbox_v2/configs/point2rbox_v2-pseudo-generat
 ```
 
 Now the pseudo labels for trainval set have been saved at data/split_ss_dota/point2rbox_v2_pseudo_labels.bbox.json, with which we can train/test/visualize the FCOS detector (2nd stage, train FCOS):
+
 **Train**
 ```
 # DIOR-R
