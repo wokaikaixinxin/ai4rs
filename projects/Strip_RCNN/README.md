@@ -23,6 +23,14 @@ While witnessed with rapid development, remote sensing object detection remains 
 
 Note: This is the **unofficial** checkpoint. The official code is [here](https://github.com/HVision-NKU/Strip-R-CNN).
 
+This is your evaluation result for task 1 (VOC metrics):  
+mAP: 0.7578886933949137  
+ap of each class: plane:0.8900963130910334, baseball-diamond:0.8252327642545075, bridge:0.5068483104818872, ground-track-field:0.7404200909736047, small-vehicle:0.789040239256087, large-vehicle:0.8398600050940846, ship:0.8816605900794297, tennis-court:0.9054734065066338, basketball-court:0.8594636810327425, storage-tank:0.8486977858429885, soccer-ball-field:0.5696574395594765, roundabout:0.60749533266713, harbor:0.7519148281638536, swimming-pool:0.7061258130639644, helicopter:0.6463438008562831  
+COCO style result:  
+AP50: 0.7578886933949137  
+AP75: 0.4964419758946793  
+mAP: 0.46260902296838535  
+
 **Train**
 
 ```
