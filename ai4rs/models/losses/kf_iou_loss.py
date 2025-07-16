@@ -1,4 +1,4 @@
-# Copyright (c) SJTU. All rights reserved.
+# Copyright (c) ai4rs. All rights reserved.
 import torch
 from mmdet.models.losses.utils import weighted_loss
 from torch import nn

@@ -1,4 +1,4 @@
-# Copyright (c) SJTU. All rights reserved.
+# Copyright (c) ai4rs. All rights reserved.
 from copy import deepcopy
 
 import torch
