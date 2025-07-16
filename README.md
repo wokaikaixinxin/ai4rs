@@ -76,7 +76,8 @@ We hope to integrate remote sensing related work based on MMLab, especially MMDe
 
 |     |     |     |     |
 | :---: | :---: | :---: | :---: |
-| [H2RBox<br>(ICLR'2023)](configs/h2rbox/README.md) | [H2RBox-v2<br>(Nips'2023)](configs/h2rbox_v2/README.md) |  [Point2Rbox<br>(CVPR'2024)](./projects/Point2Rbox/README.md)   |     |   
+| [H2RBox<br>(ICLR'2023)](configs/h2rbox/README.md) | [H2RBox-v2<br>(Nips'2023)](configs/h2rbox_v2/README.md) |  [Point2Rbox<br>(CVPR'2024)](./projects/Point2Rbox/README.md)   |  [Point2Rbox-v2<br>CVPR'2025](./projects/Point2Rbox_v2/README.md)
+   |   
 </details>
 
 <details open>
