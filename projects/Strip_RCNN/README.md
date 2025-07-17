@@ -66,7 +66,7 @@ bash tools/dist_train.sh projects/Strip_RCNN/configs/strip_rcnn_s_fpn_1x_dota_le
 
 **Test**
 ```
-python tools/test.py config_path checkpoint_path
+bash tools/dist_test.sh config_path checkpoint_path num_gpus
 ```  
 
 For example:
