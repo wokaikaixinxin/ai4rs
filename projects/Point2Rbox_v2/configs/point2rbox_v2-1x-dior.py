@@ -129,4 +129,4 @@ optim_wrapper = dict(
 
 custom_hooks = [dict(type='mmdet.SetEpochInfoHook')]
 train_cfg = dict(val_interval=12)
-auto_scale_lr = dict(base_batch_size=2)
+auto_scale_lr = dict(base_batch_size=2, enable=True)
