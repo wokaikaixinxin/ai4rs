@@ -124,4 +124,4 @@ model = dict(
         max_per_img=2000))
 
 # base_batch_size = (4 GPUs) x (2 samples per GPU)
-auto_scale_lr = dict(base_batch_size=8)
+auto_scale_lr = dict(base_batch_size=8, enable=True)

@@ -127,4 +127,4 @@ model = dict(
 test_evaluator = dict(outfile_prefix='./work_dirs/dota/s2anet_le90_Task1')
 
 # base_batch_size = (4 GPUs) x (2 samples per GPU)
-auto_scale_lr = dict(base_batch_size=8)
+auto_scale_lr = dict(base_batch_size=8, enable=True)
