@@ -234,4 +234,4 @@ optim_wrapper = dict(
 default_hooks = dict(checkpoint=dict(interval=1))
 
 # base_batch_size = (2 GPUs) x (2 samples per GPU)
-auto_scale_lr = dict(base_batch_size=4)
+auto_scale_lr = dict(base_batch_size=4, enable=True)
