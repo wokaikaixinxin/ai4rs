@@ -184,7 +184,7 @@ optim_wrapper = dict(
 
 train_cfg = dict(val_interval=4)
 
-# base_batch_size = (8 GPUs) x (1 samples per GPU)
-auto_scale_lr = dict(base_batch_size=8)
+# base_batch_size = (2 GPUs) x (1 samples per GPU)
+auto_scale_lr = dict(base_batch_size=2, enable=True)
 
 find_unused_parameters=True
