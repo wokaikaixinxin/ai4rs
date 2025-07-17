@@ -31,6 +31,21 @@ AP50: 0.7578886933949137
 AP75: 0.4964419758946793  
 mAP: 0.46260902296838535  
 
+
+|         Backbone         |  mAP  | AP50 | AP75 | Angle | lr schd |  Aug | Batch Size |                                                    Configs                                                     |                                                                                                                                                                              Download                                                                                                                                                                              |
+| :----------------------: | :---: | :---: | :-----: | :------: | :------------: | :-: | :--------: | :------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Strip R-CNN S <br> (1024,1024,200) | 48.21 | 78.36  |  52.10  |   le90   |  1x  |  -  | 8=8gpu*<br>1img/gpu      | [strip_rcnn_s_fpn_1x_dota_le90.py](./configs/strip_rcnn_s_fpn_1x_dota_le90.py) | [last epoch](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/StripRCNN/strip_rcnn_s_fpn_1x_dota_le90/epoch_12.pth) \| [log](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/StripRCNN/strip_rcnn_s_fpn_1x_dota_le90/20250716_215946/20250716_215946.log) \| [all epoch](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/files) \| [result](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/StripRCNN/strip_rcnn_s_fpn_1x_dota_le90/Task1.zip)|
+
+Note: This is the **unofficial** checkpoint. The official code is [here](https://github.com/HVision-NKU/Strip-R-CNN).
+
+This is your evaluation result for task 1 (VOC metrics):  
+mAP: 0.7835913236896077  
+ap of each class: plane:0.8920910852681959, baseball-diamond:0.8339106012328771, bridge:0.5480072101363168, ground-track-field:0.7729550152374348, small-vehicle:0.7939850261520612, large-vehicle:0.854143001818744, ship:0.8854099961398086, tennis-court:0.9061205616117513, basketball-court:0.8720845499329797, storage-tank:0.8618562149248421, soccer-ball-field:0.6322053577293079, roundabout:0.6716715831918135, harbor:0.7707834176587323, swimming-pool:0.7403645253582762, helicopter:0.7182817089509731
+COCO style result:  
+AP50: 0.7835913236896077  
+AP75: 0.5209685275452435  
+mAP: 0.4821385960991013
+
 **Train**
 
 ```
@@ -40,8 +55,13 @@ bash tools/dist_train.sh config_path num_gpus
 For example:
 
 ```
-# DOTA-v1.0
+# Strip R-CNN tiny
 bash tools/dist_train.sh projects/Strip_RCNN/configs/strip_rcnn_t_fpn_1x_dota_le90.py 2
+```
+
+```
+# Strip R-CNN small
+bash tools/dist_train.sh projects/Strip_RCNN/configs/strip_rcnn_s_fpn_1x_dota_le90.py 2
 ```
 
 **Test**
@@ -52,8 +72,13 @@ python tools/test.py config_path checkpoint_path
 For example:
 
 ```
-# DOTA-v1.0
+# Strip R-CNN tiny
 bash tools/dist_test.sh projects/Strip_RCNN/configs/strip_rcnn_t_fpn_1x_dota_le90.py work_dirs/strip_rcnn_t_fpn_1x_dota_le90/epoch_12.pth 2
+```
+
+```
+# Strip R-CNN small
+bash tools/dist_test.sh projects/Strip_RCNN/configs/strip_rcnn_s_fpn_1x_dota_le90.py work_dirs/strip_rcnn_s_fpn_1x_dota_le90/epoch_12.pth 2
 ```
 
 ## Citation
