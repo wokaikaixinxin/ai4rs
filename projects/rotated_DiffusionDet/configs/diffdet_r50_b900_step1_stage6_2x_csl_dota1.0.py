@@ -115,4 +115,4 @@ train_cfg=dict(val_interval=6)
 default_hooks = dict(checkpoint=dict(interval=1))
 
 # base_batch_size = (2 GPUs) x (2 samples per GPU)
-auto_scale_lr = dict(base_batch_size=2 * 2, enable=True)
+auto_scale_lr = dict(base_batch_size=2 * 2, enable=False)
