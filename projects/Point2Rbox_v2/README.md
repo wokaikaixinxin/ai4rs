@@ -24,12 +24,14 @@ With the rapidly increasing demand for oriented object detection (OOD), recent r
 
 Note: This is the unofficial checkpoint. The official code is [here](https://github.com/VisionXLab/point2rbox-v2). The end-to-end training results on DIOR-R is 34.70 AP50 from Table 2 in [paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Yu_Point2RBox-v2_Rethinking_Point-supervised_Oriented_Object_Detection_with_Spatial_Layout_Among_CVPR_2025_paper.pdf). In our reimplementation, the end-to-end training performance reaches 34.31 AP50 on DIOR-R.
 
+| :-----: | :-----:  | :-----: | :-----: | :-----: | :-----: |
+|         |          |         |         |         |         |
 | class   | airplane | airport | baseballfield | basketballcourt | bridge  |
 |---------|----------|---------|---------------|-----------------|---------|
 | ap      | 0.54956  | 0.09324 | 0.65348       | 0.78988         | 0.11580 |
-| class   | chimney | expressway-service-area | expressway-toll-station | dam     | golffield |
-|---------|---------|-------------------------|-------------------------|---------|-----------|
-| ap      | 0.66228 | 0.06702                 | 0.33284                 | 0.04869 | 0.09787   |
+| class   | chimney  | expressway-service-area | expressway-toll-station | dam     | golffield |
+|---------|--------- |-------------------------|-------------------------|---------|-----------|
+| ap      | 0.66228  | 0.06702                 | 0.33284                 | 0.04869 | 0.09787   |
 | class   | groundtrackfield | harbor | overpass | ship    | stadium |
 |---------|------------------|--------|----------|---------|---------|
 | ap      | 0.44686           | 0.01818| 0.25220  | 0.59536 | 0.41879 |
