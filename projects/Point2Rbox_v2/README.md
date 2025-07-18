@@ -39,18 +39,12 @@ Note: This is the unofficial checkpoint. The official code is [here](https://git
 **Train**
 
 ```
-# DIOR-R
 python tools/train.py projects/Point2Rbox_v2/configs/point2rbox_v2-1x-dior.py
-# DOTA-v1.0
-python tools/train.py projects/Point2Rbox_v2/configs/point2rbox_v2-1x-dota.py
 ```
 
 **Test**
 ```
-# DIOR-R
 python tools/test.py projects/Point2Rbox_v2/configs/point2rbox_v2-1x-dior.py work_dirs/point2rbox_v2-1x-dior/epoch_12.pth
-# DOTA-v1.0
-python tools/test.py projects/Point2Rbox_v2/configs/point2rbox_v2-1x-dota.py work_dirs/point2rbox_v2-1x-dota/epoch_12.pth
 ```
 
 
@@ -58,10 +52,10 @@ python tools/test.py projects/Point2Rbox_v2/configs/point2rbox_v2-1x-dota.py wor
 
 |         Backbone         |  mAP  | AP50 | AP75 | Angle | lr schd |  Aug | lr | Batch Size |                                                    Configs                                                     |                                                                                                                                                                              Download                                                                                                                                                                              |
 | :----------------------: | :---: | :---: | :-----: | :------: | :------------: | :-: | :---: | :--------: | :---------------------------------------------: | :-------------------------------: |
-| ResNet50 <br> (1024,1024,200) | 23.00 | 49.14  |  18.05  |   le90   |  1x  | -  | 5e-5 | 2=1gpu*<br>2img/gpu      | [point2rbox_v2-1x-dota.py](./configs/point2rbox_v2-1x-dota.py) | [last epoch](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/Point2Rbox_v2/point2rbox_v2-1x-dota/epoch_12.pth) \| [log](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/Point2Rbox_v2/point2rbox_v2-1x-dota/20250717_091611/20250717_091611.log) \| <br> [all epoch](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/files) \| [result](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/Point2Rbox_v2/point2rbox_v2-1x-dota/Task1.zip)|
+| ResNet50 <br> (1024,1024,200) | 23.00 | 49.14  |  18.05  |   le90   |  1x  | -  | 5e-5 | 2=1gpu*<br>2img/gpu      | [point2rbox_v2<br>-1x-dota.py](./configs/point2rbox_v2-1x-dota.py) | [last epoch](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/Point2Rbox_v2/point2rbox_v2-1x-dota/epoch_12.pth) \| [log](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/Point2Rbox_v2/point2rbox_v2-1x-dota/20250717_091611/20250717_091611.log) \| <br> [all epoch](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/files) \| [result](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/Point2Rbox_v2/point2rbox_v2-1x-dota/Task1.zip)|
 
-Note: This is the **unofficial** checkpoint. The official code is [here](https://github.com/LeapLabTHU/ARC).  
-Note: The official result is **77.35 AP50** on DOTA-v1.0, but in this project the result is **76.74 AP50** on DOTA-v1.0.
+Note: This is the **unofficial** checkpoint. The official code is [here](https://github.com/VisionXLab/point2rbox-v2).  
+Note: The official result is **51.00 AP50** on DOTA-v1.0, but in this project the result is **49.14 AP50** on DOTA-v1.0.
 
 This is your evaluation result for task 1 (VOC metrics):  
 mAP: 0.4914394914250513  
@@ -70,6 +64,16 @@ COCO style result:
 AP50: 0.4914394914250513  
 AP75: 0.18050823121731294  
 mAP: 0.2299087999300767  
+
+**Train**
+```
+python tools/train.py projects/Point2Rbox_v2/configs/point2rbox_v2-1x-dota.py
+```
+
+**Test**
+```
+python tools/test.py projects/Point2Rbox_v2/configs/point2rbox_v2-1x-dota.py work_dirs/point2rbox_v2-1x-dota/epoch_12.pth
+```
 
 <!--
 ### Two-stage training
