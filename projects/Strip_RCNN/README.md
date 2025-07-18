@@ -38,7 +38,7 @@ mAP: 0.46260902296838535
 | Strip R-CNN S <br> (1024,1024,200) | 48.21 | 78.36  |  52.10  |   le90   |  1x  |  rr  | 1e-4 | 2=2gpu*<br>1img/gpu      | [strip_rcnn_s_fpn_<br>1x_dota_le90.py](./configs/strip_rcnn_s_fpn_1x_dota_le90.py) | [last epoch](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/StripRCNN/strip_rcnn_s_fpn_1x_dota_le90/epoch_12.pth) \| [log](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/StripRCNN/strip_rcnn_s_fpn_1x_dota_le90/20250716_215946/20250716_215946.log) \| <br> [all epoch](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/files) \| [result](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/StripRCNN/strip_rcnn_s_fpn_1x_dota_le90/Task1.zip)|
 
 Note: This is the **unofficial** checkpoint. The official code is [here](https://github.com/HVision-NKU/Strip-R-CNN).  
-Note: The official **lr=1e-4, bs=8**, but in this project **lr=1e-4, bs=2**. 
+Note: The official **lr=1e-4, bs=8**, but in this project **lr=1e-4, bs=2**.   
 Note: The [official]((https://github.com/HVision-NKU/Strip-R-CNN)) result is **82.28 AP50**. The [JDet](https://github.com/Jittor/JDet/tree/master) result is **77.36 AP50**. This project result is **78.36 AP50**.
 
 This is your evaluation result for task 1 (VOC metrics):  
