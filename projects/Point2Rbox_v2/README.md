@@ -27,14 +27,14 @@ Note: This is the unofficial checkpoint. The official code is [here](https://git
 | class   | airplane | airport | baseballfield | basketballcourt | bridge  | 
 |---------|----------|---------|---------------|-----------------|---------|
 | ap      | 0.54956  | 0.09324 | 0.65348       | 0.78988         | 0.11580 |
-| class   | chimney  | expressway-service-area | expressway-toll-station | dam     | golffield |
-| ap      | 0.66228 | 0.06702                 | 0.33284                 | 0.04869 | 0.09787   |
-| class   | groundtrackfield | harbor | overpass | ship    | stadium |
-| ap      | 0.44686           | 0.01818| 0.25220  | 0.59536 | 0.41879 |
-| class   | storagetank | tenniscourt | trainstation | vehicle | windmill |
-| ap      | 0.45945     | 0.80095     | 0.08553      | 0.22283 | 0.15133  |
-| **mAP** |         |         |         |         |          |
-|         |         |         |         |         | **0.34311** |
+| **class**   | **chimney**  | **expressway-service-area** | **expressway-toll-station** | **dam**     | **golffield** |
+| ap          | 0.66228      | 0.06702                 | 0.33284                 | 0.04869     | 0.09787       |
+| **class**   | **groundtrackfield** | **harbor** | **overpass** | **ship**    | **stadium** |
+| ap          | 0.44686           | 0.01818    | 0.25220      | 0.59536     | 0.41879     |
+| **class**   | **storagetank** | **tenniscourt** | **trainstation** | **vehicle** | **windmill** |
+| ap          | 0.45945     | 0.80095     | 0.08553      | 0.22283     | 0.15133     |
+| **mAP**     |         |         |         |         |             |
+| **0.34311** |         |         |         |         |             |
 
 **Train**
 
