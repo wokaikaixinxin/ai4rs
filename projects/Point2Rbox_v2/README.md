@@ -22,31 +22,12 @@ With the rapidly increasing demand for oriented object detection (OOD), recent r
 | :----------------------: | :---: | :---: | :-----: | :------: | :------------: | :-: | :--------: | :------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | ResNet50 (800,800,200) | 18.53 | 34.31  |   17.30    |   le90   |      1x      |  -  | 2=1gpu*<br>2img/gpu      | [point2rbox_v2-1x-dior.py](./configs/point2rbox_v2-1x-dior.py) | [last epoch](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/Point2Rbox_v2/point2rbox_v2-1x-dior/epoch_12.pth) \| [log](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/Point2Rbox_v2/point2rbox_v2-1x-dior/20250715_090534.log) \| [all epoch](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/files) |
 
-Note: This is the unofficial checkpoint. The official code is [here](https://github.com/VisionXLab/point2rbox-v2). The end-to-end training results on DIOR-R is 34.70 AP50 from Table 2 in [paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Yu_Point2RBox-v2_Rethinking_Point-supervised_Oriented_Object_Detection_with_Spatial_Layout_Among_CVPR_2025_paper.pdf). In our reimplementation, the end-to-end training performance reaches 34.30 AP50 on DIOR-R.
+Note: This is the unofficial checkpoint. The official code is [here](https://github.com/VisionXLab/point2rbox-v2). The end-to-end training results on DIOR-R is 34.70 AP50 from Table 2 in [paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Yu_Point2RBox-v2_Rethinking_Point-supervised_Oriented_Object_Detection_with_Spatial_Layout_Among_CVPR_2025_paper.pdf). In our reimplementation, the end-to-end training performance reaches 34.31 AP50 on DIOR-R.
 
-| class                   |   gts |    dets |  recall |     ap |
-|-------------------------|------:|--------:|--------:|-------:|
-| airplane                |  8212 |   21277 | 0.64625 | 0.54956 |
-| airport                 |   666 |   26045 | 0.11411 | 0.09324 |
-| baseballfield           |  3434 |   26898 | 0.74665 | 0.65348 |
-| basketballcourt         |  2146 |   21517 | 0.86626 | 0.78988 |
-| bridge                  |  2589 |   77350 | 0.18656 | 0.11580 |
-| chimney                 |  1031 |    7095 | 0.71484 | 0.66228 |
-| expressway-service-area |  1085 |   72523 | 0.22857 | 0.06702 |
-| expressway-toll-station |   688 |   47160 | 0.49709 | 0.33284 |
-| dam                     |   538 |   26624 | 0.18587 | 0.04869 |
-| golffield               |   575 |   21561 | 0.17043 | 0.09787 |
-| groundtrackfield        |  1885 |   63066 | 0.81910 | 0.44686 |
-| harbor                  |  3105 |   83123 | 0.04058 | 0.01818 |
-| overpass                |  1782 |   58364 | 0.37935 | 0.25220 |
-| ship                    | 35186 |  137070 | 0.70630 | 0.59536 |
-| stadium                 |   672 |    7840 | 0.76339 | 0.41879 |
-| storagetank             | 23361 |  100866 | 0.58628 | 0.45945 |
-| tenniscourt             |  7343 |   34460 | 0.84815 | 0.80095 |
-| trainstation            |   509 |   24876 | 0.23379 | 0.08553 |
-| vehicle                 | 26640 |  420398 | 0.29677 | 0.22283 |
-| windmill                |  2998 |   73339 | 0.26551 | 0.15133 |
-| **mAP**                 |       |         |         | 0.34311 |
+| class   | airplane | airport | baseballfield | basketballcourt | bridge  | chimney | expressway-service-area | expressway-toll-station | dam     | golffield | groundtrackfield | harbor | overpass | ship    | stadium | storagetank | tenniscourt | trainstation | vehicle | windmill |
+|---------|----------|---------|---------------|-----------------|---------|---------|-------------------------|-------------------------|---------|-----------|------------------|--------|----------|---------|---------|-------------|-------------|--------------|---------|----------|
+| ap      | 0.54956  | 0.09324 | 0.65348       | 0.78988         | 0.11580 | 0.66228 | 0.06702                 | 0.33284                 | 0.04869 | 0.09787   | 0.44686           | 0.01818| 0.25220  | 0.59536 | 0.41879 | 0.45945     | 0.80095     | 0.08553      | 0.22283 | 0.15133  |
+| **mAP** |          |         |               |                 |         |         |                         |                         |         |           |                  |        |          |         |         |             |             |              |         | **0.34311** |
 
 **Train**
 
@@ -64,6 +45,24 @@ python tools/test.py projects/Point2Rbox_v2/configs/point2rbox_v2-1x-dior.py wor
 # DOTA-v1.0
 python tools/test.py projects/Point2Rbox_v2/configs/point2rbox_v2-1x-dota.py work_dirs/point2rbox_v2-1x-dota/epoch_12.pth
 ```
+
+
+**DOTA-v1.0**
+
+|         Backbone         |  mAP  | AP50 | AP75 | Angle | lr schd |  Aug | lr | Batch Size |                                                    Configs                                                     |                                                                                                                                                                              Download                                                                                                                                                                              |
+| :----------------------: | :---: | :---: | :-----: | :------: | :------------: | :-: | :---: | :--------: | :---------------------------------------------: | :-------------------------------: |
+| ResNet50 <br> (1024,1024,200) | 23.00 | 49.14  |  18.05  |   le90   |  1x  | -  | 5e-5 | 2=1gpu*<br>2img/gpu      | [point2rbox_v2-1x-dota.py](./configs/point2rbox_v2-1x-dota.py) | [last epoch](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/Point2Rbox_v2/point2rbox_v2-1x-dota/epoch_12.pth) \| [log](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/Point2Rbox_v2/point2rbox_v2-1x-dota/20250717_091611/20250717_091611.log) \| <br> [all epoch](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/files) \| [result](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/Point2Rbox_v2/point2rbox_v2-1x-dota/Task1.zip)|
+
+Note: This is the **unofficial** checkpoint. The official code is [here](https://github.com/LeapLabTHU/ARC).  
+Note: The official result is **77.35 AP50** on DOTA-v1.0, but in this project the result is **76.74 AP50** on DOTA-v1.0.
+
+This is your evaluation result for task 1 (VOC metrics):  
+mAP: 0.4914394914250513  
+ap of each class: plane:0.7895142420733647, baseball-diamond:0.5192427808914901, bridge:0.1258016724118419, ground-track-field:0.39544236467140365, small-vehicle:0.7195815397041687, large-vehicle:0.6251712927402223, ship:0.7485794995411434, tennis-court:0.8844509906311375, basketball-court:0.37082091881498935, storage-tank:0.7344498985015621, soccer-ball-field:0.15261130797479555, roundabout:0.3277056203538273, harbor:0.2876561426278339, swimming-pool:0.4914347280842572, helicopter:0.1991293723537319  
+COCO style result:  
+AP50: 0.4914394914250513  
+AP75: 0.18050823121731294  
+mAP: 0.2299087999300767  
 
 <!--
 ### Two-stage training
