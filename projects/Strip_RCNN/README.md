@@ -39,7 +39,7 @@ mAP: 0.46260902296838535
 
 Note: This is the **unofficial** checkpoint. The official code is [here](https://github.com/HVision-NKU/Strip-R-CNN).  
 Note: The official **lr=1e-4, bs=8**, but in this project **lr=1e-4, bs=2**.   
-Note: The [official]((https://github.com/HVision-NKU/Strip-R-CNN)) result is **82.28 AP50**. The [JDet](https://github.com/Jittor/JDet/tree/master) result is **77.36 AP50**. This project result is **78.36 AP50**.
+Note: The [official]((https://github.com/HVision-NKU/Strip-R-CNN)) result is **82.28** AP50. The [JDet](https://github.com/Jittor/JDet/tree/master) result is **77.36* AP50. This project result is **78.36* AP50.
 
 This is your evaluation result for task 1 (VOC metrics):  
 mAP: 0.7835913236896077  
