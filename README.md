@@ -67,7 +67,8 @@ We hope to integrate remote sensing related work based on MMLab, especially MMDe
 
 |       |       |       |       |       |
 | :---: | :---: | :---: | :---: | :---: |
-| [ConvNeXt<br>(CVPR'2022)](./configs/convnext/README.md)| [LSKNet<br>(ICCV'2023)](projects/LSKNet/README.md)     |   [PKINet<br>(CVPR'2024)](./projects/PKINet/README.md)  |   [SARDet 100K<br>(Nips'2024)](./projects/SARDet_100K/README.md)  | [Strip R-CNN<br>(Arxiv'2025)](./projects/Strip_RCNN/README.md)   |
+| [ConvNeXt<br>(CVPR'2022)](./configs/convnext/README.md)| [LSKNet<br>(ICCV'2023)](projects/LSKNet/README.md)  | [ARC<br>(ICCV'2023)](./projects/ARC/README.md)   |   [PKINet<br>(CVPR'2024)](./projects/PKINet/README.md)  |   [SARDet 100K<br>(Nips'2024)](./projects/SARDet_100K/README.md)  | 
+|[Strip R-CNN<br>(Arxiv'2025)](./projects/Strip_RCNN/README.md)   |       |       |       |       |
 </details>
 
 
