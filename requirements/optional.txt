@@ -1,3 +1,4 @@
 imagecorruptions
 scikit-learn
 scipy
+einops
