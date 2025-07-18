@@ -20,9 +20,36 @@ With the rapidly increasing demand for oriented object detection (OOD), recent r
 
 |         Backbone         |  mAP  | AP50 | AP75 | Angle | lr schd |  Aug | Batch Size |                                                    Configs                                                     |                                                                                                                                                                              Download                                                                                                                                                                              |
 | :----------------------: | :---: | :---: | :-----: | :------: | :------------: | :-: | :--------: | :------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| ResNet50 (800,800,200) | 18.53 | 34.30  |   17.30    |   le90   |      1x      |  -  | 2=1gpu*<br>2img/gpu      | [point2rbox_v2-1x-dior.py](./configs/point2rbox_v2-1x-dior.py) | [last epoch](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/Point2Rbox_v2/point2rbox_v2-1x-dior/epoch_12.pth) \| [log](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/Point2Rbox_v2/point2rbox_v2-1x-dior/20250715_090534.log) \| [all epoch](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/files) |
+| ResNet50 (800,800,200) | 18.53 | 34.31  |   17.30    |   le90   |      1x      |  -  | 2=1gpu*<br>2img/gpu      | [point2rbox_v2-1x-dior.py](./configs/point2rbox_v2-1x-dior.py) | [last epoch](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/Point2Rbox_v2/point2rbox_v2-1x-dior/epoch_12.pth) \| [log](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/resolve/master/Point2Rbox_v2/point2rbox_v2-1x-dior/20250715_090534.log) \| [all epoch](https://www.modelscope.cn/models/wokaikaixinxin/ai4rs/files) |
 
 Note: This is the unofficial checkpoint. The official code is [here](https://github.com/VisionXLab/point2rbox-v2). The end-to-end training results on DIOR-R is 34.70 AP50 from Table 2 in [paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Yu_Point2RBox-v2_Rethinking_Point-supervised_Oriented_Object_Detection_with_Spatial_Layout_Among_CVPR_2025_paper.pdf). In our reimplementation, the end-to-end training performance reaches 34.30 AP50 on DIOR-R.
+
++-------------------------+--------+--------+---------+---------+
+| class                   | gts    | dets   | recall  | ap      |
++-------------------------+--------+--------+---------+---------+
+| airplane                | 8212   | 21277  | 0.64625 | 0.54956 |
+| airport                 | 666    | 26045  | 0.11411 | 0.09324 |
+| baseballfield           | 3434   | 26898  | 0.74665 | 0.65348 |
+| basketballcourt         | 2146   | 21517  | 0.86626 | 0.78988 |
+| bridge                  | 2589   | 77350  | 0.18656 | 0.11580 |
+| chimney                 | 1031   | 7095   | 0.71484 | 0.66228 |
+| expressway-service-area | 1085   | 72523  | 0.22857 | 0.06702 |
+| expressway-toll-station | 688    | 47160  | 0.49709 | 0.33284 |
+| dam                     | 538    | 26624  | 0.18587 | 0.04869 |
+| golffield               | 575    | 21561  | 0.17043 | 0.09787 |
+| groundtrackfield        | 1885   | 63066  | 0.81910 | 0.44686 |
+| harbor                  | 3105   | 83123  | 0.04058 | 0.01818 |
+| overpass                | 1782   | 58364  | 0.37935 | 0.25220 |
+| ship                    | 35186  | 137070 | 0.70630 | 0.59536 |
+| stadium                 | 672    | 7840   | 0.76339 | 0.41879 |
+| storagetank             | 23361  | 100866 | 0.58628 | 0.45945 |
+| tenniscourt             | 7343   | 34460  | 0.84815 | 0.80095 |
+| trainstation            | 509    | 24876  | 0.23379 | 0.08553 |
+| vehicle                 | 26640  | 420398 | 0.29677 | 0.22283 |
+| windmill                | 2998   | 73339  | 0.26551 | 0.15133 |
++-------------------------+--------+--------+---------+---------+
+| mAP                     |        |        |         | 0.34311 |
++-------------------------+--------+--------+---------+---------+
 
 **Train**
 
