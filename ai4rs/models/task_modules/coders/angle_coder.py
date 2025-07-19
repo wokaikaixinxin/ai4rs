@@ -261,3 +261,91 @@ class PseudoAngleCoder(BaseBBoxCoder):
             return angle_preds
         else:
             return angle_preds.squeeze(-1)
+
+@TASK_UTILS.register_module()
+class ACMCoder(BaseBBoxCoder):
+    """Coordinate Decomposition Method(CDM) Coder.
+
+    Encoding formula:
+        z = f (\theta) = e^{j\omega\theta}
+          = \cos(\omega\theta) + j \sin(\omega\theta)
+
+    Decoding formula:
+        \theta = f^{-1}(z) = -\frac{j}{\omega} \ln z
+               = \frac{1}{\omega}((\mathrm{arctan2}(z_{im}, z_{re}) + 2\pi) \bmod 2\pi)
+
+    Args:
+        angle_version (str): Angle definition.
+            Only 'le90' is supported at present.
+        dual_freq (bool, optional): Use dual frequency. Default: True.
+        N (int, optional): just for aligning coder interface.
+    """
+
+    def __init__(self,
+                 angle_version: str = 'le90',
+                 base_omega=2,
+                 dual_freq: bool = True):
+        super().__init__()
+        self.angle_version = angle_version
+        assert angle_version in ['le90']
+        self.dual_freq = dual_freq
+        self.encode_size = 4 if self.dual_freq else 2
+        self.base_omega = base_omega
+
+    def encode(self, angle_targets: Tensor) -> Tensor:
+        """Angle Correct Moule (ACM) Encoder.
+
+        Args:
+            angle_targets (Tensor): Angle offset for each scale level.
+                Has shape (num_anchors * H * W, 1)
+
+        Returns:
+            list[Tensor]: The psc coded data (phase-shifting patterns)
+                for each scale level.
+                Has shape (num_anchors * H * W, encode_size)
+        """
+        angle2 = self.base_omega * angle_targets
+        cos2 = torch.cos(angle2)
+        sin2 = torch.sin(angle2)
+
+        if self.dual_freq:
+            angle4 = 2 * self.base_omega * angle_targets
+            cos4 = torch.cos(angle4)
+            sin4 = torch.sin(angle4)
+
+        return torch.cat([cos2, sin2, cos4, sin4], dim=-1) if self.dual_freq else torch.cat([cos2, sin2], dim=-1)
+
+    def decode(self, angle_preds: Tensor, keepdim: bool = False) -> Tensor:
+        """Angle Correct Moule (ACM) Decoder.
+
+        Args:
+            angle_preds (Tensor): The acm encoded-angle
+                for each scale level.
+                Has shape (num_anchors * H * W, encode_size)
+            keepdim (bool): Whether the output tensor has dim retained or not.
+
+        Returns:
+            list[Tensor]: Angle offset for each scale level.
+                Has shape (num_anchors * H * W, 1) when keepdim is true,
+                (num_anchors * H * W) otherwise
+        """
+        if self.dual_freq:
+            cos2, sin2, cos4, sin4 = angle_preds.unbind(dim=-1)
+            angle_a = torch.atan2(sin2, cos2)  # 2x
+            angle_b = torch.atan2(sin4, cos4) / 2  # 4x -> 2x
+
+            idx = torch.cos(angle_a) * torch.cos(angle_b) + torch.sin(
+                angle_a) * torch.sin(angle_b) < 0
+            angle_b[idx] = angle_b[idx] % (2 * math.pi) - math.pi
+
+            angles = angle_b / 2
+
+        else:
+            sin2, cos2 = angle_preds.unbind(dim=-1)
+            cos2, sin2 = sin2, cos2
+            angles = torch.atan2(sin2, cos2) / self.base_omega
+
+        if keepdim:
+            angles = angles.unsqueeze(dim=-1)
+
+        return angles
