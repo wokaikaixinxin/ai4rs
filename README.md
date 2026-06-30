@@ -85,6 +85,7 @@ We hope to integrate remote sensing related work based on **MMLab**, especially 
 | :---: | :---: | :---: | :---: | :---: |
 | [ConvNeXt<br>(CVPR'2022)](./configs/convnext/README.md)| [LSKNet<br>(ICCV'2023)](projects/LSKNet/README.md)  | [ARC<br>(ICCV'2023)](./projects/ARC/README.md)   |   [PKINet<br>(CVPR'2024)](./projects/PKINet/README.md)  |   [SARDet 100K<br>(Nips'2024)](./projects/SARDet_100K/README.md)  | 
 | [GRA<br>(ECCV'2024)](./projects/GRA/README.md) | [LEGNet<br>(ICCVW'2025)](./projects/LEGNet/README.md) | [Strip R-CNN<br>(AAAI'2026)](./projects/Strip_RCNN/README.md)   |  [LWGANet<br>(AAAI'2026)](./projects/LWGANet/README.md)    |  [Fourier Angle Align<br>(CVPR'2026)](./projects/FAA/README.md)     |       
+| [PKINet-v2<br>(ECCV'2026)](./projects/PKINet_v2/README.md)      |       |       |       |       |
 </details>
 
 
