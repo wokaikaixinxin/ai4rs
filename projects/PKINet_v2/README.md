@@ -12,7 +12,15 @@
 
 Object detection in remote sensing images (RSIs) is challenged by the coexistence of geometric and spatial complexity: targets may appear with diverse aspect ratios, while spanning a wide range of object sizes under varied contexts. Existing RSI backbones address the two challenges separately, either by adopting anisotropic strip kernels to model slender targets or by using isotropic large kernels to capture broader context. However, such isolated treatments lead to complementary drawbacks: the strip-only design can disrupt spatial coherence for regular-shaped objects and weaken tiny details, whereas isotropic large kernels often introduce severe background noise and geometric mismatch for slender structures. In this paper, we extend PKINet, and present a powerful and efficient backbone that jointly handles both challenges within a unified paradigm named Poly Kernel Inception Network v2 (PKINet-v2). PKINet-v2 synergizes anisotropic axial-strip convolutions with isotropic square kernels and builds a multi-scope receptive field, preserving fine-grained local textures while progressively aggregating long-range context across scales. To enable efficient deployment, we further introduce a Heterogeneous Kernel Re-parameterization (HKR) Strategy that fuses all heterogeneous branches into a single depth-wise convolution for inference, eliminating fragmented kernel launches without accuracy loss
 
+
+## Pretrained Models
+
+- **PKINet-v2-T backbone**(ImageNet, 300 epochs): [Download](https://1drv.ms/u/c/9ce9a57f1a400a74/IQDPF7bEfpD7SIgos_RAaq_zAdZ8RiVd7d-sR8ygxy6G5E4)
+- **PKINet-v2-S backbone**(ImageNet, 300 epochs): [Download](https://1drv.ms/u/c/9ce9a57f1a400a74/IQCJyDqg_XwDQrZUWHgAHdevAWw3icMGez-sxLsHqEgKCxg?e=aud6as)
+
+
 ## Results and models
+
 
 NOTE: We **donnot** reimplement the experiment. The results and logs come from [official github](https://github.com/PKINet/PKINet).
 
