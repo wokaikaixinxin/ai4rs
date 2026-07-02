@@ -35,14 +35,14 @@ ai4rs
 │   ├── FAIR1M1.0
 │   │   ├── train
 │   │   │   ├── part1
-│   │   │   │   ├── images
-│   │   │   │   ├── labelXml
+│   │   │   │   ├── images  (1732 tif)
+│   │   │   │   ├── labelXml (1732 xml)
 │   │   │   ├── part2
-│   │   │   │   ├── images-1
-│   │   │   │   ├── images-2
-│   │   │   │   ├── labelXml
+│   │   │   │   ├── images-1  (9487 tif)
+│   │   │   │   ├── images-2  (5269 tif)
+│   │   │   │   ├── labelXml  (14756 xml)
 │   │   ├── test
-│   │   │   ├── images
+│   │   │   ├── images  (8137 tif)
 ```
 
 ## split FAIR1M1.0 dataset
