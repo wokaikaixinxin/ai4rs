@@ -579,7 +579,7 @@ def main():
         img_ext=args.save_ext,
         lock=manager.Lock(),
         prog=manager.Value('i', 0),
-        total=len(infos),f
+        total=len(infos),
         logger=logger)
 
     if args.nproc > 1:
