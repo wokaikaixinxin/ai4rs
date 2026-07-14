@@ -171,6 +171,15 @@ Coming soon
 </details>
 
 
+<details open>
+<summary><b>Vison Language Model </b></summary>
+
+|     |     |     |     |
+| :---: | :---: | :---: | :---: |
+|  [VLM4RSDet (CVPR'2026)](./projects/VLM4RSDet/README.md)   |     |     |     |
+</details>
+
+
 ## Installation ⚙️ [![Bilibili](https://img.shields.io/badge/Installation_Tutorial-fb7299?style=flat-square&logo=bilibili&logoColor=white)](https://www.bilibili.com/video/BV1Ufw4zyEhR/)
 
 
