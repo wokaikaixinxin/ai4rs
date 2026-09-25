@@ -1,4 +1,4 @@
-# A Unified Framework and Dataset for Oriented Object Visual Grounding in Remote Sensing
+# A Unified Framework and Dataset for Oriented Object Visual Grounding in Remote Sensing -- O2-VG-Trans
 
 
 
