@@ -12,11 +12,11 @@ Visual grounding in remote sensing images aims to locate objects described by re
 
 
 <div align=center>
-<img src='https://github.com/wokaikaixinxin/Eagle_o2_vg/blob/main/asset/overview.png' width="90%"/>
+<img src='https://github.com/wokaikaixinxin/Eagle_o2_vg/blob/main/asset/overview.png' width="80%"/>
 </div>
 
 <div align=center>
-<img src='https://github.com/wokaikaixinxin/Eagle_o2_vg/blob/main/asset/o2_vg_trans.png' width="90%"/>
+<img src='https://github.com/wokaikaixinxin/Eagle_o2_vg/blob/main/asset/o2_vg_uni.png' width="80%"/>
 </div>
 
 ## Main Results
