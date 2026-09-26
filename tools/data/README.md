@@ -21,6 +21,7 @@ Datasets supported in ai4rs:
 - [DroneVehicle Dataset](./dronevehicle/README.md)
 - [NWPU VHR-10 Dataset](./nwpu/README.md)
 - [AVVG Dataset](./avvg/README.md)
+- [VRSBench Dataset](./vrsbench/README.md)
 
 ```
 ai4rs
