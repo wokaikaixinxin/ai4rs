@@ -312,7 +312,7 @@ Please refer to [data_preparation.md](tools/data/README.md) to prepare the data
 | [SARDet 100K (Nips'2024)](./tools/data/sardet_100k/README.md) | [RSAR (CVPR'2025)](./tools/data/rsar/README.md) | [FAIR1M (ISPRS'2022)](./tools/data/fair/README.md)  | [STAR (TPAMI'2025)](./tools/data/star/README.md)    |    
 | [ReCon1M (TGRS'2025)](./tools/data/recon1m/README.md)    |  [CODrone (Arxiv'2025)](./tools/data/codrone/README.md)   | [KFGOD (RS'2025)](./tools/data/kfgod/README.md)  | [LEVIR-CD (TGRS'2020)](./tools/data/levir_cd/README.md)    |
 | [iSAID (CVPRW'2019)](./tools/data/isaid/README.md) |  [DroneVehicle (CSVT'22)](./tools/data/dronevehicle/README.md)   |  [NWPU (ISPRS'2014)](./tools/data/nwpu/README.md)   |  [AVVG (Arxiv'2025)](./tools/data/avvg/README.md)   | 
-|  [VRSBench (Nips'2024)](./tools/data/vrsbench/README.md)  |     |     |     |
+|  [VRSBench (Nips'2024)](./tools/data/vrsbench/README.md)  |  [DIOR-R-RSVG (Arxiv'2026)](./tools/data/dior_r_rsvg/README.md)   |     |     |
 
 ## Train 📈
 
