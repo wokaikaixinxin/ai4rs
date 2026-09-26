@@ -194,7 +194,7 @@ Coming soon
 
 |     |     |     |     |
 | :---: | :---: | :---: | :---: |
-|  [O2-VG-Uni (Arxiv'2026)](./projects/rotated_ov_rtdetr/README.md)   |     |     |     |
+|[Rotated RPN (Arxiv'2026)](./projects/rotated_rpn/README.md)|  [O2-VG-Uni (Arxiv'2026)](./projects/rotated_ov_rtdetr/README.md)   |     |     |
 </details>
 
 ## Installation ⚙️ [![Bilibili](https://img.shields.io/badge/Installation_Tutorial-fb7299?style=flat-square&logo=bilibili&logoColor=white)](https://www.bilibili.com/video/BV1Ufw4zyEhR/)
