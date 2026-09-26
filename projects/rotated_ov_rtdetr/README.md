@@ -95,11 +95,6 @@ bash tools/dist_train.sh projects/rotated_ov_rtdetr/configs/ov_o2_rtdetr_uni_r50
 ```
 
 
-## Visualization Results Demo
-
-
-
-
 ## Citation
 
 ```bibtex
