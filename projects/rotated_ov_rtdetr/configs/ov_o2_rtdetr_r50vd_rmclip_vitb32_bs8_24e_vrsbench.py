@@ -177,7 +177,7 @@ train_pipeline = [
          meta_keys=('img_id', 'img_path', 'ori_shape', 'img_shape',
                     'scale_factor', 'flip', 'flip_direction', 'texts'))]
 
-vrsbench_data_root = '/root/VRSBench'
+vrsbench_data_root = 'data/VRSBench'
 
 train_dataloader = dict(
     batch_size=4,

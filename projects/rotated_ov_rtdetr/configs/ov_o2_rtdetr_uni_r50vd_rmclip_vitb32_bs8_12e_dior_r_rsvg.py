@@ -19,7 +19,7 @@ from projects.rotated_ov_rtdetr.rotated_ov_rtdetr import (
 with read_base():
     from configs._base_.default_runtime import *
 
-load_from = '/root/mmrotate-1.x/work_dirs/ov_o2_rtdetr_r50vd_rmclip_vitb32_bs8_24e_dior_r_rsvg/epoch_24.pth'
+load_from = 'work_dirs/ov_o2_rtdetr_r50vd_rmclip_vitb32_bs8_24e_dior_r_rsvg/epoch_24.pth'
 
 angle_cfg = dict(
     width_longer=True,
@@ -158,7 +158,7 @@ train_pipeline = [
     dict(type='mmdet.PackDetInputs')
 ]
 
-dior_r_rsvg_data_root = '/root/mmrotate-1.x/data/dior_rsvg'
+dior_r_rsvg_data_root = 'data/dior_rsvg'
 
 train_dataloader = dict(
     batch_size=4,

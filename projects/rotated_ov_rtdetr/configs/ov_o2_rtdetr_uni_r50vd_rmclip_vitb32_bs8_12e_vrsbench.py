@@ -158,7 +158,7 @@ train_pipeline = [
     dict(type='mmdet.PackDetInputs')
 ]
 
-vrsbench_data_root = '/root/VRSBench'
+vrsbench_data_root = 'data/VRSBench'
 
 train_dataloader = dict(
     batch_size=4,

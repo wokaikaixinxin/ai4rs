@@ -19,7 +19,7 @@ from projects.rotated_ov_rtdetr.rotated_ov_rtdetr import (
 with read_base():
     from configs._base_.default_runtime import *
 
-load_from = '/root/mmrotatev2/work_dirs/ov_o2_rtdetr_r50vd_rmclip_vitb32_bs4_72e_avvg/epoch_72.pth'
+load_from = 'work_dirs/ov_o2_rtdetr_r50vd_rmclip_vitb32_bs4_72e_avvg/epoch_72.pth'
 
 angle_cfg = dict(
     width_longer=True,
@@ -158,7 +158,7 @@ train_pipeline = [
     dict(type='mmdet.PackDetInputs')
 ]
 
-avvg_data_root = '/root/refGeo'
+avvg_data_root = 'data/refGeo'
 
 train_dataloader = dict(
     batch_size=2,

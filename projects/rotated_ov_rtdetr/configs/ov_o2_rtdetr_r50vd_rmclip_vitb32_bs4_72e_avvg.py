@@ -186,7 +186,7 @@ train_pipeline = [
          meta_keys=('img_id', 'img_path', 'ori_shape', 'img_shape',
                     'scale_factor', 'flip', 'flip_direction', 'texts'))]
 
-avvg_data_root = '/root/refGeo'
+avvg_data_root = 'data/refGeo'
 
 train_dataloader = dict(
     batch_size=2,

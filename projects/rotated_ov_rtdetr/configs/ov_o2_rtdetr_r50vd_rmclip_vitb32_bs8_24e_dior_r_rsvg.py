@@ -176,7 +176,7 @@ train_pipeline = [
          meta_keys=('img_id', 'img_path', 'ori_shape', 'img_shape',
                     'scale_factor', 'flip', 'flip_direction', 'texts'))]
 
-dior_r_rsvg_data_root = '/root/mmrotate-1.x/data/dior_rsvg'
+dior_r_rsvg_data_root = 'data/dior_rsvg'
 
 train_dataloader = dict(
     batch_size=4,
