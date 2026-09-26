@@ -5,13 +5,13 @@
 
 **DIOR-R-RSVG = DIOR-RSVG + Annotations_obb**
 
-## Download DIOR-RSVG dataset
+## Download DIOR-RSVG dataset first
 
 [DIOR-RSVG github](https://github.com/zhanyang-nwpu/rsvg-pytorch)
 
 [DIOR-RSVG GOOGLE Drive](https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_)
 
-## Download DIOR-R-RSVG dataset
+## Download DIOR-R-RSVG dataset 'Annotations_obb.zip' second
 
 The DIOR-R-RSVG dataset can be downloaded from [modelscope(魔塔)](https://modelscope.cn/datasets/wokaikaixinxin/dior_r_rsvg).
 
@@ -56,15 +56,15 @@ Visual grounding in remote sensing images aims to locate objects described by re
 [Paper link](https://arxiv.org/abs/2609.28230)
 
 <div align=center>
-<img src='https://github.com/wokaikaixinxin/Eagle_o2_vg/blob/main/asset/dior_r_rsvg_history.png' width="80%"/>
+<img src='https://github.com/wokaikaixinxin/Eagle_o2_vg/blob/main/asset/dior_r_rsvg_history.png' width="50%"/>
 </div>
 
 <div align=center>
-<img src='https://github.com/wokaikaixinxin/Eagle_o2_vg/blob/main/asset/dior_r_rsvg_obb.png' width="80%"/>
+<img src='https://github.com/wokaikaixinxin/Eagle_o2_vg/blob/main/asset/dior_r_rsvg_obb.png' width="50%"/>
 </div>
 
 <div align=center>
-<img src='https://github.com/wokaikaixinxin/Eagle_o2_vg/blob/main/asset/dior_r_rsvg_expression.png' width="80%"/>
+<img src='https://github.com/wokaikaixinxin/Eagle_o2_vg/blob/main/asset/dior_r_rsvg_expression.png' width="50%"/>
 </div>
 
 
