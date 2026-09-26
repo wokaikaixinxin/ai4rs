@@ -102,6 +102,15 @@ bash tools/dist_train.sh projects/rotated_ov_rtdetr/configs/ov_o2_rtdetr_uni_r50
 
 ## Citation
 
+```bibtex
+@article{ding2026unified,
+  title={A Unified Framework and Dataset for Oriented Object Visual Grounding in Remote Sensing},
+  author={Ding, Zeyu and Zhou, Yong and Zhao, Jiaqi and Du, Wen-Liang and
+          Li, Xixi and Zhu, Hancheng and Yao, Rui and El Saddik, Abdulmotaleb},
+  journal={arXiv preprint arXiv:2609.28230},
+  year={2026}
+}
+``` 
 
 ## Acknowledgements
 
