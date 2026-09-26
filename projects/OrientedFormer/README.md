@@ -265,7 +265,7 @@ Due to the limitation of the length of the paper, all categories of AP for DOTA-
 
 
 
-# (TGRS 2024) OrientedFormer: An End-to-End Transformer-Based Oriented Object Detector in Remote Sensing Images
+# (TGRS 2024 :fire: ESI 高被引论文) OrientedFormer: An End-to-End Transformer-Based Oriented Object Detector in Remote Sensing Images
 
 
 
