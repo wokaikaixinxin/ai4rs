@@ -22,6 +22,7 @@ Datasets supported in ai4rs:
 - [NWPU VHR-10 Dataset](./nwpu/README.md)
 - [AVVG Dataset](./avvg/README.md)
 - [VRSBench Dataset](./vrsbench/README.md)
+- [DIOR-R-RSVG Dataset](./dior_r_rsvg/README.md)
 
 ```
 ai4rs
