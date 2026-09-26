@@ -20,6 +20,7 @@ Datasets supported in ai4rs:
 - [iSAID Dataset](./isaid/README.md) \[ [Homepage](https://captain-whu.github.io/iSAID/) \]
 - [DroneVehicle Dataset](./dronevehicle/README.md)
 - [NWPU VHR-10 Dataset](./nwpu/README.md)
+- [AVVG Dataset](./avvg/README.md)
 
 ```
 ai4rs
