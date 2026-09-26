@@ -1,5 +1,5 @@
 # dataset settings
-data_root = '/root/refGeo'
+data_root = 'data/refGeo'
 lang_model_name = '/root/bert-base-uncased'
 
 dataset_type = 'projects.rotated_grounding_dino.rotated_grounding_dino.AVVGDataset'

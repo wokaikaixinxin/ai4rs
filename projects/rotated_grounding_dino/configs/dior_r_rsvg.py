@@ -1,5 +1,5 @@
 # dataset settings
-data_root = '/root/mmrotate-1.x/data/dior_rsvg'
+data_root = 'data/dior_rsvg'
 lang_model_name = '/root/bert-base-uncased'
 
 dataset_type = 'projects.rotated_grounding_dino.rotated_grounding_dino.DIORRRSVGDataset'

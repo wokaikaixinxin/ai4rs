@@ -1,5 +1,5 @@
 # dataset settings
-data_root = '/root/VRSBench'
+data_root = 'data/VRSBench'
 lang_model_name = '/root/bert-base-uncased'
 
 dataset_type = 'projects.rotated_grounding_dino.rotated_grounding_dino.VRSBenchVGDataset'
