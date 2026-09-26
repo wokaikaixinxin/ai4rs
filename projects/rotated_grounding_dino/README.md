@@ -22,6 +22,17 @@ Visual grounding in remote sensing images aims to locate objects described by re
 </div>
 
 
+## Preparation -- BERT Model
+
+Down load BERT
+
+```
+# you can set hugging face mirror
+export HF_ENDPOINT=https://hf-mirror.com
+# download
+huggingface-cli download google-bert/bert-base-uncased --local-dir /root/bert-base-uncased
+```
+Modified BERT Path in [avvg.py](./configs/avvg.py#L3), [dior_r_rsvg.py](./configs/dior_r_rsvg.py#L3), and [vrsbench.py](./configs/vrsbench.py#L3)
 
 ## Main Results
 
