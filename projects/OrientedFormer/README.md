@@ -1,4 +1,4 @@
-# (TGRS 2024) OrientedFormer: An End-to-End Transformer-Based Oriented Object Detector in Remote Sensing Images
+# (TGRS 2024 :fire: ESI Highly Cited Paper) OrientedFormer: An End-to-End Transformer-Based Oriented Object Detector in Remote Sensing Images
 
 The Chinese Version is below (中文版在下面).
 
