@@ -1,4 +1,4 @@
-# Real-Time Oriented Object Detection Transformer in Remote Sensing Images (TGRS 2026)
+# Real-Time Oriented Object Detection Transformer in Remote Sensing Images (TGRS 2026 :fire: ESI Highly Cited Paper)
 
 [IEEE TGRS Xplore](https://ieeexplore.ieee.org/document/11424629)
 
