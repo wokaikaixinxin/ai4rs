@@ -68,6 +68,8 @@ Visual grounding in remote sensing images aims to locate objects described by re
 </div>
 
 
+## Citation
+
 ```bibtex
 @article{ding2026unified,
   title={A Unified Framework and Dataset for Oriented Object Visual Grounding in Remote Sensing},
