@@ -34,6 +34,12 @@ huggingface-cli download google-bert/bert-base-uncased --local-dir /root/bert-ba
 ```
 Modified BERT Path in [avvg.py](./configs/avvg.py#L3), [dior_r_rsvg.py](./configs/dior_r_rsvg.py#L3), and [vrsbench.py](./configs/vrsbench.py#L3)
 
+## Installation
+
+```shell
+pip install fairscale -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
 ## Main Results
 
 **DIOR-R-RSVG**
@@ -46,8 +52,16 @@ Modified BERT Path in [avvg.py](./configs/avvg.py#L3), [dior_r_rsvg.py](./config
 | :----: | :------: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 |O2-VG-Trans| R50 (800,800) | 67.23 | 62.00 | 54.12 | 39.47 | 17.01 | 56.73 | 67.33 |
 
+train
+
 ```Shell
 bash tools/dist_train.sh projects/rotated_grounding_dino/configs/grounding_dino_r50_bs8_1x_dior_r_rsvg.py 2
+```
+
+test
+
+```Shell
+bash tools/dist_test.sh projects/rotated_grounding_dino/configs/grounding_dino_r50_bs8_1x_dior_r_rsvg.py work_dirs/grounding_dino_r50_bs8_1x_dior_r_rsvg/epoch_12.pth 2
 ```
 
 **VRSBench**
@@ -60,11 +74,16 @@ bash tools/dist_train.sh projects/rotated_grounding_dino/configs/grounding_dino_
 | :----: | :------: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 |O2-VG-Trans| R50 (512,512) | 67.71 | 60.13 | 46.53 | 27.11 | 7.63 | 55.01 | 61.14 |
 
+train
 
 ```Shell
 bash tools/dist_train.sh projects/rotated_grounding_dino/configs/grounding_dino_r50_bs8_1x_vrsbench.py 2
 ```
+test
 
+```Shell
+bash tools/dist_test.sh projects/rotated_grounding_dino/configs/grounding_dino_r50_bs8_1x_vrsbench.py work_dirs/grounding_dino_r50_bs8_1x_vrsbench/epoch_12.pth 2
+```
 
 **AVVG**
 
@@ -76,19 +95,29 @@ bash tools/dist_train.sh projects/rotated_grounding_dino/configs/grounding_dino_
 | :----: | :------: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 |O2-VG-Trans| R50 (1024,576) | 18.00 | 17.04 | 14.37 | 7.83 | 0.98 | 14.59 | 16.64 |
 
+train
 
 ```Shell
 bash tools/dist_train.sh projects/rotated_grounding_dino/configs/grounding_dino_r50_bs2_1x_avvg.py 2
 ```
 
+test
 
-## Visualization Results Demo
-
-
-
+```Shell
+bash tools/dist_test.sh projects/rotated_grounding_dino/configs/grounding_dino_r50_bs2_1x_avvg.py work_dirs/grounding_dino_r50_bs2_1x_avvg/epoch_11.pth 2
+```
 
 ## Citation
 
+```bibtex
+@article{ding2026unified,
+  title={A Unified Framework and Dataset for Oriented Object Visual Grounding in Remote Sensing},
+  author={Ding, Zeyu and Zhou, Yong and Zhao, Jiaqi and Du, Wen-Liang and
+          Li, Xixi and Zhu, Hancheng and Yao, Rui and El Saddik, Abdulmotaleb},
+  journal={arXiv preprint arXiv:2609.28230},
+  year={2026}
+}
+``` 
 
 ## Acknowledgements
 
