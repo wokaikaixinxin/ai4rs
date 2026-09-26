@@ -72,7 +72,7 @@ def print_recall_summary(recalls,
     row_header = [''] + iou_thrs[col_idxs].tolist()
     table_data = [row_header]
     for i, num in enumerate(proposal_nums[row_idxs]):
-        row = [f'{val:.3f}' for val in recalls[row_idxs[i], col_idxs].tolist()]
+        row = [f'{val:.5f}' for val in recalls[row_idxs[i], col_idxs].tolist()]
         row.insert(0, num)
         table_data.append(row)
     table = AsciiTable(table_data)
@@ -401,7 +401,7 @@ class OBBRecallMetric(BaseMetric):
                 log_msg = []
                 for i, num in enumerate(self.proposal_nums):
                     eval_results[f'AR@{num}'] = ar[i]
-                    log_msg.append(f'\nAR@{num}\t{ar[i]:.4f}')
+                    log_msg.append(f'\nAR@{num}\t{ar[i]:.5f}')
                 log_msg = ''.join(log_msg)
                 logger.info(log_msg)
                 continue
