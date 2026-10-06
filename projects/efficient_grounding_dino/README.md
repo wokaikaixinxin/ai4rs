@@ -46,7 +46,9 @@ pip install fairscale -i https://pypi.tuna.tsinghua.edu.cn/simple
 |efficient grounding dino| R50 (640,640) | 80.36 | 77.32 | 71.57 | 60.96 | 40.31 | 70.94 | 80.96 |
 
 **Note**: The official repository does not provide weights. This is our reimplementation.
+
 **Note**: The official repository does not provide weights. This is our reimplementation.
+
 **Note**: The batch size is **16** in the official code, while it is **8 (2gpu * 4img/gpu = 8)** in our implementation.
 
 
