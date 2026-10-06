@@ -185,7 +185,7 @@ Coming soon
 
 |     |     |     |     |
 | :---: | :---: | :---: | :---: |
-|  [O2-VG-Trans (Arxiv'2026)](./projects/rotated_grounding_dino/README.md)   |     |     |     |
+| [EffGroundDINO (TGRS'2025)](./projects/efficient_grounding_dino/README.md) |  [O2-VG-Trans (Arxiv'2026)](./projects/rotated_grounding_dino/README.md)   |     |     |
 </details>
 
 
